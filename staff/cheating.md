@@ -43,7 +43,7 @@ Meshing and cheating is a broad category of exploitation in the game. We break i
 
 ### 📸 Example:
 <figure style="text-align: center;">
-  <img src="/meshed_foundations.jpg" alt="Meshed structures example" style="width: 100%; max-width: 600px;" />
+  <img src="/assets/meshed_foundations.jpg" alt="Meshed structures example" style="width: 100%; max-width: 600px;" />
   <figcaption style="color: #b9bbbe;">These structures are placed along the ridge to prevent anyone from building FOBs nearby.</figcaption>
 </figure>
 
