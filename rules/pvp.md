@@ -2,20 +2,21 @@
 title: PvP Rules
 description: 
 published: true
-date: 2026-01-17T15:20:45.327Z
+date: 2026-01-17T00:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-15T22:53:44.565Z
 ---
 
 
-# ⚔️ PvP Rules & Procedures (2025 Update)
+# ⚔️ PvP Rules & Procedures (v2026.1)
 
-> **Important Philosophy Change:**
-> Ark PvP is a highly competitive and often toxic environment. To keep the server alive and fun, we are moving away from permanent bans for most offenses. Instead, we will use temporary bans, timeouts, and data wipes as our primary punishments. **Permanent bans are now reserved for only the most severe, real-world violations.**
+> **Our Philosophy:**
+> Ark PvP is a highly competitive and often toxic environment. We impose as few rules as possible to keep gameplay organic. Temporary bans, timeouts, and data wipes are our primary punishments. **Permanent bans are reserved for confirmed aimbotters/ESP users and severe real-world violations.**
 
 ## 🚫 Offenses That Still Result in Permanent Ban
 
+- Confirmed Aimbot or ESP usage
 - Filing a chargeback
 - DDoS attacks or threats
 - Doxxing (releasing private/personal information)
@@ -90,7 +91,9 @@ All other offenses will result in temporary bans, timeouts, wipes, or warnings a
 - **2.1 - ESP/Aimbot/Cheats**
   - *Using any third-party software to gain an unfair advantage.*
   - File checks will be conducted for suspected players. Players must comply within 1 hour of the request. An executable will be provided to generate a compliance file while screen sharing.
-  - **First Offense**: <span style="color: orange;">180-day temp ban</span> for the offending player(Subject to admin discretion). Other tribe members will be investigated but not automatically punished.
+  - **Confirmed Aimbot or ESP**: <span style="color: orange;">**Permanent ban**</span> for the offending player.
+  - **Other Cheats** (macros, exploits, etc.): <span style="color: orange;">**90-day temp ban**</span> for the offending player.
+  - Other tribe members will be investigated but not automatically punished.
 
 - **2.2 - Mesh Raiding**
   - *Attacking bases through the mesh. This includes shooting from outside the mesh, using tames/mounts/boats to push through the mesh, or meshing rafts into bases.*
@@ -98,17 +101,17 @@ All other offenses will result in temporary bans, timeouts, wipes, or warnings a
   - **First Offense**: Warning and Ark Data wipe for the offending member.
   - **Second Offense**: Full tribe wipe and <span style="color: orange;">90-day temp ban</span> for the offending member.
 
-- **23 - Popcorning During Raids**
+- **2.3 - Popcorning During Raids**
   - *Destroying loot to prevent enemies from obtaining it.*
   - **First Offense**: Formal warning and Ark data wipe for the offending member.
   - **Second Offense**: <span style="color: orange;">7-day temp ban</span> for the offending player.
 
 - **2.4 - Item Duplication**
   - *Using exploits to duplicate in-game items.*
-  - **Tribe-Wide Duping** (*Evidence shows tribe-wide duping, e.g., base built with duped items*):
-  - **First Offense**: Full tribe wipe, <span style="color: orange;">30-day temp ban</span> for all confirmed participants, Ark Data wipe for beneficiaries, and a warning for uninvolved members.
-  - **Individual Duping** (*Evidence shows isolated duping by a single player*):
-  - **First Offense**: <span style="color: orange;">30-day temp ban</span> for the offending player only. Other tribe members receive a formal warning.
+  - **Tribe-Wide Duping** (*Evidence shows tribe-wide duping, e.g., base built with duped items*):  
+    - **First Offense**: Full tribe wipe, <span style="color: orange;">**60-day temp ban**</span> for all confirmed participants, Ark Data wipe for beneficiaries, and a warning for uninvolved members.
+  - **Individual Duping** (*Evidence shows isolated duping by a single player*):  
+    - **First Offense**: <span style="color: orange;">**60-day temp ban**</span> for the offending player only. Other tribe members receive a formal warning.
 
 - **2.5 - Trans Dropping**
   - *Placing a tek transmitter on top of a player to immobilize them during combat.*
@@ -156,9 +159,19 @@ All other offenses will result in temporary bans, timeouts, wipes, or warnings a
 
 ## 📖 Definitions
 
-- **Temp Ban**: A temporary ban, usually 3, 7, 14, or 30 days depending on severity and repeat offenses.
+- **Temp Ban**: A temporary ban, usually 3, 7, 14, 30, 60, or 90 days depending on severity and repeat offenses.
 - **Ark Data Wipe**: The player's upload data (in the Obelisk) will be reset.
 - **VC Wipe**: The player's Discord currency balance will be reset.
 - **Popcorning**: The act of dropping items on the ground to destroy them during a raid.
 - **Bob**: A new or inexperienced player with minimal progression.
 - **Meshing**: Exploiting game glitches to access areas underneath or inside the game map.
+
+---
+
+## 📝 Changelog
+
+| Version | Date | Changes |
+|---------|------|---------|
+| v2026.1 | January 17, 2026 | Confirmed Aimbot/ESP now permanent ban; other cheats 90-day temp ban. Item duplication increased to 60-day temp ban. |
+| v2025.1 | February 15, 2025 | Initial 2025 update with temp ban philosophy. |
+{.dense}

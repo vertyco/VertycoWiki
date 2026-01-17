@@ -2,14 +2,14 @@
 title: Discord Rules
 description: 
 published: true
-date: 2025-10-25T18:21:36.399Z
+date: 2026-01-17T00:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-15T18:21:21.165Z
 ---
 
 
-# 📋 General Discord Rules & Procedures (2025 Update)
+# 📋 General Discord Rules & Procedures (v2026.1)
 
 > **Important Philosophy Change:**
 > To keep the community active and welcoming, we are moving away from permanent bans for most Discord offenses. Instead, we will use temporary bans, timeouts, and warnings as our primary punishments. **Permanent bans are now reserved for only the most severe, real-world violations.**
@@ -20,6 +20,7 @@ dateCreated: 2025-02-15T18:21:21.165Z
 - DDoS attacks or threats
 - Doxxing (releasing private/personal information)
 - Real-world threats of violence or harm (e.g., "I know where you live")
+- Server advertisements (poaching members)
 
 All other offenses will result in temporary bans, timeouts, wipes, or warnings as described below.
 
@@ -76,14 +77,17 @@ Examples include:
 - **Third Offense**: Lengthier timeout issued (up to 2 weeks)
 - **Fourth Offense**: <span style="color: orange;">**7-day temp ban**</span> issued to the user
 
-### 1.7 - Bug/Misuse Policy
-*Items/Dinos lost due to bugs or misuse of the shop cannot be reimbursed.*
-> This is a general policy with no punishment tiers.
-
-### 1.8 - Dating Service Policy
-*This is not a dating service; DM flirt attempts will lead to removal.*
+### 1.7 - Dating Service Policy
+*This is not a dating service; unsolicited DM flirt attempts will lead to removal.*
 - **First Offense**: Warning issued to the user
-- **Second Offense**: <span style="color: orange;">**Ban**</span> issued to the user
+- **Second Offense**: <span style="color: orange;">**14-day temp ban**</span> issued to the user
+
+### 1.8 - Voice Channel Conduct
+*Be respectful in voice channels. No excessive mic spam, soundboards, screaming, or disruptive behavior.*
+- **First Offense**: Verbal warning
+- **Second Offense**: Formal warning issued
+- **Third Offense**: Timeout issued (1-3 days)
+- **Fourth Offense**: <span style="color: orange;">**7-day temp ban**</span> issued to the user
 
 ---
 
@@ -92,10 +96,11 @@ Examples include:
 ### 2.1 - Multiple Accounts Policy
 *Multiple Discord/Player accounts are not permitted.*
 - **First Offense**: 
-    - <span style="color: orange;">**Ban**</span> the alt account
+    - <span style="color: orange;">**Permanent ban**</span> for the alt account
     - Formal warning for the main account
 - **Second Offense**: 
-    - <span style="color: orange;">**7-day temp ban**</span> for both the main account and permanently ban the alt
+    - <span style="color: orange;">**14-day temp ban**</span> for the main account
+    - <span style="color: orange;">**Permanent ban**</span> for the alt
 
 > If the player is in a tribe by themselves when they get <span style="color: orange;">**banned**</span>, the tribe will be wiped.
 
@@ -131,11 +136,13 @@ Examples include:
 
 ### 2.4 - Economic Activity Policy *(Zero Tolerance)*
 *Conducting any real-world economic activity on this server is strictly prohibited.*
-- **First Offense**: <span style="color: orange;">**Ban**</span> issued to the user
+- **First Offense**: <span style="color: orange;">**Permanent ban**</span> issued to the user
 
-### 2.5 - Role Recovery Policy
-*Any roles lost from leaving will not be returned upon rejoining.*
-> This is a general policy with no punishment tiers.
+### 2.5 - Scamming/Fraud Policy
+*Scamming other players (fake giveaways, impersonating others to steal VC, fraudulent trades, etc.) is forbidden.*
+- **First Offense**: Full VC wipe and <span style="color: orange;">**14-day temp ban**</span>
+- **Second Offense**: Full VC wipe and <span style="color: orange;">**60-day temp ban**</span>
+- **Third Offense**: <span style="color: orange;">**Permanent ban**</span>
 
 ### 2.6 - Ban Appeal Rules
 #### Prohibited Actions:
@@ -151,9 +158,18 @@ Examples include:
 
 > All appeals must go through the ban appeal Discord: https://discord.gg/KZFbS4aJxA
 
-### 2.7 - Staff Impersonation *(Zero Tolerance)*
-*Impersonating admins or staff results in a ban.*
-- **First Offense**: <span style="color: orange;">Permanent ban</span> issued to the user
+### 2.7 - Staff Impersonation
+*Impersonating admins or staff is forbidden.*
+- **First Offense**: <span style="color: orange;">**30-day temp ban**</span> issued to the user
+- **Second Offense**: <span style="color: orange;">**60-day temp ban**</span> issued to the user
+- **Third Offense**: <span style="color: orange;">**Permanent ban**</span> issued to the user
+
+### 2.8 - Ticket Abuse Policy
+*Do not spam or abuse the support ticket system with frivolous or repeated tickets.*
+- **First Offense**: Warning issued to the user
+- **Second Offense**: Timeout issued (1-3 days)
+- **Third Offense**: <span style="color: orange;">**7-day temp ban**</span> and loss of ticket access
+- **Fourth Offense**: <span style="color: orange;">**30-day temp ban**</span> issued to the user
 
 ---
 
@@ -177,8 +193,8 @@ Alternative accounts may only appeal <span style="color: orange;">**bans**</span
 ## 3️⃣ Advertisement Rules
 
 ### 3.1 - Server Advertisement Policy *(Zero Tolerance)*
-*Server advertisements are strictly prohibited.*
-- **First Offense**: <span style="color: orange;">Permanent ban</span> issued to the user
+*Server advertisements are strictly prohibited. This includes indirect invites such as "DM me to join my server."*
+- **First Offense**: <span style="color: orange;">**Permanent ban**</span> issued to the user
 
 ### 3.2 - Content Creator Policy
 *YouTube, Twitch, and streaming accounts should only be shared to interested members.*
@@ -204,7 +220,7 @@ Alternative accounts may only appeal <span style="color: orange;">**bans**</span
 
 ### 4.3 - UserBot Policy *(Zero Tolerance)*
 *UserBots are strictly prohibited and will result in an instant ban.*
-- **First Offense**: <span style="color: orange;">Permanent ban</span> issued to the user
+- **First Offense**: <span style="color: orange;">**Permanent ban**</span> issued to the user
 
 ### 4.4 - Currency Exploitation Policy
 *Exploiting the Discord currency system is forbidden.*
@@ -217,6 +233,15 @@ Alternative accounts may only appeal <span style="color: orange;">**bans**</span
 - **Second Offense**: 24-hour timeout issued to the user
 - **Third Offense**: 1-week timeout issued to the user
 - **Fourth Offense**: <span style="color: orange;">14-day temp ban</span> issued to the user
+
+---
+
+## ℹ️ General Policies
+
+> The following are informational policies, not enforceable rules.
+
+- **Bug/Misuse Policy**: Items/Dinos lost due to bugs or misuse of the shop cannot be reimbursed.
+- **Role Recovery Policy**: Any roles lost from leaving will not be returned upon rejoining.
 
 ---
 
@@ -233,3 +258,13 @@ The following documents are upheld in this server within reason:
 - [Discord Community Guidelines](https://dis.gd/guidelines)
 - [Discord Terms of Service](https://dis.gd/terms)
 - [Ban Appeal Server](https://discord.gg/KZFbS4aJxA)
+
+---
+
+## 📝 Changelog
+
+| Version | Date | Changes |
+|---------|------|---------|
+| v2026.1 | January 17, 2026 | Added Voice Channel Conduct (1.8), Scamming/Fraud Policy (2.5), Ticket Abuse Policy (2.8). Changed Staff Impersonation to tiered temp bans. Clarified Dating Service as 14-day temp ban. Moved Bug/Misuse and Role Recovery to informational policies. |
+| v2025.1 | October 25, 2025 | Major update: Shifted to temp ban philosophy for most offenses. |
+{.dense}

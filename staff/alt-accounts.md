@@ -14,23 +14,27 @@ Per the Moderations, Staff, and Alt Accounts policy, only one account per person
 
 # Standard Penalties For Alt Accounts
 - First offense
-  - <span style="color: orange;">Ban</span> the alt.
-  - Wipe the VC balance of the original account.
-  - Wipe the Ark data of the original account.
+  - <span style="color: orange;">Permanent ban</span> the alt.
+  - Formal warning for the main account.
 - Second offense
-  - <span style="color: orange;">Ban</span> the alt AND the original account.
-  - If player was in a tribe by themselves wipe the tribe.
+  - <span style="color: orange;">14-day temp ban</span> for the main account.
+  - <span style="color: orange;">Permanent ban</span> for the alt.
+  - If player was in a tribe by themselves, wipe the tribe.
   
 ## Harboring Alt Accounts
-Tribes that knowingly harbor alt accounts will face the following
+Tribes that knowingly harbor alt accounts will face the following:
 - First offense
-	- The person who recruited the alt will have their Ark data and VC wiped.
-  		- If it is obvious who that other members knew about the alt, they will face the same VC/Data wipe.
-	- Each of the other members will receive a warning stating that they are also responsible for their tribemates and will be held accountable should this continue.
+	- Recruiter receives formal warning.
+	- Knowing participants receive warning.
+	- No punishment for uninvolved tribe members.
 - Second offense
-	- The person who recruited the alt will be <span style="color: orange;">banned</span> along with a VC/Data wipe.
-  - Each member of the tribe will receive a VC/Data wipe.
-  	- Same applies here, if its obvious that other members know they will face the same punishment as the first point.
+	- Recruiter receives Ark data wipe.
+	- Knowing participants receive formal warning.
+	- No punishment for uninvolved tribe members.
+- Third offense
+	- Recruiter receives <span style="color: orange;">30-day temp ban</span>.
+	- Knowing participants receive Ark data wipe.
+	- No punishment for uninvolved tribe members.
 
 
 # Alt Account Appeal

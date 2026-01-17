@@ -2,7 +2,7 @@
 title: NSFW or Disruptive Content
 description: 
 published: true
-date: 2024-08-26T02:15:10.253Z
+date: 2026-01-17T00:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2024-08-26T02:15:08.935Z
@@ -10,7 +10,7 @@ dateCreated: 2024-08-26T02:15:08.935Z
 
 NSFW/Disruptive content encompasses not only material unsuitable for a work environment like "porn-bait" memes, explicit nudity, etc., but also includes any disruptive content within a chat channel. This extends to sexual innuendos and inappropriate comments that disturb the conversation or environment in general.
 
-All content within a user's profile as well as anything posted in the server must be safe for work, non offensive, and must be appropriate in general. Content posted is judged at Staff's discretion. Generally, anything questionable is best to be removed. If anything posted includes blatant nudity or NSFW (death, gore, etc.) it is to be a ban.
+All content within a user's profile as well as anything posted in the server must be safe for work, non offensive, and must be appropriate in general. Content posted is judged at Staff's discretion. Generally, anything questionable is best to be removed. If anything posted includes blatant nudity or NSFW (death, gore, etc.) it warrants a <span style="color: orange;">temp ban</span> per the severity outlined in Discord Rule 1.5 (Prohibited Content).
 
 # Tabs {.tabset}
 ## Profile Images

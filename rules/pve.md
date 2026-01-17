@@ -2,13 +2,16 @@
 title: PvE Rules
 description: 
 published: true
-date: 2025-12-24T22:53:15.241Z
+date: 2026-01-17T00:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-15T23:19:09.413Z
 ---
 
-# 🛡️ PvE Rules & Procedures
+# 🛡️ PvE Rules & Procedures (v2026.1)
+
+> **Our Philosophy:**
+> PvE is the family-friendly side of our community. We enforce strict rules to ensure a welcoming environment for all players. Antisocial behavior is not tolerated.
 
 ## 1️⃣ General Rules
 
@@ -46,19 +49,19 @@ dateCreated: 2025-02-15T23:19:09.413Z
   - **Third Offense**: <span style="color: orange;">Permanent Ban</span>.
 - **3.2 - No Stealing**
   - **First Offense**: 30-day <span style="color: orange;">Temp Ban</span>.
-  - **Second Offense**: 90 day <span style="color: orange;">Temp Ban</span>.
+  - **Second Offense**: 90-day <span style="color: orange;">Temp Ban</span>.
   - **Third Offense**: <span style="color: orange;">Permanent Ban</span>.
 - **3.3 - No Passive Killing**
   - *Passively killing players is forbidden. This includes dragging/drowning players or leading wild dinos to their base. Claiming to do so is an admission of guilt.*
   - **First Offense**: 30-day <span style="color: orange;">Temp Ban</span>.
-  - **Second Offense**: 90 day <span style="color: orange;">Temp Ban</span>.
+  - **Second Offense**: 90-day <span style="color: orange;">Temp Ban</span>.
   - **Third Offense**: <span style="color: orange;">Permanent Ban</span>.
 - **3.4 - No Interference**
   - *Do not interfere with players taming wild dinos or OSD activities on Extinction.*
   - **First Offense**: Warning.
-  - **First Offense**: 7-day <span style="color: orange;">Temp Ban</span>.
-  - **Second Offense**: 30-day <span style="color: orange;">Temp Ban</span>.
-  - **Third Offense**: <span style="color: orange;">Permanent Ban</span>.
+  - **Second Offense**: 7-day <span style="color: orange;">Temp Ban</span>.
+  - **Third Offense**: 30-day <span style="color: orange;">Temp Ban</span>.
+  - **Fourth Offense**: <span style="color: orange;">Permanent Ban</span>.
 
 ## 4️⃣ Structure Rules
 
@@ -68,7 +71,7 @@ dateCreated: 2025-02-15T23:19:09.413Z
   - **Second Offense**: Immediate base wipe.
   - **Third Offense**: <span style="color: orange;">Ban</span>.
 - **4.2 - Size Restrictions**
-  - *Bases must fit within render distance (approximately 80 foundations).*
+  - *Bases must fit within render distance (80 foundations maximum).*
   - **First Offense**: 48 hours to comply.
   - **Second Offense**: Partial structure removal.
   - **Third Offense**: Complete base wipe.
@@ -82,7 +85,7 @@ dateCreated: 2025-02-15T23:19:09.413Z
   - **Second Offense**: Immediate structure removal.
   - **Third Offense**: Complete base wipe.
 - **4.5 - Artifact Cave Building**
-  - *Explorer Notes must remain accessible to all players.*
+  - *Artifacts and Explorer Notes must remain accessible to all players.*
   - **First Offense**: 48 hours to provide access.
   - **Second Offense**: Structure removal.
 - **4.6 - Teleporter Limit**
@@ -139,11 +142,14 @@ dateCreated: 2025-02-15T23:19:09.413Z
 - **Main Base**: Your primary base of operations.
 - **Meshing**: Exploiting game glitches to access areas underneath or inside the game map.
 - **VC**: VertCoin, the Discord server's virtual currency.
-- Appeals can be made through the standard support ticket system
 
-## Definitions
+---
 
-- **Outpost**: A secondary base with fewer than 300 structures
-- **Main Base**: Your primary base of operations
-- **Meshing**: Exploiting game glitches to access areas underneath or inside the game map
-- **VC**: VertCoin, the Discord server's virtual currency
+## 📝 Changelog
+
+| Version | Date | Changes |
+|---------|------|---------|
+| v2026.1 | January 17, 2026 | Clarified base size as exactly 80 foundations. Updated artifact cave rule to cover both artifacts and explorer notes. Added philosophy statement. |
+| v2025.1 | December 24, 2025 | Previous update. |
+{.dense}
+

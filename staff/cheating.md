@@ -2,7 +2,7 @@
 title: Meshing/Cheating
 description: 
 published: true
-date: 2025-06-25T14:04:19.184Z
+date: 2026-01-17T00:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2024-08-26T02:41:24.978Z
@@ -10,36 +10,38 @@ dateCreated: 2024-08-26T02:41:24.978Z
 
 # 🚫 Meshing & Cheating Procedures
 
-Meshing and cheating is a broad category of exploitation in the game. We break it down into the following categories:
+Meshing and cheating is a broad category of exploitation in the game. Refer to the PvP Rules for the official tiered punishment system. This guide provides additional context for staff handling these situations.
 
 ---
 
-## 🏠 Meshed Bases
+## 🏠 Meshed Base Spots (Rule 1.1)
 
 **Definition**: Entire bases built behind the mesh, usually with no legitimate entry method. Players typically use teleporters or Fjordhawks to transport items in and out.
 
-### 🚨 Actions Required:
-1. **Complete tribe wipe**
-2. **For members NOT in Discord** (<span style="color: red;">with less than 30 days playtime</span>):
-   - 24-hour warning via DM to join Discord, link account, open ticket, and read rules
-   - Failure to comply results in <span style="color: orange;">**ban**</span>
-3. **For members WITH linked Discord accounts**:
-   - Immediate <span style="color: orange;">**ban**</span> - they should know better
+### 🚨 Actions Required (per PvP Rules):
+- **First Offense**:
+  - Non-Discord Members: 24 hours to join Discord and link account or receive a 3-day temp ban.
+  - Discord Members: Warning and removal of meshed structures.
+- **Second Offense**: Ark Data wipe and formal warning.
+- **Third Offense**: Full tribe wipe for repeat offenders.
 
 ---
 
-## 🧱 Meshed Structures
+## 🧱 Meshed Spam (Rule 1.2)
 
 **Definition**: Structures intentionally meshed to prevent players from building forward operating bases or claiming territory after being wiped.
 
-### 🚨 Actions Required:
-1. **Complete tribe wipe**
-2. **For members NOT in Discord** (<span style="color: red;">with less than 30 days playtime</span>):
-   - 24-hour warning via DM to join Discord, link account, open ticket, and read rules
-   - Failure to comply results in <span style="color: orange;">**ban**</span>
-3. **For members WITH linked Discord accounts**:
-   - **First Offense**: One-time warning with VC and Data Wipe
-   - **Second Offense**: <span style="color: orange;">**Ban**</span>
+### 🚨 Actions Required (per PvP Rules):
+- Non-Discord Members: 48 hours to join Discord or receive a 3-day temp ban.
+- **Minor Intentional Meshing** (*Placing a single foundation or structure in the mesh*):
+  - **First Offense**: Structure removal and warning.
+  - **Second Offense**: Structure removal and Ark Data wipe.
+  - **Third Offense**: <span style="color: orange;">7-day temp ban</span> for the offending member.
+- **Major Intentional Meshing** (*Placing multiple structures or using the mesh to expand a base*):
+  - **First Offense**: Structure removal and Ark Data wipe.
+  - **Second Offense**: Full tribe wipe.
+- **Unintentional Meshing**:
+  - Structure removal and a warning will be issued.
 
 ### 📸 Example:
 <figure style="text-align: center;">
@@ -49,62 +51,59 @@ Meshing and cheating is a broad category of exploitation in the game. We break i
 
 ---
 
-## 📦 Meshed Loot Stashes
+## 📦 Meshed Loot Stashes (Rule 1.3)
 
 **Definition**: Any storage structure meshed to prevent destruction (commonly loadout dummies).
 
-### Scenario 1: 🆔 Empty Stashes
-- Delete structure
-- Issue data wipe and VC wipe for each tribe member
-- Formal warning issued
-
-### Scenario 2: 📦 Stashes with Loot
-1. **Complete tribe wipe**
-2. **For members IN Discord**:
-   - Ark data and VC wipe + formal warning
-   - If in Discord longer than 30 days: <span style="color: orange;">**Ban**</span>
-3. **For members NOT in Discord**:
-   - Warning issued
-   - 24 hours to join or be <span style="color: orange;">**banned**</span>
+### 🚨 Actions Required (per PvP Rules):
+- Non-Discord Members: 24 hours to join Discord or receive a <span style="color: orange;">3-day temp ban</span>.
+- **Empty Stashes**:
+  - **First Offense**: Structure deletion and warning for all members.
+  - **Second Offense**: Structure deletion and Ark Data wipe for all members.
+  - **Third Offense**: Full tribe wipe.
+- **Stashes with Loot**:
+  - **First Offense**: Structure deletion, Ark Data wipe, and formal warning.
+  - **Second Offense**: Full tribe wipe.
+  - **Third Offense**: <span style="color: orange;">15-day temp ban</span> for members involved.
 
 ---
 
-## 🛏️ Meshed Sleeping Bags
+## 🛏️ Meshed Sleeping Bags (Rule 1.4)
 
 **Definition**: Sleeping bags or foundations with beds placed behind terrain. Usually attempts to access the mesh.
 
-### 🚨 Actions Required:
-- **For owners NOT in Discord**:
-  - 24-hour warning via DM to link account and read rules
-  - Failure to comply results in <span style="color: orange;">**ban**</span>
-  - Official warning if they comply
-- **For owners IN Discord**:
-  - VC balance and ark data deletion
-  - One-time warning issued
+### 🚨 Actions Required (per PvP Rules):
+- Non-Discord Members: 24 hours to join Discord or receive a <span style="color: orange;">3-day temp ban</span>.
+- Discord Members: Ark Data wipe and formal warning.
 
 ---
 
-## 🔫 Meshed Turrets
+## 🔫 Meshed Turrets (Rule 1.5)
 
 **Definition**: Turrets placed behind mesh to shoot players while remaining unreachable.
 
-### 🚨 Actions Required:
-Follow the same procedure as **Meshed Sleeping Bags** above.
+### 🚨 Actions Required (per PvP Rules):
+- **Single Meshed Turret**:
+  - **First Offense**: Turret removal and warning for all tribe members if placer unknown; otherwise just warn the placer.
+  - **Second Offense**: Turret removal and Ark Data wipe for all tribe members if placer unknown; otherwise just data wipe the placer.
+  - **Third Offense**: Turret removal and 3-day ban of all tribe members if placer unknown; otherwise 5-day ban of individual placer.
+- **Multiple Meshed Turrets**:
+  - **First Offense**: Turret removal and data wipe for all tribe members if placer unknown; otherwise data wipe only the placer.
+  - **Second Offense**: Turret removal and 3-day ban for all tribe members if placer unknown; otherwise 5-day ban for individual placer.
+  - **Third Offense**: Full structure wipe of the tribe.
+  - **Fourth Offense**: Full structure wipe of the tribe and <span style="color: orange;">30-day temp ban</span> for repeat offenders.
 
 ---
 
-## 🎈 Floating Turrets
+## 🎈 Floating Turrets (Rule 1.6)
 
 **Definition**: Any turret not attached to ground structures, making it impossible to destroy the turret by destroying supporting structures.
 
-### 🚨 Actions Required:
-- **First Offense**:
-  - Full structure wipe of the tribe
-  - Wipe each tribe member's Ark data
-  - Warning via Xbox DM command for each member
-- **Second Offense**:
-  - Another wipe
-  - <span style="color: orange;">**Ban**</span> of all tribe members
+### 🚨 Actions Required (per PvP Rules):
+- **First Offense**: Turret removal and warning for all members.
+- **Second Offense**: Turret removal and Ark data wipe for offending members.
+- **Third Offense**: Full structure wipe and formal warning.
+- **Fourth Offense**: Full structure wipe and <span style="color: orange;">14-day temp ban</span> for repeat offenders.
 
 ### 📸 Example:
 <figure style="text-align: center;">
@@ -116,10 +115,43 @@ Follow the same procedure as **Meshed Sleeping Bags** above.
 
 > ## ⚠️ Important Notes
 >
-> - All punishments are applied consistently regardless of player status.
+> - All punishments follow the tiered system in the PvP Rules.
 > - Evidence must be documented before taking action.
 > - Staff should always verify the exploit before implementing penalties.
-> - Repeat offenders face escalated consequences up to permanent <span style="color: orange;">**bans**</span>.
+> - Permanent bans are reserved for confirmed Aimbot/ESP, DDoS attacks, doxxing, real-world threats, or chargebacks.
+
+---
+
+## 2️⃣ Combat Cheats (Rule 2.1)
+
+### ESP/Aimbot (Confirmed)
+**Definition**: Using third-party software that provides aim assistance or reveals enemy positions through walls.
+
+### 🚨 Actions Required:
+- **Confirmed Aimbot or ESP**: <span style="color: orange;">**Permanent ban**</span> for the offending player.
+- Other tribe members will be investigated but not automatically punished.
+
+### Other Cheats (Macros, Exploits, etc.)
+- **First Offense**: <span style="color: orange;">**90-day temp ban**</span> for the offending player.
+- Other tribe members will be investigated but not automatically punished.
+
+> File checks will be conducted for suspected players. Players must comply within 1 hour of the request.
+
+---
+
+## 📦 Item Duplication (Rule 2.4)
+
+**Definition**: Using exploits to duplicate in-game items.
+
+### 🚨 Actions Required:
+- **Tribe-Wide Duping** (*Evidence shows tribe-wide duping, e.g., base built with duped items*):
+  - Full tribe wipe
+  - <span style="color: orange;">**60-day temp ban**</span> for all confirmed participants
+  - Ark Data wipe for beneficiaries
+  - Warning for uninvolved members
+- **Individual Duping** (*Evidence shows isolated duping by a single player*):
+  - <span style="color: orange;">**60-day temp ban**</span> for the offending player only
+  - Other tribe members receive a formal warning
 
 
 

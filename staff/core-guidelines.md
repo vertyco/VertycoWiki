@@ -2,7 +2,7 @@
 title: Core Guidelines
 description: 
 published: true
-date: 2025-06-25T14:04:49.684Z
+date: 2026-01-17T00:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2024-08-26T00:18:05.569Z

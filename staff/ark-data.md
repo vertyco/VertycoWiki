@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2024-08-25T23:38:42.766Z
 ---
 
-A# rk Data Help
+# Ark Data Help
 
 This section will help with guiding players that are having Ark data problems
 
