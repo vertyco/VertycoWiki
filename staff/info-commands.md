@@ -19,7 +19,7 @@ There are several non-mod commands at your disposal to help make finding informa
 
 Returns the Xbox ID of a given Gamertag.
 <figure style="text-align: left;">
-  <img src="/xuid-example.png" alt="Description" style="width: 30%; max-width: 600px;" />
+  <img src="/assets/xuid-example.png" alt="Description" style="width: 30%; max-width: 600px;" />
 </figure>
 
 ## Playerstats
@@ -36,7 +36,7 @@ Returns the Xbox ID of a given Gamertag.
 
 Shows a detailed breakdown of the following
 <figure style="text-align: left;">
-  <img src="/playerstats-example.png" alt="Description" style="width: 30%; max-width: 600px;" />
+  <img src="/assets/playerstats-example.png" alt="Description" style="width: 30%; max-width: 600px;" />
 </figure>
 
 ### DM a player through Xbox
@@ -44,12 +44,12 @@ Shows a detailed breakdown of the following
 By clicking the Xbox DM button you can send a DM on behalf of the Host Gamertag of the last map the player was on
 
 <figure style="text-align: left;">
-  <img src="/playerstats-xbox-dm-button.png" alt="Description" style="width: 30%; max-width: 600px;" />
+  <img src="/assets/playerstats-xbox-dm-button.png" alt="Description" style="width: 30%; max-width: 600px;" />
   <figcaption style="color: #b9bbbe;">This button will ONLY be available on ASE players</figcaption>
 </figure>
 <br>
 <figure style="text-align: left;">
-  <img src="/playerstats-xbox-dm-modal.png" alt="Description" style="width: 30%; max-width: 600px;" />
+  <img src="/assets/playerstats-xbox-dm-modal.png" alt="Description" style="width: 30%; max-width: 600px;" />
   <figcaption style="color: #b9bbbe;">Messages can be up to 500 characters</figcaption>
 </figure>
 
@@ -60,13 +60,13 @@ By clicking the Xbox DM button you can send a DM on behalf of the Host Gamertag 
 View someones Discord activity profile
 
 <figure style="text-align: left;">
-  <img src="/pf-example1.png" alt="select" style="width: 30%; max-width: 600px;" />
+  <img src="/assets/pf-example1.png" alt="select" style="width: 30%; max-width: 600px;" />
   <figcaption style="color: #b9bbbe;">OR</figcaption>
-  <img src="/pf-example2.png" alt="select" style="width: 30%; max-width: 600px;" />
+  <img src="/assets/pf-example2.png" alt="select" style="width: 30%; max-width: 600px;" />
 </figure>
 
 <figure style="text-align: left;">
-  <img src="/pf-example3.png" alt="select" style="width: 40%; max-width: 600px;" />
+  <img src="/assets/pf-example3.png" alt="select" style="width: 40%; max-width: 600px;" />
 </figure>
 
 ## Userinfo
@@ -76,12 +76,12 @@ View someones Discord activity profile
 View details about a Discord account in the server.
 
 <figure style="text-align: left;">
-  <img src="/userinfo1.png" alt="select" style="width: 30%; max-width: 600px;" />
+  <img src="/assets/userinfo1.png" alt="select" style="width: 30%; max-width: 600px;" />
   <figcaption style="color: #b9bbbe;">Alternatively, you can use their User ID</figcaption>
 </figure>
 <br>
 <figure style="text-align: left;">
-  <img src="/userinfo2.png" alt="select" style="width: 30%; max-width: 600px;" />
+  <img src="/assets/userinfo2.png" alt="select" style="width: 30%; max-width: 600px;" />
 </figure>
 
 ## Xbox Profile
@@ -90,7 +90,7 @@ View details about a Discord account in the server.
 
 View a player's Xbox profile.
 <figure style="text-align: left;">
-  <img src="/xprofile-example.png" alt="select" style="width: 30%; max-width: 600px;" />
+  <img src="/assets/xprofile-example.png" alt="select" style="width: 30%; max-width: 600px;" />
 </figure>
 
 # Search Commands
@@ -102,7 +102,7 @@ View a player's Xbox profile.
 
 View the friends list of the given gamertag
 <figure style="text-align: left;">
-  <img src="/xfriends-example.png" alt="select" style="width: 30%; max-width: 600px;" />
+  <img src="/assets/xfriends-example.png" alt="select" style="width: 30%; max-width: 600px;" />
 </figure>
 
 ## Find Tribe
@@ -120,8 +120,8 @@ Find details of a tribe like their in-game members, tame/structure count, when t
 After running the command, you will be asked to select the server you want to search via drop-down.
 
 <figure style="text-align: left;">
-  <img src="/findtribe1.png" alt="select" style="width: 30%; max-width: 600px;" />
-  <img src="/findtribe2.png" alt="select" style="width: 30%; max-width: 600px;" />
+  <img src="/assets/findtribe1.png" alt="select" style="width: 30%; max-width: 600px;" />
+  <img src="/assets/findtribe2.png" alt="select" style="width: 30%; max-width: 600px;" />
 </figure>
 
 ## Find Tame
@@ -145,19 +145,19 @@ Find tames by tame name, imprinter, tamer, or tribe name.
 You will be asked to select a server to search for via drop-down.
 
 <figure style="text-align: left;">
-  <img src="/findtame-select.png" alt="select" style="width: 30%; max-width: 600px;" />
+  <img src="/assets/findtame-select.png" alt="select" style="width: 30%; max-width: 600px;" />
   <figcaption style="color: #b9bbbe;">Select which map you want to search</figcaption>
 </figure>
 
 <br>
 <figure style="text-align: left;">
-  <img src="/findtam-yesno.png" alt="yesno" style="width: 30%; max-width: 600px;" />
+  <img src="/assets/findtam-yesno.png" alt="yesno" style="width: 30%; max-width: 600px;" />
   <figcaption style="color: #b9bbbe;">Decide if you want to include cryopodded dinos</figcaption>
 </figure>
 
 <br>
 <figure style="text-align: left;">
-  <img src="/findtame-results.png" alt="results" style="width: 30%; max-width: 600px;" />
+  <img src="/assets/findtame-results.png" alt="results" style="width: 30%; max-width: 600px;" />
   <figcaption style="color: #b9bbbe;">Menu will show two results per page</figcaption>
 </figure>
 

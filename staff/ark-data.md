@@ -33,12 +33,12 @@ If a player knows they should have something in their Ark data but cannot see it
 
 
 <figure style="text-align: left;">
-  <img src="/checkdata-example.pngg" alt="Description" style="width: 50%; max-width: 600px;" />
+  <img src="/assets/checkdata-example.png" alt="Description" style="width: 50%; max-width: 600px;" />
   <figcaption style="color: #b9bbbe;">In this example the user is mentioned, This will only work if the player has registered via <span style="color: orange;">.register</span></figcaption>
 </figure>
 
 <figure style="text-align: left;">
-  <img src="/checkdata-example.pngg" alt="Description" style="width: 50%; max-width: 600px;" />
+  <img src="/assets/checkdata-example.png" alt="Description" style="width: 50%; max-width: 600px;" />
 </figure>
 
 > • If the cluster they're on isn't shown then there is <span style="color: red;">Nothing</span> in their Ark data.

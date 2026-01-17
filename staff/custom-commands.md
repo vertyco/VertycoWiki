@@ -27,17 +27,17 @@ Type `.cc list` to view all of the available custom info commands
 ## Adding CustomCommands
 `.cc create <command> <response_text>`
 <figure style="text-align: left;">
-  <img src="/cc-create.png" alt="Description" style="width: 40%; max-width: 600px;" />
+  <img src="/assets/cc-create.png" alt="Description" style="width: 40%; max-width: 600px;" />
 </figure>
 
 ## Editing CustomCommands
 `.cc edit <command> <new_text>`
 <figure style="text-align: left;">
-  <img src="/cc-edit.png" alt="Description" style="width: 40%; max-width: 600px;" />
+  <img src="/assets/cc-edit.png" alt="Description" style="width: 40%; max-width: 600px;" />
 </figure>
 
 ## Removing CustomCommands
 `.cc remove <command>`
 <figure style="text-align: left;">
-  <img src="/cc-remove.png" alt="Description" style="width: 40%; max-width: 600px;" />
+  <img src="/assets/cc-remove.png" alt="Description" style="width: 40%; max-width: 600px;" />
 </figure>

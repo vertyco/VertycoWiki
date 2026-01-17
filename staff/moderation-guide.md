@@ -34,7 +34,7 @@ This does not send a direct message to the user the note is applying to.
 Mostly used to privately log potentially disruptive behavior.
 <br>
 <figure style="text-align: left;">
-  <img src="/mnote-example.png" alt="Description" style="width: 90%; max-width: 600px;" />
+  <img src="/assets/mnote-example.png" alt="Description" style="width: 90%; max-width: 600px;" />
   <figcaption style="color: #b9bbbe;">Most useful for accusations without evidence made in Modmail against a user.</figcaption>
 </figure>
 
@@ -51,7 +51,7 @@ Similar to discord user notes, you can add/edit/view notes of other players.
 
 When looking at a player's stats via the `.playerstats` command, you will see the following buttons.
 <figure style="text-align: left;">
-  <img src="/player-note-example.png" alt="Description" style="width: 30%; max-width: 600px;" />
+  <img src="/assets/player-note-example.png" alt="Description" style="width: 30%; max-width: 600px;" />
   <figcaption style="color: #b9bbbe;">The buttons are pretty self-explanatory</figcaption>
 </figure>
 
@@ -67,7 +67,7 @@ All notes are logged to the `#🛡｜mod-log` channel
 Warnings are the first step towards remediating behavior if a stronger punishment isn't applicable. Warnings direct message the user with the reason.
 
 <figure style="text-align: left;">
-  <img src="/warn-example.png" alt="Description" style="width: 65%; max-width: 600px;" />
+  <img src="/assets/warn-example.png" alt="Description" style="width: 65%; max-width: 600px;" />
 </figure>
 
 The `<reason>` variable must clearly state what rule was broken and why the user is getting warned.
@@ -83,7 +83,7 @@ Mutes are based off timeouts, revoking text and voice channel usage.
 Do not use the built-in timeout feature by Discord, always use the command.
 
 <figure style="text-align: left;">
-  <img src="/mute-example.png" alt="Description" style="width: 65%; max-width: 600px;" />
+  <img src="/assets/mute-example.png" alt="Description" style="width: 65%; max-width: 600px;" />
   <figcaption style="color: #b9bbbe;">Time periods of 1 day or above are recommended to give time for the person to cool down.</figcaption>
 </figure>
 
@@ -104,7 +104,7 @@ Admin Only
 A kick and softban are similar in the sense that both kick the affected user from the server and remove all of their roles. Kick does not purge any messages while softban purges 7 days worth.
 
 <figure style="text-align: left;">
-  <img src="/kick-example.png" alt="Description" style="width: 65%; max-width: 600px;" />
+  <img src="/assets/kick-example.png" alt="Description" style="width: 65%; max-width: 600px;" />
   <figcaption style="color: #b9bbbe;">This does not reset activity ranks, but users who rejoin the server must level up once to regain them all back.</figcaption>
 </figure>
 
@@ -123,7 +123,7 @@ Bans are a permanent suspension of the user's account from the server.
 Optionally, you can provide this appeal link in the ban: https://forms.gle/k41rwLhSxbzix3gw5
 <br>
 <figure style="text-align: left;">
-  <img src="/ban-example.png" alt="Description" style="width: 65%; max-width: 600px;" />
+  <img src="/assets/ban-example.png" alt="Description" style="width: 65%; max-width: 600px;" />
 </figure>
 
 The most common reasons for bans are:

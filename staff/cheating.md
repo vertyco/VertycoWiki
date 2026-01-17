@@ -108,7 +108,7 @@ Follow the same procedure as **Meshed Sleeping Bags** above.
 
 ### 📸 Example:
 <figure style="text-align: center;">
-  <img src="/floating-turret-example.png" alt="Floating turrets example" style="width: 100%; max-width: 600px;" />
+  <img src="/assets/floating-turret-example.png" alt="Floating turrets example" style="width: 100%; max-width: 600px;" />
   <figcaption style="color: #b9bbbe;">These turrets are clearly floating with no supporting structures.</figcaption>
 </figure>
 
