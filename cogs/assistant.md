@@ -2,30 +2,39 @@
 title: Assistant Commands
 description: 
 published: true
-date: 2024-08-25T19:08:38.839Z
+date: 2026-01-17T16:59:50.080Z
 tags: 
 editor: markdown
 dateCreated: 2024-05-02T02:30:07.783Z
 ---
 
-# Assistant Help
-
-Set up and configure an AI assistant (or chat) cog for your server with one of OpenAI's ChatGPT language models.<br/><br/>Features include configurable prompt injection, dynamic embeddings, custom function calling, and more!<br/><br/>- **[p]assistant**: base command for setting up the assistant<br/>- **[p]chat**: talk with the assistant<br/>- **[p]convostats**: view a user's token usage/conversation message count for the channel<br/>- **[p]clearconvo**: reset your conversation with the assistant in the channel
+Set up and configure an AI assistant (or chat) cog for your server with one of OpenAI's ChatGPT language models.<br/><br/>Features include configurable prompt injection, dynamic embeddings, custom function calling, and more!<br/><br/>- **.assistant**: base command for setting up the assistant<br/>- **.chat**: talk with the assistant<br/>- **.convostats**: view a user's token usage/conversation message count for the channel<br/>- **.clearconvo**: reset your conversation with the assistant in the channel
 
 # /draw (Slash Command)
-Generate an image with Dalle-3<br/>
- - Usage: `/draw <prompt> [size] [quality] [style]`
+Generate an image with AI<br/>
+ - Usage: `/draw <prompt> [size] [quality] [style] [model]`
  - `prompt:` (Required) What would you like to draw?
  - `size:` (Optional) The size of the image to generate
  - `quality:` (Optional) The quality of the image to generate
  - `style:` (Optional) The style of the image to generate
+ - `model:` (Optional) The model to use for image generation
+
+ - Checks: `Server Only`
+# /tldr (Slash Command)
+Summarize whats been happening in a channel<br/>
+ - Usage: `/tldr [timeframe] [question] [channel] [member] [private]`
+ - `timeframe:` (Optional) The number of messages to scan
+ - `question:` (Optional) Ask for specific info about the conversation
+ - `channel:` (Optional) The channel to summarize messages from
+ - `member:` (Optional) Target a specific member
+ - `private:` (Optional) Only you can see the response
 
  - Checks: `Server Only`
 # .chathelp
 Get help using assistant<br/>
  - Usage: `.chathelp`
 # .chat
-Chat with Autto!<br/>
+Chat with [botname]!<br/>
 
 Conversations are *Per* user *Per* channel, meaning a conversation you have in one channel will be kept in memory separately from another conversation in a separate channel<br/>
 
@@ -78,9 +87,14 @@ Check out [This Guide](https://platform.openai.com/docs/guides/prompt-engineerin
 View the current transcript of a conversation<br/>
 
 This is mainly here for moderation purposes<br/>
- - Usage: `.convoshow [user=None] [channel=None]`
+ - Usage: `.convoshow [user=None] [channel=operator.attrgetter('channel')]`
  - Restricted to: `GUILD_OWNER`
  - Aliases: `showconvo`
+ - Checks: `server_only`
+# .importconvo
+Import a conversation from a file<br/>
+ - Usage: `.importconvo`
+ - Restricted to: `GUILD_OWNER`
  - Checks: `server_only`
 # .query
 Fetch related embeddings according to the current topn setting along with their scores<br/>
@@ -95,64 +109,83 @@ You will need an **[api key](https://platform.openai.com/account/api-keys)** fro
  - Restricted to: `ADMIN`
  - Aliases: `assist`
  - Checks: `server_only`
+## .assistant timezone
+Set the timezone used for prompt placeholders<br/>
+ - Usage: `.assistant timezone <timezone>`
+## .assistant toggledraw
+Toggle the draw command on or off<br/>
+ - Usage: `.assistant toggledraw`
+ - Aliases: `drawtoggle`
+## .assistant resetglobalconversations
+Wipe saved conversations for the assistant in all servers<br/>
+
+This will delete any and all saved conversations for the assistant.<br/>
+ - Usage: `.assistant resetglobalconversations <yes_or_no>`
+ - Restricted to: `BOT_OWNER`
 ## .assistant resolution
 Switch vision resolution between high and low for relevant GPT-4-Turbo models<br/>
  - Usage: `.assistant resolution`
-## .assistant topn
-Set the embedding inclusion amout<br/>
-
-Top N is the amount of embeddings to include with the initial prompt<br/>
- - Usage: `.assistant topn <top_n>`
-## .assistant importexcel
-Import embeddings from an .xlsx file<br/>
+## .assistant importcsv
+Import embeddings to use with the assistant<br/>
 
 Args:<br/>
     overwrite (bool): overwrite embeddings with existing entry names<br/>
- - Usage: `.assistant importexcel <overwrite>`
+
+This will read excel files too<br/>
+ - Usage: `.assistant importcsv <overwrite>`
+## .assistant channel
+Set the main auto-response channel for the assistant<br/>
+ - Usage: `.assistant channel [channel=None]`
+## .assistant collab
+Toggle collaborative conversations<br/>
+
+Multiple people speaking in a channel will be treated as a single conversation.<br/>
+ - Usage: `.assistant collab`
+## .assistant maxrecursion
+Set the maximum function calls allowed in a row<br/>
+
+This sets how many times the model can call functions in a row<br/>
+
+Only the following models can call functions at the moment<br/>
+- gpt-4o-mini<br/>
+- gpt-4o<br/>
+- ect..<br/>
+ - Usage: `.assistant maxrecursion <recursion>`
+## .assistant embedmodel
+Set the OpenAI Embedding model to use<br/>
+ - Usage: `.assistant embedmodel [model=None]`
+## .assistant exportjson
+Export embeddings to a json file<br/>
+ - Usage: `.assistant exportjson`
+## .assistant autoanswer
+Toggle the auto-answer feature on or off<br/>
+ - Usage: `.assistant autoanswer`
+## .assistant endpointoverride
+Override the OpenAI endpoint<br/>
+
+**Notes**<br/>
+- Using a custom endpoint is not supported!<br/>
+- Using an endpoing override will negate model settings like temperature and custom functions<br/>
+ - Usage: `.assistant endpointoverride [endpoint=None]`
+ - Restricted to: `BOT_OWNER`
+## .assistant channelprompt
+Set a channel specific system prompt<br/>
+ - Usage: `.assistant channelprompt [channel=operator.attrgetter('channel')] [system_prompt]`
 ## .assistant presence
 Set the presence penalty for the model (-2.0 to 2.0)<br/>
 - Defaults is 0<br/>
 
 Positive values penalize new tokens based on whether they appear in the text so far, increasing the model's likelihood to talk about new topics.<br/>
  - Usage: `.assistant presence <presence_penalty>`
-## .assistant toggle
-Toggle the assistant on or off<br/>
- - Usage: `.assistant toggle`
-## .assistant maxtime
-Set the conversation expiration time<br/>
-
-Regardless of this number, the initial prompt and internal system message are always included,<br/>
-this only applies to any conversation between the user and bot after that.<br/>
-
-Set to 0 to store conversations indefinitely or until the bot restarts or cog is reloaded<br/>
- - Usage: `.assistant maxtime <retention_seconds>`
-## .assistant frequency
-Set the frequency penalty for the model (-2.0 to 2.0)<br/>
-- Defaults is 0<br/>
-
-Positive values penalize new tokens based on their existing frequency in the text so far, decreasing the model's likelihood to repeat the same line verbatim.<br/>
- - Usage: `.assistant frequency <frequency_penalty>`
-## .assistant braveapikey
-Enables use of the `search_internet` function<br/>
-
-Get your API key **[Here](https://brave.com/search/api/)**<br/>
- - Usage: `.assistant braveapikey`
- - Restricted to: `BOT_OWNER`
- - Aliases: `brave`
-## .assistant functioncalls
-Toggle whether GPT can call functions<br/>
- - Usage: `.assistant functioncalls`
- - Aliases: `usefunctions`
-## .assistant model
-Set the OpenAI model to use<br/>
-
-**NOTE**<br/>
-Specifying a model without it's identifier (like `gpt-3.5-turbo` instead of `gpt-3.5-turbo-0125`)<br/>
-will sometimes lose the ability to call functions in parallel for some reason, this is an OpenAI issue.<br/>
- - Usage: `.assistant model [model=None]`
-## .assistant restorecog
-Restore the cog from a backup<br/>
- - Usage: `.assistant restorecog`
+## .assistant reasoning
+Switch reasoning effort for o1 model between low, medium, and high<br/>
+ - Usage: `.assistant reasoning`
+## .assistant regexblacklist
+Remove certain words/phrases in the bot's responses<br/>
+ - Usage: `.assistant regexblacklist <regex>`
+## .assistant persist
+Toggle persistent conversations<br/>
+ - Usage: `.assistant persist`
  - Restricted to: `BOT_OWNER`
 ## .assistant prompt
 Set the initial prompt for GPT to use<br/>
@@ -160,7 +193,7 @@ Set the initial prompt for GPT to use<br/>
 Check out [This Guide](https://platform.openai.com/docs/guides/prompt-engineering) for prompting help.<br/>
 
 **Placeholders**<br/>
-- **botname**: Autto<br/>
+- **botname**: [botname]<br/>
 - **timestamp**: discord timestamp<br/>
 - **day**: Mon-Sun<br/>
 - **date**: MM-DD-YYYY<br/>
@@ -188,107 +221,12 @@ Check out [This Guide](https://platform.openai.com/docs/guides/prompt-engineerin
 - **balance**: the user's current balance<br/>
  - Usage: `.assistant prompt [prompt]`
  - Aliases: `pre`
-## .assistant temperature
-Set the temperature for the model (0.0 - 2.0)<br/>
-- Defaults is 1<br/>
-
-Closer to 0 is more concise and accurate while closer to 2 is more imaginative<br/>
- - Usage: `.assistant temperature <temperature>`
-## .assistant maxresponsetokens
-Set the max response tokens the model can respond with<br/>
-
-Set to 0 for response tokens to be dynamic<br/>
- - Usage: `.assistant maxresponsetokens <max_tokens>`
 ## .assistant importjson
 Import embeddings to use with the assistant<br/>
 
 Args:<br/>
     overwrite (bool): overwrite embeddings with existing entry names<br/>
  - Usage: `.assistant importjson <overwrite>`
-## .assistant channelprompt
-Set a channel specific system prompt<br/>
- - Usage: `.assistant channelprompt [channel=None] [system_prompt]`
-## .assistant toggledraw
-Toggle the draw command on or off<br/>
- - Usage: `.assistant toggledraw`
- - Aliases: `drawtoggle`
-## .assistant embedmodel
-Set the OpenAI Embedding model to use<br/>
- - Usage: `.assistant embedmodel [model=None]`
-## .assistant regexfailblock
-Toggle whether failed regex blocks the assistant's reply<br/>
-
-Some regexes can cause [catastrophically backtracking](https://www.rexegg.com/regex-explosive-quantifiers.html)<br/>
-The bot can safely handle if this happens and will either continue on, or block the response.<br/>
- - Usage: `.assistant regexfailblock`
-## .assistant collab
-Toggle collaborative conversations<br/>
-
-Multiple people speaking in a channel will be treated as a single conversation.<br/>
- - Usage: `.assistant collab`
-## .assistant exportexcel
-Export embeddings to an .xlsx file<br/>
-
-**Note:** csv exports do not include the embedding values<br/>
- - Usage: `.assistant exportexcel`
-## .assistant exportcsv
-Export embeddings to a .csv file<br/>
-
-**Note:** csv exports do not include the embedding values<br/>
- - Usage: `.assistant exportcsv`
-## .assistant persist
-Toggle persistent conversations<br/>
- - Usage: `.assistant persist`
- - Restricted to: `BOT_OWNER`
-## .assistant resetusage
-Reset the token usage stats for this server<br/>
- - Usage: `.assistant resetusage`
-## .assistant refreshembeds
-Refresh embedding weights<br/>
-
-*This command can be used when changing the embedding model*<br/>
-
-Embeddings that were created using OpenAI cannot be use with the self-hosted model and vice versa<br/>
- - Usage: `.assistant refreshembeds`
- - Aliases: `refreshembeddings, syncembeds, and syncembeddings`
-## .assistant tutor
-Add/Remove items from the tutor list.<br/>
-
-If using OpenAI's function calling and talking to a tutor, the AI is able to create its own embeddings to remember later<br/>
-
-`role_or_member` can be a member or role<br/>
- - Usage: `.assistant tutor <role_or_member>`
- - Aliases: `tutors`
-## .assistant timezone
-Set the timezone used for prompt placeholders<br/>
- - Usage: `.assistant timezone <timezone>`
-## .assistant maxrecursion
-Set the maximum function calls allowed in a row<br/>
-
-This sets how many times the model can call functions in a row<br/>
-
-Only the following models can call functions at the moment<br/>
-- gpt-3.5-turbo<br/>
-- gpt-3.5-turbo-16k<br/>
-- gpt-4<br/>
-- gpt-4-32k<br/>
- - Usage: `.assistant maxrecursion <recursion>`
-## .assistant resetglobalembeddings
-Wipe saved embeddings for all servers<br/>
-
-This will delete any and all saved embedding training data for the assistant.<br/>
- - Usage: `.assistant resetglobalembeddings <yes_or_no>`
- - Restricted to: `BOT_OWNER`
-## .assistant wipecog
-Wipe all settings and data for entire cog<br/>
- - Usage: `.assistant wipecog <confirm>`
- - Restricted to: `BOT_OWNER`
-## .assistant resetglobalconversations
-Wipe saved conversations for the assistant in all servers<br/>
-
-This will delete any and all saved conversations for the assistant.<br/>
- - Usage: `.assistant resetglobalconversations <yes_or_no>`
- - Restricted to: `BOT_OWNER`
 ## .assistant maxretention
 Set the max messages for a conversation<br/>
 
@@ -306,33 +244,161 @@ Wipe saved embeddings for the assistant<br/>
 
 This will delete any and all saved embedding training data for the assistant.<br/>
  - Usage: `.assistant resetembeddings <yes_or_no>`
-## .assistant questionmode
-Toggle question mode<br/>
+## .assistant resetusage
+Reset the token usage stats for this server<br/>
+ - Usage: `.assistant resetusage`
+## .assistant wipecog
+Wipe all settings and data for entire cog<br/>
+ - Usage: `.assistant wipecog <confirm>`
+ - Restricted to: `BOT_OWNER`
+## .assistant seed
+Make the model more deterministic by setting a seed for the model.<br/>
+- Default is None<br/>
 
-If question mode is on, embeddings will only be sourced during the first message of a conversation and messages that end in **?**<br/>
- - Usage: `.assistant questionmode`
+If specified, the system will make a best effort to sample deterministically, such that repeated requests with the same seed and parameters should return the same result.<br/>
+ - Usage: `.assistant seed [seed=None]`
+## .assistant regexfailblock
+Toggle whether failed regex blocks the assistant's reply<br/>
+
+Some regexes can cause [catastrophically backtracking](https://www.rexegg.com/regex-explosive-quantifiers.html)<br/>
+The bot can safely handle if this happens and will either continue on, or block the response.<br/>
+ - Usage: `.assistant regexfailblock`
 ## .assistant sysoverride
 Toggle allowing per-conversation system prompt overriding<br/>
  - Usage: `.assistant sysoverride`
+## .assistant channelpromptshow
+Show the channel specific system prompt<br/>
+ - Usage: `.assistant channelpromptshow [channel=operator.attrgetter('channel')]`
 ## .assistant questionmark
 Toggle whether questions need to end with **__?__**<br/>
  - Usage: `.assistant questionmark`
+## .assistant maxtokens
+Set maximum tokens a convo can consume<br/>
+
+Set to 0 for dynamic token usage<br/>
+
+**Tips**<br/>
+- Max tokens are a soft cap, sometimes messages can be a little over<br/>
+- If you set max tokens too high the cog will auto-adjust to 100 less than the models natural cap<br/>
+- Ideally set max to 500 less than that models maximum, to allow adequate responses<br/>
+
+Using more than the model can handle will raise exceptions.<br/>
+ - Usage: `.assistant maxtokens <max_tokens>`
+## .assistant resetglobalembeddings
+Wipe saved embeddings for all servers<br/>
+
+This will delete any and all saved embedding training data for the assistant.<br/>
+ - Usage: `.assistant resetglobalembeddings <yes_or_no>`
+ - Restricted to: `BOT_OWNER`
+## .assistant autoanswerignore
+Ignore a channel for auto-answer<br/>
+ - Usage: `.assistant autoanswerignore <channel>`
+## .assistant importexcel
+Import embeddings from an .xlsx file<br/>
+
+Args:<br/>
+    overwrite (bool): overwrite embeddings with existing entry names<br/>
+ - Usage: `.assistant importexcel <overwrite>`
+## .assistant maxtime
+Set the conversation expiration time<br/>
+
+Regardless of this number, the initial prompt and internal system message are always included,<br/>
+this only applies to any conversation between the user and bot after that.<br/>
+
+Set to 0 to store conversations indefinitely or until the bot restarts or cog is reloaded<br/>
+ - Usage: `.assistant maxtime <retention_seconds>`
 ## .assistant resetconversations
 Wipe saved conversations for the assistant in this server<br/>
 
 This will delete any and all saved conversations for the assistant.<br/>
  - Usage: `.assistant resetconversations <yes_or_no>`
-## .assistant importcsv
-Import embeddings to use with the assistant<br/>
+## .assistant blacklist
+Add/Remove items from the blacklist<br/>
 
-Args:<br/>
-    overwrite (bool): overwrite embeddings with existing entry names<br/>
+`channel_role_member` can be a member, role, channel, or category channel<br/>
+ - Usage: `.assistant blacklist <channel_role_member>`
+## .assistant backupcog
+Take a backup of the cog<br/>
 
-This will read excel files too<br/>
- - Usage: `.assistant importcsv <overwrite>`
+- This does not backup conversation data<br/>
+ - Usage: `.assistant backupcog`
+ - Restricted to: `BOT_OWNER`
+## .assistant questionmode
+Toggle question mode<br/>
+
+If question mode is on, embeddings will only be sourced during the first message of a conversation and messages that end in **?**<br/>
+ - Usage: `.assistant questionmode`
+## .assistant openaikey
+Set your OpenAI key<br/>
+ - Usage: `.assistant openaikey`
+ - Aliases: `key`
+## .assistant toggle
+Toggle the assistant on or off<br/>
+ - Usage: `.assistant toggle`
 ## .assistant mentionrespond
 Toggle whether the bot responds to mentions in any channel<br/>
  - Usage: `.assistant mentionrespond`
+## .assistant maxresponsetokens
+Set the max response tokens the model can respond with<br/>
+
+Set to 0 for response tokens to be dynamic<br/>
+ - Usage: `.assistant maxresponsetokens <max_tokens>`
+## .assistant frequency
+Set the frequency penalty for the model (-2.0 to 2.0)<br/>
+- Defaults is 0<br/>
+
+Positive values penalize new tokens based on their existing frequency in the text so far, decreasing the model's likelihood to repeat the same line verbatim.<br/>
+ - Usage: `.assistant frequency <frequency_penalty>`
+## .assistant refreshembeds
+Refresh embedding weights<br/>
+
+*This command can be used when changing the embedding model*<br/>
+
+Embeddings that were created using OpenAI cannot be use with the self-hosted model and vice versa<br/>
+ - Usage: `.assistant refreshembeds`
+ - Aliases: `refreshembeddings, syncembeds, and syncembeddings`
+## .assistant exportcsv
+Export embeddings to a .csv file<br/>
+
+**Note:** csv exports do not include the embedding values<br/>
+ - Usage: `.assistant exportcsv`
+## .assistant autoanswermodel
+Set the model used for auto-answer<br/>
+ - Usage: `.assistant autoanswermodel <model>`
+## .assistant functioncalls
+Toggle whether GPT can call functions<br/>
+ - Usage: `.assistant functioncalls`
+ - Aliases: `usefunctions`
+## .assistant exportexcel
+Export embeddings to an .xlsx file<br/>
+
+**Note:** csv exports do not include the embedding values<br/>
+ - Usage: `.assistant exportexcel`
+## .assistant tutor
+Add/Remove items from the tutor list.<br/>
+
+If using OpenAI's function calling and talking to a tutor, the AI is able to create its own embeddings to remember later<br/>
+
+`role_or_member` can be a member or role<br/>
+ - Usage: `.assistant tutor <role_or_member>`
+ - Aliases: `tutors`
+## .assistant listen
+Toggle this channel as an auto-response channel<br/>
+ - Usage: `.assistant listen`
+## .assistant temperature
+Set the temperature for the model (0.0 - 2.0)<br/>
+- Defaults is 1<br/>
+
+Closer to 0 is more concise and accurate while closer to 2 is more imaginative<br/>
+ - Usage: `.assistant temperature <temperature>`
+## .assistant topn
+Set the embedding inclusion amout<br/>
+
+Top N is the amount of embeddings to include with the initial prompt<br/>
+ - Usage: `.assistant topn <top_n>`
+## .assistant usage
+View the token usage stats for this server<br/>
+ - Usage: `.assistant usage`
 ## .assistant relatedness
 Set the minimum relatedness an embedding must be to include with the prompt<br/>
 
@@ -342,16 +408,10 @@ Questions are converted to embeddings and compared against stored embeddings to 
 
 **Hint**: The closer to 1 you get, the more deterministic and accurate the results may be, just don't be *too* strict or there wont be any results.<br/>
  - Usage: `.assistant relatedness <mimimum_relatedness>`
-## .assistant maxtokens
-Set the max tokens that the bot will send to the model<br/>
-
-**Tips**<br/>
-- Max tokens are a soft cap, sometimes messages can be a little over<br/>
-- If you set max tokens too high the cog will auto-adjust to 100 less than the models natural cap<br/>
-- Ideally set max to 500 less than that models maximum, to allow adequate responses<br/>
-
-Using more than the model can handle will raise exceptions.<br/>
- - Usage: `.assistant maxtokens <max_tokens>`
+## .assistant restorecog
+Restore the cog from a backup<br/>
+ - Usage: `.assistant restorecog`
+ - Restricted to: `BOT_OWNER`
 ## .assistant listentobots
 Toggle whether the assistant listens to other bots<br/>
 
@@ -359,31 +419,86 @@ Toggle whether the assistant listens to other bots<br/>
  - Usage: `.assistant listentobots`
  - Restricted to: `BOT_OWNER`
  - Aliases: `botlisten and ignorebots`
-## .assistant channel
-Set the channel for the assistant<br/>
- - Usage: `.assistant channel [channel=None]`
-## .assistant view
-View current settings<br/>
+## .assistant verbosity
+Switch verbosity level for gpt-5 model between low, medium, and high<br/>
 
-To send in current channel, use `.assistant view false`<br/>
- - Usage: `.assistant view [private=False]`
- - Aliases: `v`
-## .assistant openaikey
-Set your OpenAI key<br/>
- - Usage: `.assistant openaikey`
- - Aliases: `key`
-## .assistant blacklist
-Add/Remove items from the blacklist<br/>
+This setting is exclusive to the gpt-5 model and affects how detailed the model's responses are.<br/>
+ - Usage: `.assistant verbosity`
+## .assistant embedmethod
+Cycle between embedding methods<br/>
 
-`channel_role_member` can be a member, role, channel, or category channel<br/>
- - Usage: `.assistant blacklist <channel_role_member>`
+**Dynamic** embeddings mean that the embeddings pulled are dynamically appended to the initial prompt for each individual question.<br/>
+When each time the user asks a question, the previous embedding is replaced with embeddings pulled from the current question, this reduces token usage significantly<br/>
+
+**Static** embeddings are applied in front of each user message and get stored with the conversation instead of being replaced with each question.<br/>
+
+**Hybrid** embeddings are a combination, with the first embedding being stored in the conversation and the rest being dynamic, this saves a bit on token usage.<br/>
+
+**User** embeddings are injected into the beginning of the prompt as the first user message.<br/>
+
+Dynamic embeddings are helpful for Q&A, but not so much for chat when you need to retain the context pulled from the embeddings. The hybrid method is a good middle ground<br/>
+ - Usage: `.assistant embedmethod`
+## .assistant override
+Override settings for specific roles<br/>
+
+**NOTE**<br/>
+If a user has two roles with override settings, override associated with the higher role will be used.<br/>
+ - Usage: `.assistant override`
+### .assistant override maxretention
+Assign a max message retention override to a role<br/>
+
+*Specify same role and retention amount to remove the override*<br/>
+ - Usage: `.assistant override maxretention <max_retention> <role>`
+### .assistant override maxresponsetokens
+Assign a max response token override to a role<br/>
+
+Set to 0 for response tokens to be dynamic<br/>
+
+*Specify same role and token count to remove the override*<br/>
+ - Usage: `.assistant override maxresponsetokens <max_tokens> <role>`
+### .assistant override maxtokens
+Assign a max token override to a role<br/>
+
+*Specify same role and token count to remove the override*<br/>
+ - Usage: `.assistant override maxtokens <max_tokens> <role>`
+### .assistant override model
+Assign a role to use a model<br/>
+
+*Specify same role and model to remove the override*<br/>
+ - Usage: `.assistant override model <model> <role>`
+### .assistant override maxtime
+Assign a max retention time override to a role<br/>
+
+*Specify same role and time to remove the override*<br/>
+ - Usage: `.assistant override maxtime <retention_seconds> <role>`
+## .assistant autoanswerthreshold
+Set the auto-answer threshold for the bot<br/>
+ - Usage: `.assistant autoanswerthreshold <threshold>`
+## .assistant mention
+Toggle whether to ping the user on replies<br/>
+ - Usage: `.assistant mention`
+## .assistant model
+Set the OpenAI model to use<br/>
+ - Usage: `.assistant model [model=None]`
+## .assistant braveapikey
+Enables use of the `search_web_brave` function<br/>
+
+Get your API key **[Here](https://brave.com/search/api/)**<br/>
+ - Usage: `.assistant braveapikey`
+ - Restricted to: `BOT_OWNER`
+ - Aliases: `brave`
+## .assistant minlength
+set min character length for questions<br/>
+
+Set to 0 to respond to anything<br/>
+ - Usage: `.assistant minlength <min_question_length>`
 ## .assistant system
 Set the system prompt for GPT to use<br/>
 
 Check out [This Guide](https://platform.openai.com/docs/guides/prompt-engineering) for prompting help.<br/>
 
 **Placeholders**<br/>
-- **botname**: Autto<br/>
+- **botname**: [botname]<br/>
 - **timestamp**: discord timestamp<br/>
 - **day**: Mon-Sun<br/>
 - **date**: MM-DD-YYYY<br/>
@@ -411,85 +526,12 @@ Check out [This Guide](https://platform.openai.com/docs/guides/prompt-engineerin
 - **balance**: the user's current balance<br/>
  - Usage: `.assistant system [system_prompt]`
  - Aliases: `sys`
-## .assistant channelpromptshow
-Show the channel specific system prompt<br/>
- - Usage: `.assistant channelpromptshow [channel=None]`
-## .assistant regexblacklist
-Remove certain words/phrases in the bot's responses<br/>
- - Usage: `.assistant regexblacklist <regex>`
-## .assistant exportjson
-Export embeddings to a json file<br/>
- - Usage: `.assistant exportjson`
-## .assistant override
-Override settings for specific roles<br/>
+## .assistant view
+View current settings<br/>
 
-**NOTE**<br/>
-If a user has two roles with override settings, override associated with the higher role will be used.<br/>
- - Usage: `.assistant override`
-### .assistant override maxtime
-Assign a max retention time override to a role<br/>
-
-*Specify same role and time to remove the override*<br/>
- - Usage: `.assistant override maxtime <retention_seconds> <role>`
-### .assistant override maxtokens
-Assign a max token override to a role<br/>
-
-*Specify same role and token count to remove the override*<br/>
- - Usage: `.assistant override maxtokens <max_tokens> <role>`
-### .assistant override model
-Assign a role to use a model<br/>
-
-*Specify same role and model to remove the override*<br/>
- - Usage: `.assistant override model <model> <role>`
-### .assistant override maxresponsetokens
-Assign a max response token override to a role<br/>
-
-Set to 0 for response tokens to be dynamic<br/>
-
-*Specify same role and token count to remove the override*<br/>
- - Usage: `.assistant override maxresponsetokens <max_tokens> <role>`
-### .assistant override maxretention
-Assign a max message retention override to a role<br/>
-
-*Specify same role and retention amount to remove the override*<br/>
- - Usage: `.assistant override maxretention <max_retention> <role>`
-## .assistant embedmethod
-Cycle between embedding methods<br/>
-
-**Dynamic** embeddings mean that the embeddings pulled are dynamically appended to the initial prompt for each individual question.<br/>
-When each time the user asks a question, the previous embedding is replaced with embeddings pulled from the current question, this reduces token usage significantly<br/>
-
-**Static** embeddings are applied in front of each user message and get stored with the conversation instead of being replaced with each question.<br/>
-
-**Hybrid** embeddings are a combination, with the first embedding being stored in the conversation and the rest being dynamic, this saves a bit on token usage.<br/>
-
-**User** embeddings are injected into the beginning of the prompt as the first user message.<br/>
-
-Dynamic embeddings are helpful for Q&A, but not so much for chat when you need to retain the context pulled from the embeddings. The hybrid method is a good middle ground<br/>
- - Usage: `.assistant embedmethod`
-## .assistant backupcog
-Take a backup of the cog<br/>
-
-- This does not backup conversation data<br/>
- - Usage: `.assistant backupcog`
- - Restricted to: `BOT_OWNER`
-## .assistant usage
-View the token usage stats for this server<br/>
- - Usage: `.assistant usage`
-## .assistant seed
-Make the model more deterministic by setting a seed for the model.<br/>
-- Default is None<br/>
-
-If specified, the system will make a best effort to sample deterministically, such that repeated requests with the same seed and parameters should return the same result.<br/>
- - Usage: `.assistant seed [seed=None]`
-## .assistant mention
-Toggle whether to ping the user on replies<br/>
- - Usage: `.assistant mention`
-## .assistant minlength
-set min character length for questions<br/>
-
-Set to 0 to respond to anything<br/>
- - Usage: `.assistant minlength <min_question_length>`
+To send in current channel, use `.assistant view false`<br/>
+ - Usage: `.assistant view [private=False]`
+ - Aliases: `v`
 # .embeddings (Hybrid Command)
 Manage embeddings for training<br/>
 

@@ -2,13 +2,11 @@
 title: EconomyTrack Commands
 description: 
 published: true
-date: 2024-08-25T19:12:19.941Z
+date: 2026-01-17T16:59:53.581Z
 tags: 
 editor: markdown
 dateCreated: 2024-05-02T02:32:36.918Z
 ---
-
-# EconomyTrack Help
 
 Track your economy's total balance over time<br/><br/>Also track you server's member count!
 
@@ -16,6 +14,19 @@ Track your economy's total balance over time<br/><br/>Also track you server's me
 Configure EconomyTrack<br/>
  - Usage: `.economytrack`
  - Aliases: `ecotrack`
+ - Checks: `server_only`
+## .economytrack view
+View EconomyTrack Settings<br/>
+ - Usage: `.economytrack view`
+## .economytrack togglebanktrack
+Enable/Disable economy tracking for this server<br/>
+ - Usage: `.economytrack togglebanktrack`
+ - Restricted to: `GUILD_OWNER`
+ - Checks: `server_only`
+## .economytrack togglemembertrack
+Enable/Disable member tracking for this server<br/>
+ - Usage: `.economytrack togglemembertrack`
+ - Restricted to: `GUILD_OWNER`
  - Checks: `server_only`
 ## .economytrack timezone
 Set your desired timezone for the graph<br/>
@@ -27,11 +38,6 @@ Set your desired timezone for the graph<br/>
 
 Use this command without the argument to get a huge list of valid timezones.<br/>
  - Usage: `.economytrack timezone <timezone>`
-## .economytrack togglebanktrack
-Enable/Disable economy tracking for this server<br/>
- - Usage: `.economytrack togglebanktrack`
- - Restricted to: `GUILD_OWNER`
- - Checks: `server_only`
 ## .economytrack maxpoints
 Set the max amount of data points the bot will store<br/>
 
@@ -43,20 +49,22 @@ The default is 21600 (30 days)<br/>
 Set to 0 to store data indefinitely (Not Recommended)<br/>
  - Usage: `.economytrack maxpoints <max_points>`
  - Restricted to: `BOT_OWNER`
-## .economytrack view
-View EconomyTrack Settings<br/>
- - Usage: `.economytrack view`
-## .economytrack togglemembertrack
-Enable/Disable member tracking for this server<br/>
- - Usage: `.economytrack togglemembertrack`
- - Restricted to: `GUILD_OWNER`
- - Checks: `server_only`
 # .remoutliers
-Cleanup data above a certain total economy balance<br/>
+Cleanup data that falls outside a specified range<br/>
 
 **Arguments**<br/>
-datatype: either `bank` or `member`<br/>
- - Usage: `.remoutliers <max_value> [datatype=bank]`
+`[min_value]` - Minimum value to keep (optional)<br/>
+`[max_value]` - Maximum value to keep (optional)<br/>
+`[datatype]` - Either `bank` or `member` (defaults to bank)<br/>
+
+At least one of min_value or max_value must be provided.<br/>
+
+**Examples:**<br/>
+`.remoutliers 0 50000 bank` - Remove bank points outside 0-50000 range<br/>
+`.remoutliers 500 10000 member` - Remove member counts outside 500-10000 range<br/>
+`.remoutliers None 8000 member` - Remove only data points above 8000 members<br/>
+`.remoutliers 5000 None member` - Remove only data points below 5000 members<br/>
+ - Usage: `.remoutliers [min_value=None] [max_value=None] [datatype=bank]`
  - Restricted to: `GUILD_OWNER`
  - Checks: `server_only`
 # .bankgraph
@@ -84,4 +92,26 @@ Must be at least 1 hour.<br/>
  - Usage: `.membergraph [timespan=1d]`
  - Aliases: `memgraph`
  - Cooldown: `5 per 60.0 seconds`
+ - Checks: `server_only`
+# .autoremoutliers
+Automatically detect and remove outliers in your data using statistical methods<br/>
+
+**Arguments**<br/>
+`[datatype]` - Either `bank` or `member` (defaults to bank)<br/>
+`[multiplier]` - IQR multiplier for outlier detection sensitivity (default: 1.5)<br/>
+    - Higher values = more lenient (keeps more data)<br/>
+    - Lower values = more strict (removes more outliers)<br/>
+`[confirm]` - Whether to actually remove the outliers<br/>
+    - Set to False for a dry run that shows what would be removed without actually removing anything<br/>
+
+This command uses the Interquartile Range (IQR) method to detect outliers:<br/>
+- Calculates Q1 (25th percentile) and Q3 (75th percentile)<br/>
+- Any value outside [Q1 - multiplier*IQR, Q3 + multiplier*IQR] is considered an outlier<br/>
+
+**Examples:**<br/>
+`.autoremoutliers true member` - Automatically remove member count outliers<br/>
+`.autoremoutliers true bank 2.0` - Remove bank outliers with higher tolerance<br/>
+`.autoremoutliers false member 1.0` - Show outliers that would be removed without actually removing them<br/>
+ - Usage: `.autoremoutliers <confirm> [datatype=bank] [multiplier=1.5]`
+ - Restricted to: `GUILD_OWNER`
  - Checks: `server_only`

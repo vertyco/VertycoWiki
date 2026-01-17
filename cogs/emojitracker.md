@@ -1,14 +1,12 @@
 ---
-title: Emoji Tracker
+title: EmojiTracker Commands
 description: 
 published: true
-date: 2024-08-25T19:12:55.639Z
+date: 2026-01-17T16:59:56.422Z
 tags: 
 editor: markdown
 dateCreated: 2024-05-02T02:33:52.625Z
 ---
-
-# EmojiTracker Help
 
 Track emojis and view leaderboards/most emojis used ect..<br/><br/>This cog will track reactions added to other user's messages.<br/>It will ignore reactions added to a bot's message<br/>It will also only count one reaction per emoji for each user on a message so user's can't spam react/unreact
 

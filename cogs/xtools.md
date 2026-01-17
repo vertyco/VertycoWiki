@@ -1,14 +1,12 @@
 ---
-title: Xbox Commands
+title: XTools Commands
 description: 
 published: true
-date: 2024-08-25T19:17:49.146Z
+date: 2026-01-17T17:00:30.960Z
 tags: 
 editor: markdown
 dateCreated: 2024-05-02T02:39:49.687Z
 ---
-
-# XTools Help
 
 Provides various features and functionalities related to Xbox, including profile retrieval, game clips and screenshot viewing, Microsoft services status checking, and more.
 
@@ -16,18 +14,18 @@ Provides various features and functionalities related to Xbox, including profile
 Set up the XTools cog<br/>
  - Usage: `.apiset`
  - Restricted to: `BOT_OWNER`
-## .apiset auth
-
- - Usage: `.apiset auth`
-## .apiset reset
-Reset the all token data<br/>
- - Usage: `.apiset reset`
 ## .apiset help
 Tutorial for getting your ClientID and Secret<br/>
  - Usage: `.apiset help`
 ## .apiset tokens
 Set Client ID and Secret<br/>
  - Usage: `.apiset tokens <client_id> <client_secret>`
+## .apiset reset
+Reset the all token data<br/>
+ - Usage: `.apiset reset`
+## .apiset auth
+
+ - Usage: `.apiset auth`
 # .xstatuschannel
 Set the channel for Microsoft status alerts<br/>
 
@@ -43,8 +41,8 @@ Get a player's XUID<br/>
 Get the Gamertag associated with an XUID<br/>
  - Usage: `.gamertag <xuid>`
 # .xprofile
-View your Xbox profile<br/>
- - Usage: `.xprofile [gamertag]`
+View your Xbox profile (can use gamertag or XUID)<br/>
+ - Usage: `.xprofile [gamertag_or_xuid]`
 # .xscreenshots
 View your Screenshots<br/>
  - Usage: `.xscreenshots [gamertag]`
