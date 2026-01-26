@@ -138,18 +138,13 @@ dateCreated: 2025-02-15T23:19:09.413Z
 
 ## 📖 Definitions
 
+> For a complete list of terms, see the [Glossary](/glossary).
+
 - **Outpost**: A secondary base with fewer than 300 structures.
 - **Main Base**: Your primary base of operations.
-- **Meshing**: Exploiting game glitches to access areas underneath or inside the game map.
+- **Meshing**: Placing a structure under the map's texture in a way that makes it hard or impossible to destroy.
+  - A structure is considered meshed when **any** of the following conditions are met:
+    - Cannot be damaged by conventional means (C4, Rockets, Tek Rifle). Tames do not count.
+    - Is fully under the texture of the map (fully hidden from normal view)
 - **VC**: VertCoin, the Discord server's virtual currency.
-
----
-
-## 📝 Changelog
-
-| Version | Date | Changes |
-|---------|------|---------|
-| v2026.1 | January 17, 2026 | Clarified base size as exactly 80 foundations. Updated artifact cave rule to cover both artifacts and explorer notes. Added philosophy statement. |
-| v2025.1 | December 24, 2025 | Previous update. |
-{.dense}
 

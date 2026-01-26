@@ -259,12 +259,3 @@ The following documents are upheld in this server within reason:
 - [Discord Terms of Service](https://dis.gd/terms)
 - [Ban Appeal Server](https://discord.gg/KZFbS4aJxA)
 
----
-
-## 📝 Changelog
-
-| Version | Date | Changes |
-|---------|------|---------|
-| v2026.1 | January 17, 2026 | Added Voice Channel Conduct (1.8), Scamming/Fraud Policy (2.5), Ticket Abuse Policy (2.8). Changed Staff Impersonation to tiered temp bans. Clarified Dating Service as 14-day temp ban. Moved Bug/Misuse and Role Recovery to informational policies. |
-| v2025.1 | October 25, 2025 | Major update: Shifted to temp ban philosophy for most offenses. |
-{.dense}

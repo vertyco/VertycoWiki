@@ -12,6 +12,15 @@ dateCreated: 2024-08-26T02:41:24.978Z
 
 Meshing and cheating is a broad category of exploitation in the game. Refer to the PvP Rules for the official tiered punishment system. This guide provides additional context for staff handling these situations.
 
+## 📖 What Qualifies as a Meshed Structure?
+
+A structure is considered **meshed** when **any** of the following conditions are met:
+- Cannot be damaged by conventional means (C4, Rockets, Tek Rifle). **Tames do not count** as conventional means.
+- Is fully under the texture of the map (fully hidden from normal view)
+
+> Use this criteria when evaluating meshing reports. If a structure meets either condition, it qualifies as meshed.
+{.is-info}
+
 ---
 
 ## 🏠 Meshed Base Spots (Rule 1.1)

@@ -159,19 +159,15 @@ All other offenses will result in temporary bans, timeouts, wipes, or warnings a
 
 ## 📖 Definitions
 
+> For a complete list of terms, see the [Glossary](/glossary).
+
 - **Temp Ban**: A temporary ban, usually 3, 7, 14, 30, 60, or 90 days depending on severity and repeat offenses.
 - **Ark Data Wipe**: The player's upload data (in the Obelisk) will be reset.
 - **VC Wipe**: The player's Discord currency balance will be reset.
 - **Popcorning**: The act of dropping items on the ground to destroy them during a raid.
 - **Bob**: A new or inexperienced player with minimal progression.
-- **Meshing**: Exploiting game glitches to access areas underneath or inside the game map.
+- **Meshing**: Placing a structure under the map's texture in a way that makes it hard or impossible to destroy.
+  - A structure is considered meshed when **any** of the following conditions are met:
+    - Cannot be damaged by conventional means (C4, Rockets, Tek Rifle). Tames do not count.
+    - Is fully under the texture of the map (fully hidden from normal view)
 
----
-
-## 📝 Changelog
-
-| Version | Date | Changes |
-|---------|------|---------|
-| v2026.1 | January 17, 2026 | Confirmed Aimbot/ESP now permanent ban; other cheats 90-day temp ban. Item duplication increased to 60-day temp ban. |
-| v2025.1 | February 15, 2025 | Initial 2025 update with temp ban philosophy. |
-{.dense}
