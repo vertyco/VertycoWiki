@@ -71,7 +71,6 @@ Vertyco features an engaging virtual economy where players can:
 
 <script type="text/javascript" src="https://static.hetrix.io/iframeResizer/iframeResizer.min.js"></script>
 <iframe class="htframe" src="https://wl.hetrixtools.com/r/3a689902abdb4929f5f0b846a0e721f3/" width="100%" height="800" scrolling="no" style="border:none; min-height: 800px;" sandbox="allow-scripts allow-same-origin allow-popups" onload="iFrameResize([{log:false}],'.htframe')"></iframe>
-
 ---
 
 ## 🎮 Platform Compatibility
