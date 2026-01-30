@@ -9,7 +9,7 @@ dateCreated: 2025-02-15T22:53:44.565Z
 ---
 
 
-# ⚔️ PvP Rules & Procedures (v2026.1)
+# ⚔️ PvP Rules & Procedures
 
 > **Our Philosophy:**
 > Ark PvP is a highly competitive and often toxic environment. We impose as few rules as possible to keep gameplay organic. Temporary bans, timeouts, and data wipes are our primary punishments. **Permanent bans are reserved for confirmed aimbotters/ESP users and severe real-world violations.**

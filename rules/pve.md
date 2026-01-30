@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2025-02-15T23:19:09.413Z
 ---
 
-# 🛡️ PvE Rules & Procedures (v2026.1)
+# 🛡️ PvE Rules & Procedures
 
 > **Our Philosophy:**
 > PvE is the family-friendly side of our community. We enforce strict rules to ensure a welcoming environment for all players. Antisocial behavior is not tolerated.

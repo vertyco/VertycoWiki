@@ -9,7 +9,7 @@ dateCreated: 2025-02-15T18:21:21.165Z
 ---
 
 
-# 📋 General Discord Rules & Procedures (v2026.1)
+# 📋 General Discord Rules & Procedures
 
 > **Important Philosophy Change:**
 > To keep the community active and welcoming, we are moving away from permanent bans for most Discord offenses. Instead, we will use temporary bans, timeouts, and warnings as our primary punishments. **Permanent bans are now reserved for only the most severe, real-world violations.**
