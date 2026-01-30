@@ -2,7 +2,7 @@
 title: Welcome to the Vertyco Wiki
 description: 
 published: true
-date: 2025-06-25T14:32:34.030Z
+date: 2026-01-30T21:05:56.042Z
 tags: 
 editor: markdown
 dateCreated: 2024-04-16T01:22:45.087Z
@@ -71,6 +71,10 @@ Vertyco features an engaging virtual economy where players can:
 
 <script type="text/javascript" src="https://static.hetrix.io/iframeResizer/iframeResizer.min.js"></script>
 <iframe class="htframe" src="https://wl.hetrixtools.com/r/3a689902abdb4929f5f0b846a0e721f3/" width="100%" height="800" scrolling="no" style="border:none; min-height: 800px;" sandbox="allow-scripts allow-same-origin allow-popups" onload="iFrameResize([{log:false}],'.htframe')"></iframe>
+<<<<<<< HEAD
+
+=======
+>>>>>>> da1b77e (docs: update home)
 ---
 
 ## 🎮 Platform Compatibility
