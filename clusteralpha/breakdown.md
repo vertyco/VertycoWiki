@@ -1,3 +1,13 @@
+---
+title: Cluster Alpha Breakdown
+description: 
+published: true
+date: 2026-01-30T21:15:27.955Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-30T21:15:27.955Z
+---
+
 # Cluster Alpha System - Full Breakdown
 
 The Cluster Alpha System is a competitive ranking mechanism for ARK PvP seasons. Tribes earn "Alpha Points" through base power, PvP kills, and raiding.
