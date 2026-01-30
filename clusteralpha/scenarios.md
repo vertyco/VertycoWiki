@@ -1,3 +1,13 @@
+---
+title: Cluster Alpha Example Scenarios
+description: 
+published: true
+date: 2026-01-30T21:15:27.955Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-30T21:15:27.955Z
+---
+
 # Alpha Point System - PvP & Raid Rules
 
 This document explains how Alpha Points are awarded and blocked based on tribe memberships across servers in a cluster.
