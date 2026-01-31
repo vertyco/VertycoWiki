@@ -3,7 +3,7 @@ title: EconomyTrack Commands
 description: 
 published: true
 date: 2026-01-17T16:59:53.581Z
-tags: [cogs, economytrack, vc, commands]
+tags: cogs, economytrack, vc, commands
 editor: markdown
 dateCreated: 2024-05-02T02:32:36.918Z
 ---

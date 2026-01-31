@@ -3,7 +3,7 @@ title: Donations
 description: 
 published: true
 date: 2025-06-25T14:23:09.514Z
-tags: [donations, vc, supporter]
+tags: donations, vc, supporter
 editor: markdown
 dateCreated: 2025-06-25T14:23:07.016Z
 ---

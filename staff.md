@@ -3,7 +3,7 @@ title: Staff Basics
 description: 
 published: true
 date: 2024-08-25T20:34:48.397Z
-tags: [staff, basics, guidelines]
+tags: staff, basics, guidelines
 editor: markdown
 dateCreated: 2024-08-25T20:03:09.708Z
 ---

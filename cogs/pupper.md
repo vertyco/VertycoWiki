@@ -3,7 +3,7 @@ title: Pupper Commands
 description: 
 published: true
 date: 2026-01-17T17:00:19.740Z
-tags: [cogs, pupper, commands]
+tags: cogs, pupper, commands
 editor: markdown
 dateCreated: 2024-08-25T19:16:07.039Z
 ---

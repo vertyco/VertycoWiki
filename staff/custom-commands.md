@@ -3,7 +3,7 @@ title: Custom Commands
 description: 
 published: true
 date: 2024-08-25T23:44:09.378Z
-tags: [staff, bot, custom-commands]
+tags: staff, bot, custom-commands
 editor: markdown
 dateCreated: 2024-08-25T23:05:20.200Z
 ---

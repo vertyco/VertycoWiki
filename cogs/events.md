@@ -3,7 +3,7 @@ title: Events Commands
 description: 
 published: true
 date: 2026-01-17T16:59:59.079Z
-tags: [cogs, events, commands]
+tags: cogs, events, commands
 editor: markdown
 dateCreated: 2024-05-02T02:34:47.363Z
 ---

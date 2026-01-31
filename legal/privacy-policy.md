@@ -3,7 +3,7 @@ title: Vertyco Privacy Policy
 description: You agree to this privacy policy and our Terms of Service by playing on Vertyco Ark Servers
 published: true
 date: 2025-06-25T14:02:04.758Z
-tags: [legal, privacy]
+tags: legal, privacy
 editor: markdown
 dateCreated: 2025-04-21T21:09:04.241Z
 ---

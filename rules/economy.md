@@ -3,7 +3,7 @@ title: Economy Guidelines
 description: 
 published: true
 date: 2025-02-16T00:08:56.433Z
-tags: [rules, economy, vc]
+tags: rules, economy, vc
 editor: markdown
 dateCreated: 2024-12-18T22:50:13.372Z
 ---

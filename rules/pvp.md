@@ -3,7 +3,7 @@ title: PvP Rules
 description: 
 published: true
 date: 2026-01-17T00:00:00.000Z
-tags: [rules, pvp]
+tags: rules, pvp
 editor: markdown
 dateCreated: 2025-02-15T22:53:44.565Z
 ---

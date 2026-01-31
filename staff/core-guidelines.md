@@ -3,7 +3,7 @@ title: Core Guidelines
 description: 
 published: true
 date: 2026-01-17T00:00:00.000Z
-tags: [staff, guidelines]
+tags: staff, guidelines
 editor: markdown
 dateCreated: 2024-08-26T00:18:05.569Z
 ---

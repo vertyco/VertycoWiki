@@ -3,7 +3,7 @@ title: Counting Commands (For the counting channel)
 description: 
 published: true
 date: 2024-09-24T22:32:22.958Z
-tags: [cogs, counting, commands]
+tags: cogs, counting, commands
 editor: markdown
 dateCreated: 2024-05-02T02:31:58.014Z
 ---

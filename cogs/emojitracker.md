@@ -3,7 +3,7 @@ title: EmojiTracker Commands
 description: 
 published: true
 date: 2026-01-17T16:59:56.422Z
-tags: [cogs, emojitracker, commands]
+tags: cogs, emojitracker, commands
 editor: markdown
 dateCreated: 2024-05-02T02:33:52.625Z
 ---

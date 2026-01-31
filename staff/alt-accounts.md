@@ -3,7 +3,7 @@ title: Alt Accounts
 description: 
 published: true
 date: 2024-08-31T18:50:10.875Z
-tags: [staff, policy, alt-accounts]
+tags: staff, policy, alt-accounts
 editor: markdown
 dateCreated: 2024-08-26T00:22:11.710Z
 ---

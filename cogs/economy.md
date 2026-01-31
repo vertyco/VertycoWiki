@@ -3,7 +3,7 @@ title: Economy Commands
 description: 
 published: true
 date: 2024-08-25T19:22:08.623Z
-tags: [cogs, economy, vc, commands]
+tags: cogs, economy, vc, commands
 editor: markdown
 dateCreated: 2024-08-25T19:22:07.239Z
 ---

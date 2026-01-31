@@ -3,7 +3,7 @@ title: ArkTools Commands
 description: 
 published: true
 date: 2024-08-25T22:44:43.179Z
-tags: [cogs, arktools, ark, commands]
+tags: cogs, arktools, ark, commands
 editor: markdown
 dateCreated: 2024-04-16T01:23:23.026Z
 ---

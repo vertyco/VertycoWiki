@@ -3,7 +3,7 @@ title: XTools Commands
 description: 
 published: true
 date: 2026-01-17T17:00:30.960Z
-tags: [cogs, xtools, commands]
+tags: cogs, xtools, commands
 editor: markdown
 dateCreated: 2024-05-02T02:39:49.687Z
 ---

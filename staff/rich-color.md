@@ -3,7 +3,7 @@ title: Rich Color Broadcasts
 description: 
 published: true
 date: 2024-08-25T23:18:14.497Z
-tags: [staff, wiki, formatting]
+tags: staff, wiki, formatting
 editor: markdown
 dateCreated: 2024-08-25T23:18:13.144Z
 ---

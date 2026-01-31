@@ -3,7 +3,7 @@ title: PvE Rules
 description: 
 published: true
 date: 2026-01-17T00:00:00.000Z
-tags: [rules, pve]
+tags: rules, pve
 editor: markdown
 dateCreated: 2025-02-15T23:19:09.413Z
 ---

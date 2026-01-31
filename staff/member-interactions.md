@@ -3,7 +3,7 @@ title: Member Interactions
 description: 
 published: true
 date: 2024-08-25T23:22:27.147Z
-tags: [staff, moderation, member-interactions]
+tags: staff, moderation, member-interactions
 editor: markdown
 dateCreated: 2024-08-25T23:22:25.892Z
 ---

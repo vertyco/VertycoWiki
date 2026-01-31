@@ -3,7 +3,7 @@ title: Information Gathering
 description: 
 published: true
 date: 2024-08-26T00:14:46.465Z
-tags: [staff, bot, info-commands]
+tags: staff, bot, info-commands
 editor: markdown
 dateCreated: 2024-08-26T00:14:45.111Z
 ---

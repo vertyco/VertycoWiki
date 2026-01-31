@@ -3,7 +3,7 @@ title: VC Transfer Refunds (SOP)
 description: Internal process for mistaken VertCoin transfers
 published: true
 date: 2026-01-31T00:00:00.000Z
-tags: [staff, vc, refunds]
+tags: staff, vc, refunds
 editor: markdown
 dateCreated: 2026-01-31T00:00:00.000Z
 ---

@@ -3,7 +3,7 @@ title: Tickets Commands
 description: 
 published: true
 date: 2026-01-17T17:00:25.369Z
-tags: [cogs, tickets, commands]
+tags: cogs, tickets, commands
 editor: markdown
 dateCreated: 2024-05-02T02:39:22.860Z
 ---

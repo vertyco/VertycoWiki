@@ -3,7 +3,7 @@ title: Cluster Alpha Example Scenarios
 description: 
 published: true
 date: 2026-01-30T21:15:27.955Z
-tags: [cluster-alpha, scenarios]
+tags: cluster-alpha, scenarios
 editor: markdown
 dateCreated: 2026-01-30T21:15:27.955Z
 ---

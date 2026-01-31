@@ -3,7 +3,7 @@ title: Referrals Commands
 description: 
 published: true
 date: 2026-01-17T17:01:48.157Z
-tags: [cogs, referrals, commands]
+tags: cogs, referrals, commands
 editor: markdown
 dateCreated: 2026-01-17T17:01:48.157Z
 ---

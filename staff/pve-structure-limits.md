@@ -3,7 +3,7 @@ title: PvE Structure Limits
 description: 
 published: true
 date: 2024-08-26T02:19:28.030Z
-tags: [staff, pve, structure-limits]
+tags: staff, pve, structure-limits
 editor: markdown
 dateCreated: 2024-08-26T02:19:26.735Z
 ---
