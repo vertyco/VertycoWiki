@@ -3,7 +3,7 @@ title: Miner Commands
 description: 
 published: true
 date: 2026-01-17T17:01:35.777Z
-tags: 
+tags: [cogs, miner, vc, commands]
 editor: markdown
 dateCreated: 2026-01-17T17:01:35.777Z
 ---

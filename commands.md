@@ -3,7 +3,7 @@ title: Bot Commands
 description: 
 published: true
 date: 2026-01-17T00:00:00.000Z
-tags: 
+tags: [commands, bot, directory]
 editor: markdown
 dateCreated: 2024-08-25T17:56:56.101Z
 ---

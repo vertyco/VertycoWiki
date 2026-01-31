@@ -3,7 +3,7 @@ title: Casino Commands
 description: 
 published: true
 date: 2024-08-25T19:08:59.788Z
-tags: 
+tags: [cogs, casino, vc, commands]
 editor: markdown
 dateCreated: 2024-05-02T02:30:57.651Z
 ---

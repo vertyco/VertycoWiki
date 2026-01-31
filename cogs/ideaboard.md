@@ -3,7 +3,7 @@ title: IdeaBoard Commands
 description: 
 published: true
 date: 2026-01-17T17:00:10.926Z
-tags: 
+tags: [cogs, ideaboard, commands]
 editor: markdown
 dateCreated: 2024-05-02T02:37:08.293Z
 ---

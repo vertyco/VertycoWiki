@@ -3,7 +3,7 @@ title: Wiki Tips
 description: 
 published: true
 date: 2024-08-26T00:09:55.948Z
-tags: 
+tags: [staff, wiki, formatting]
 editor: markdown
 dateCreated: 2024-08-25T20:07:34.798Z
 ---

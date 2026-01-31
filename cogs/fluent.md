@@ -3,7 +3,7 @@ title: Fluent Commands
 description: 
 published: true
 date: 2026-01-17T17:00:01.798Z
-tags: 
+tags: [cogs, fluent, commands]
 editor: markdown
 dateCreated: 2024-05-02T02:35:25.872Z
 ---

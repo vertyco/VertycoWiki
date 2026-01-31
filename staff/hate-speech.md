@@ -3,7 +3,7 @@ title: Racism/Hate Speech
 description: 
 published: true
 date: 2026-01-17T00:00:00.000Z
-tags: 
+tags: [staff, moderation, hate-speech]
 editor: markdown
 dateCreated: 2024-08-26T02:38:43.403Z
 ---

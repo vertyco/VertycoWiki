@@ -3,7 +3,7 @@ title: Handling Tickets
 description: 
 published: true
 date: 2025-01-13T19:07:01.087Z
-tags: 
+tags: [staff, tickets, support]
 editor: markdown
 dateCreated: 2024-08-25T23:29:55.546Z
 ---

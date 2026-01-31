@@ -3,7 +3,7 @@ title: Trial Requirements
 description: Learn the expected requirements for being and passing a Trial Mod period.
 published: true
 date: 2024-08-25T22:56:11.809Z
-tags: 
+tags: [staff, onboarding, trials]
 editor: markdown
 dateCreated: 2024-08-25T22:56:10.428Z
 ---

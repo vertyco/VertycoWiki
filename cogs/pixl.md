@@ -3,7 +3,7 @@ title: Pixl Commands
 description: 
 published: true
 date: 2026-01-17T17:00:17.024Z
-tags: 
+tags: [cogs, pixl, commands]
 editor: markdown
 dateCreated: 2024-08-25T19:15:40.317Z
 ---

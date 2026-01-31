@@ -3,7 +3,7 @@ title: Assistant Commands
 description: 
 published: true
 date: 2026-01-17T16:59:50.080Z
-tags: 
+tags: [cogs, assistant, commands]
 editor: markdown
 dateCreated: 2024-05-02T02:30:07.783Z
 ---

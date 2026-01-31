@@ -3,7 +3,7 @@ title: Staff Moderation Guide
 description: 
 published: true
 date: 2025-01-13T19:11:57.128Z
-tags: 
+tags: [staff, moderation, guide]
 editor: markdown
 dateCreated: 2024-08-25T20:46:39.103Z
 ---

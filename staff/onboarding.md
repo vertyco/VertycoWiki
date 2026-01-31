@@ -3,7 +3,7 @@ title: Staff Onboard
 description: Onboard to the Vertyco Staff team
 published: true
 date: 2024-08-25T22:53:31.322Z
-tags: 
+tags: [staff, onboarding]
 editor: markdown
 dateCreated: 2024-08-25T22:53:29.953Z
 ---

@@ -3,7 +3,7 @@ title: Hunting Commands
 description: 
 published: true
 date: 2026-01-17T17:00:08.177Z
-tags: 
+tags: [cogs, hunting, commands]
 editor: markdown
 dateCreated: 2024-05-02T02:36:37.757Z
 ---

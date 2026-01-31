@@ -3,7 +3,7 @@ title: Discord Rules
 description: 
 published: true
 date: 2026-01-17T00:00:00.000Z
-tags: 
+tags: [rules, discord]
 editor: markdown
 dateCreated: 2025-02-15T18:21:21.165Z
 ---

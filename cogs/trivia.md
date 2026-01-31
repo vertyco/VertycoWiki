@@ -3,7 +3,7 @@ title: Trivia
 description: 
 published: true
 date: 2024-08-25T19:25:13.790Z
-tags: 
+tags: [cogs, trivia, commands]
 editor: markdown
 dateCreated: 2024-08-25T19:25:12.461Z
 ---

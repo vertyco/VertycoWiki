@@ -3,7 +3,7 @@ title: Giveaway Commands
 description: 
 published: true
 date: 2024-08-25T19:14:10.119Z
-tags: 
+tags: [cogs, giveaways, commands]
 editor: markdown
 dateCreated: 2024-05-02T02:35:54.211Z
 ---

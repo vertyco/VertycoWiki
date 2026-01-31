@@ -3,7 +3,7 @@ title: Vertyco Terms of Service
 description: You agree to these terms of service fully by playing on Vertyco Ark Servers
 published: true
 date: 2025-06-25T14:01:49.096Z
-tags: 
+tags: [legal, terms]
 editor: markdown
 dateCreated: 2025-04-21T21:07:14.486Z
 ---

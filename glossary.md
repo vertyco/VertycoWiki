@@ -3,7 +3,7 @@ title: Glossary
 description: Definitions of common terms used throughout the wiki
 published: true
 date: 2026-01-26T00:00:00.000Z
-tags: 
+tags: [glossary, terminology]
 editor: markdown
 dateCreated: 2026-01-26T00:00:00.000Z
 ---

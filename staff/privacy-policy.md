@@ -3,7 +3,7 @@ title: Staff Privacy Policy
 description: Privacy expectations of Staff during your time within it and after.
 published: true
 date: 2024-08-25T23:00:49.605Z
-tags: 
+tags: [staff, privacy]
 editor: markdown
 dateCreated: 2024-08-25T23:00:48.249Z
 ---
