@@ -22,13 +22,12 @@ All of the following must be true:
 - The request is submitted within **24 hours** of the transfer.
 - The transfer can be verified in logs (sender, recipient, amount, timestamp).
 - The recipient has **not** spent or transferred the VC.
-- The recipient **explicitly agrees** to return the VC.
+- The recipient **explicitly agrees** to return the VC **or** staff confirm the recipient account is inactive.
 
 ## Automatic Denials
 Do **not** reverse if any of the following apply:
 
 - The recipient refuses or is unresponsive after reasonable contact attempts.
-- The recipient is a deleted, banned, or clearly inactive account (no contact possible).
 - The VC has already been spent, gambled, or traded.
 - The transfer was part of a trade, giveaway, wager, or agreement that went sour.
 - The user is requesting repeated reversals (more than 1 in 90 days).
@@ -40,7 +39,7 @@ Do **not** reverse if any of the following apply:
 If evidence shows **scamming, impersonation, or coercion**, treat it as a rules violation. In those cases:
 
 - Follow the applicable disciplinary steps in the Discord rules.
-- Admins may reverse or wipe VC as part of enforcement.
+- Admins may reverse or wipe VC as part of enforcement, but **reversals without consent** are only allowed when the recipient account is confirmed inactive.
 
 ## Staff Procedure
 1. **Collect details**
