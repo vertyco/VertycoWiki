@@ -1,11 +1,11 @@
 ---
-title: Home
-description:
+title: Welcome to the Vertyco Wiki
+description: 
 published: true
-date: 2026-01-31T00:00:00.000Z
-tags: [home, getting-started]
+date: 2026-01-31T15:54:00.279Z
+tags: home, getting-started
 editor: markdown
-dateCreated: 2026-01-31T00:00:00.000Z
+dateCreated: 2024-04-16T01:22:45.087Z
 ---
 
 This wiki contains comprehensive documentation for the Vertyco Community - a Discord server hosting dedicated Ark Survival Evolved and Ark Survival Ascended servers.
