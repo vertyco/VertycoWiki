@@ -3,7 +3,7 @@ title: Cluster Alpha Breakdown
 description: 
 published: true
 date: 2026-01-30T21:15:27.955Z
-tags: cluster-alpha, systems, breakdown
+tags: 
 editor: markdown
 dateCreated: 2026-01-30T21:15:27.955Z
 ---
@@ -131,6 +131,14 @@ base_points = 5 + log₁₀(victim_tribe_power) × 2
 | 5,000 | 12 pts |
 | 10,000+ | 13 pts (capped) |
 
+### Tame Kills
+
+When your tame kills an enemy player, you earn **20%** of normal PvP kill points.
+
+**Example:** If killing a player from a 5,000 power tribe normally gives 12 points, your tame killing them gives **2.4 points**.
+
+This rewards tame-based kills while keeping direct player kills more valuable.
+
 ### Kill Streak Multiplier
 
 Consecutive kills against the **same tribe** within 1 hour stack:
@@ -246,6 +254,32 @@ This prevents:
 
 **Minimum Power:** Your home tribe must have 200+ power to receive any points.
 
+### Alliance Detection
+
+Two tribes are considered "allied" if any **active** members share the same home tribe.
+
+**How it works:**
+1. System checks each active member's home tribe (highest power tribe)
+2. If a member from Tribe A and a member from Tribe B both call Tribe C "home", A and B are allied
+3. Allied tribes **cannot earn points** from interactions with each other
+
+**Activity Requirement:** Only members active within the last **24 hours** are considered. Inactive alts don't count.
+
+**Example:**
+- Player "Bob" is in both "Alpha Raiders" (5,000 power) and "Beach Bobs" (200 power)
+- Bob's home tribe is "Alpha Raiders" (highest power)
+- "Alpha Raiders" and "Beach Bobs" are now allied through Bob
+- Kills and raids between them award **zero points**
+
+### Visibility Commands
+
+Use these commands to check alliance conflicts BEFORE raiding:
+
+| Command | Description |
+|---------|-------------|
+| `.conflicts <tribe>` | Check if raiding a specific tribe will earn points |
+| `.myalliances` | View all tribes you're connected to (can't earn points from) |
+
 ---
 
 ## Zero-Sum Economy
@@ -310,6 +344,8 @@ Countdown announcements at: 7d, 3d, 1d, 12h, 6h, 3h, 1h before season end
 | `.mystats` | View your personal statistics |
 | `.mostwanted` | View top 3 killers with bounties |
 | `.rivalries` | View active tribal rivalries |
+| `.conflicts <tribe>` | Check if raiding a tribe will earn points |
+| `.myalliances` | View tribes you're connected to through shared memberships |
 
 ---
 

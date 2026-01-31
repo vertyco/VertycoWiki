@@ -3,7 +3,7 @@ title: Cluster Alpha Example Scenarios
 description: 
 published: true
 date: 2026-01-30T21:15:27.955Z
-tags: cluster-alpha, scenarios
+tags: 
 editor: markdown
 dateCreated: 2026-01-30T21:15:27.955Z
 ---
@@ -14,9 +14,11 @@ This document explains how Alpha Points are awarded and blocked based on tribe m
 
 ## Core Principle
 
-**If two players share ANY tribe membership ANYWHERE in the cluster, they are considered allies and cannot earn points from each other.**
+**If two players share the same HOME TRIBE (highest power tribe), they are considered allies and cannot earn points from each other.**
 
-This prevents exploitation through "shell tribes" or cross-server alliances.
+Your "home tribe" is whichever tribe you belong to that has the highest power in the cluster. Only **active** members (seen in last 24 hours) are considered.
+
+> **TIP:** Use `.conflicts <tribe name>` to check if raiding a tribe will earn points before you start!
 
 ---
 
@@ -25,7 +27,7 @@ This prevents exploitation through "shell tribes" or cross-server alliances.
 All PvP and raid information comes from parsing tribelogs. The data available determines what checks we can perform.
 
 ### PvP Kills (Player vs Player)
-We know exactly WHO killed WHO (character names), so we check if those two specific players share a tribe anywhere in the cluster.
+We check if both players have the same home tribe.
 
 **Points:** Full points transferred (zero-sum)
 
@@ -35,9 +37,9 @@ Tribemember Lyinaro - Lvl 75 was killed by Chabelo - Lvl 74 (Chabelo's Army)!
 ```
 
 ### Tame Kills Player
-When a tame kills a player, we know the victim's name and the attacker's TRIBE, but not which specific player owns the tame.
+When a tame kills a player, we award **20% of normal PvP points**.
 
-**Points:** 20% of what a PvP kill would be, transferred from victim's home tribe to attacker's tribe
+**Points:** 20% of what a direct kill would be, transferred from victim's home tribe to attacker's tribe
 
 Example tribelog:
 ```
@@ -50,9 +52,9 @@ When your tame dies, no Alpha Points are transferred. This prevents tame farming
 **Points:** None
 
 ### Structure Destruction (Raids)
-We only know which TRIBE destroyed a structure, not which player. Therefore we check if ANY member of the attacker tribe shares a tribe with ANY member of the victim tribe.
+We check if any **active** member of both tribes share the same home tribe.
 
-**Points:** Transferred hourly and using a cascade percentage system via batch processing since not all logs come through properly
+**Points:** Transferred hourly via batch processing
 
 Example tribelog:
 ```
@@ -82,45 +84,55 @@ C4 Charge (Tribe of Nick) destroyed your 'Heavy Auto Turret'!
 |-------|---------|-------|
 | The Boys | bob, jane, dug, bret, max | 20k |
 
-### Key Observations
-- **bob** and **bret** appear to be enemies on Center (SNF vs Ruckus) but are tribemates on Island (both in SNF)
-- **steve** is truly solo - he only exists on Center in his own tribe
-- On Ragnarok, all main players except steve share "The Boys" tribe
+### Home Tribe Assignments
+Based on highest power across all servers:
+
+| Player | Home Tribe | Home Power |
+|--------|------------|------------|
+| bob | The Boys (Rag) | 20k |
+| jane | The Boys (Rag) | 20k |
+| max | The Boys (Rag) | 20k |
+| dug | The Boys (Rag) | 20k |
+| bret | The Boys (Rag) | 20k |
+| steve | Solo Steve (Center) | 800 |
+
+**Key Insight:** Despite having different tribes on Center and Island, bob/jane/max/dug/bret ALL share the same home tribe (The Boys). Only steve is truly independent.
 
 ---
 
 ## PvP Kill Scenarios
 
-### Scenario 1: Hidden Alliance
+### Scenario 1: Same Home Tribe
 **bob (SNF/Center) kills bret (Ruckus/Center)**
 
 Result: **BLOCKED** ❌
-- bob and bret share SNF on Island
-- Cross-server friendly fire detected
-- No points transfer (kill still counts for stats)
+- bob's home tribe = The Boys (20k power)
+- bret's home tribe = The Boys (20k power)
+- Same home tribe → no points
 
-### Scenario 2: Truly Independent Player  
+### Scenario 2: Different Home Tribes  
 **jane (SNF/Center) kills steve (Solo Steve/Center)**
 
 Result: **ALLOWED** ✅
-- jane and steve share no tribes anywhere
-- jane's home tribe = Barker (Island, 11k power)
-- steve's home tribe = Solo Steve (Center, 800 power)
-- Points: Barker gains, Solo Steve loses
+- jane's home tribe = The Boys (20k power)
+- steve's home tribe = Solo Steve (800 power)
+- Different home tribes → points transfer
 
-### Scenario 3: Shared Tribe on Different Server
-**jane (SNF/Center) kills bret (Ruckus/Center)**
+### Scenario 3: All Main Players Are Allied
+**jane (SNF/Center) kills dug (Ruckus/Center)**
 
 Result: **BLOCKED** ❌
-- jane and bret both share "The Boys" on Ragnarok
-- Even though they're in "enemy" tribes on Center, they're allies elsewhere
+- jane's home tribe = The Boys (20k power)
+- dug's home tribe = The Boys (20k power)
+- Same home tribe → no points
 
 ### Scenario 4: Solo vs Established
 **steve (Solo Steve/Center) kills max (SNF/Center)**
 
 Result: **ALLOWED** ✅
-- steve and max share no tribes
-- Points: Solo Steve gains, Barker loses (max's home tribe)
+- steve's home tribe = Solo Steve (800 power)
+- max's home tribe = The Boys (20k power)
+- Different home tribes → points transfer
 
 ---
 
@@ -131,35 +143,25 @@ Result: **ALLOWED** ✅
 
 Result: **BLOCKED** ❌
 
-Every member of SNF shares "The Boys" with every member of Ruckus on Ragnarok:
-
-| Attacker | vs dug | vs bret |
-|----------|--------|---------|
-| bob | The Boys ❌ | SNF + The Boys ❌ |
-| jane | The Boys ❌ | The Boys ❌ |
-| max | The Boys ❌ | The Boys ❌ |
+All active members of both tribes share The Boys as their home tribe:
+- SNF members: bob, jane, max → all home = The Boys
+- Ruckus members: dug, bret → both home = The Boys
 
 ### Scenario 6: Clean Raid (Solo Player)
 **Solo Steve (Center) raids Ruckus (Center)**
 
 Result: **ALLOWED** ✅
 
-No shared tribes between steve and any Ruckus member:
+Steve's home tribe (Solo Steve) is different from dug/bret's home tribe (The Boys).
 
-| Attacker | vs dug | vs bret |
-|----------|--------|--------|
-| steve | ✅ | ✅ |
+### Scenario 7: What If Steve Joins The Boys?
+**Hypothetical:** Steve joins "The Boys" on Ragnarok.
 
-### Scenario 7: Hypothetical - Colluding Solo Player
-**Hypothetical:** What if steve secretly joined "The Boys" on Ragnarok?
+Now steve's home tribe = The Boys (20k power), not Solo Steve (800 power).
 
-**Solo Steve raids SNF** would now be **BLOCKED** ❌
+**Solo Steve raids SNF** → **BLOCKED** ❌
 
-| Attacker | vs bob | vs jane | vs max |
-|----------|--------|---------|--------|
-| steve | The Boys ❌ | The Boys ❌ | The Boys ❌ |
-
-Even a solo player raid gets blocked if they share tribes with their target.
+Even though steve is raiding from Solo Steve tribe on Center, his HOME tribe is now The Boys, same as SNF's members.
 
 ---
 
@@ -167,9 +169,11 @@ Even a solo player raid gets blocked if they share tribes with their target.
 
 | Check Type | What's Checked |
 |------------|----------------|
-| PvP Kill | Killer player ↔ Victim player share any tribe? |
-| Tame Kill | Any attacker tribe member ↔ Victim player share any tribe? |
-| Raid | Any attacker tribe member ↔ Any victim tribe member share any tribe? |
+| PvP Kill | Do killer and victim share the same HOME tribe? |
+| Tame Kill | Does attacker tribe's home overlap with victim's home tribe? (20% points) |
+| Raid | Do any ACTIVE members of both tribes share the same HOME tribe? |
 
-The more players involved, the more likely a collision will be found and the action blocked.
-
+**Remember:**
+- Home tribe = your highest power tribe in the cluster
+- Only active members (last 24h) are considered for raid checks
+- Use `.conflicts` and `.myalliances` to check before raiding!
