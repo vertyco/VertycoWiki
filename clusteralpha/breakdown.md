@@ -1,9 +1,9 @@
 ---
 title: Cluster Alpha Breakdown
-description: 
+description:
 published: true
 date: 2026-01-30T21:15:27.955Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2026-01-30T21:15:27.955Z
 ---
@@ -217,7 +217,33 @@ Destroy enemy structures to steal their accumulated points.
 
 1. When you destroy a power-contributing structure (turret, generator, forcefield), it's logged
 2. Every hour, the system calculates how much power each tribe lost
-3. Points transfer proportional to the power you destroyed
+3. Points are stolen based on how much power you dropped them
+
+### Points Stolen Formula
+
+**Simple linear scaling:**
+```
+Points Stolen = Power Loss % × 75%
+```
+
+| Power Loss | Points Stolen |
+|------------|---------------|
+| 25% wipe | 18.75% of their points |
+| 50% wipe | 37.5% of their points |
+| 75% wipe | 56.25% of their points |
+| 100% wipe | 75% of their points |
+
+**Example:** Tribe B has 1,000 points and 5,000 power. You wipe them completely (100% power loss).
+- Points stolen: `100% × 75% = 75%` of their points
+- You gain **750 points**, they lose **750 points**
+
+### Multi-Tribe Raids
+
+When multiple tribes raid together, points are split based on **power destroyed**.
+
+**Example:** Tribe A destroys 3,000 power worth of structures, Tribe B destroys 1,000 power worth.
+- Tribe A gets **75%** of the stolen points
+- Tribe B gets **25%** of the stolen points
 
 ### Home Tribe Attribution
 
@@ -234,6 +260,12 @@ For raid points to transfer:
 - Victim tribe must be 48+ hours old
 - Victim tribe must have 200+ power
 - Attacker tribe must have 200+ power
+
+### Why Can't I Steal More Than 75%?
+
+Once you've wiped a tribe (0 power), they have nothing left to lose power-wise. The remaining 25% of their points will naturally decay over time while they're at 0 power.
+
+This prevents "foundation wiping" from being too rewarding - you get the majority of points from the wipe, but there's diminishing returns for continued aggression against a tribe that's already been destroyed.
 
 ### Raid Alerts
 
