@@ -28,12 +28,16 @@ All other offenses will result in temporary bans, timeouts, wipes, or warnings a
 ## 1️⃣ Base Building Rules
 
 - **1.1 - Meshing/Glitch Base Spots**
-  - *Building bases under/inside the map or using glitch spots.*
+  - *Building bases in spots that cannot be entered by simply crouching and walking in.* The following types of spots are **all off-limits** for bases:
+    - **Meshed Spots**: The base is fully behind the mesh and is not accessible through normal gameplay. The only way in is by meshing a sleeping bag or bed behind the terrain.
+    - **Glitch Spots**: Accessing the spot requires exploiting game mechanics, such as throwing a cryopod through a small hole and whistling a small dino (e.g., Pelagornis) to follow, then using "ride" to force your character through the terrain.
+    - **Grapple Spots**: The spot can only be reached by using the grapple glitch to clip through terrain.
+  - > **Rule of thumb:** If you cannot walk or crouch into the entrance normally, it is off-limits. If you are unsure about a location, open a ticket **before** building there.
   - **First Offense**:
-    - Non-Discord Members: 24 hours to join Discord and link account or receive a 3-day temp ban.
-    - Discord Members: Warning and removal of meshed structures.
-  - **Second Offense**: Ark Data wipe and formal warning.
-  - **Third Offense**: Full tribe wipe for repeat offenders.
+    - Non-Discord Members: 24 hours to join Discord and link account or receive a <span style="color: orange;">3-day temp ban</span>.
+    - Discord Members: **Full demolition** of the meshed/glitch base and all connected structures. Formal warning issued. The tribe must relocate to a legitimate spot.
+  - **Second Offense**: **Full demolition** of the base, Ark Data wipe for all involved members, and a <span style="color: orange;">3-day temp ban</span>. Tribe must relocate.
+  - **Third Offense**: **Full tribe wipe** on the map where the offense occurred (all structures, tames, and inventory) and <span style="color: orange;">14-day temp ban</span> for all involved members.
 
 - **1.2 - Meshed Spam**
   - *Placing structures in the mesh to prevent building or claiming territory.*
