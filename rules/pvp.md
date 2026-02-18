@@ -118,7 +118,9 @@ All other offenses will result in temporary bans, timeouts, wipes, or warnings a
     - **First Offense**: <span style="color: orange;">**60-day temp ban**</span> for the offending player only. Other tribe members receive a formal warning.
 
 - **2.5 - Trans Dropping**
-  - *Placing a tek transmitter on top of a player to immobilize them during combat.*
+  - *Using a tek transmitter as a combat exploit. This includes but is not limited to:*
+    - *Dropping a transmitter on another player to immobilize them during combat.*
+    - *Dropping a transmitter on yourself to gain temporary invulnerability while uploading your character to escape.*
   - **First Offense**: The offending player will receive a formal warning.
   - **Second Offense**: Player will receive a <span style="color: orange;">7-day temp ban</span>.
   - **Third Offense**: Player will receive a <span style="color: orange;">30-day temp ban</span>.
