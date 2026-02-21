@@ -1,9 +1,9 @@
 ---
 title: XTools Commands
-description: 
+description: XTools commands for Vertyco's Autto bot. View Xbox profiles, gamertag information, and player stats.
 published: true
 date: 2026-01-17T17:00:30.960Z
-tags: cogs, xtools, commands
+tags: cogs, xtools, xbox, commands
 editor: markdown
 dateCreated: 2024-05-02T02:39:49.687Z
 ---

@@ -1,6 +1,6 @@
 ---
 title: IdeaBoard Commands
-description: 
+description: IdeaBoard commands for Vertyco's Autto bot. Share suggestions, vote on community ideas, and help shape the server.
 published: true
 date: 2026-01-17T17:00:10.926Z
 tags: cogs, ideaboard, commands

@@ -1,6 +1,6 @@
 ---
 title: Ark Data Help
-description: 
+description: Staff guide for assisting players with Ark data issues including transfers and data recovery.
 published: true
 date: 2024-08-25T23:38:44.067Z
 tags: staff, ark, data

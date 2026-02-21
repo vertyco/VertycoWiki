@@ -1,9 +1,9 @@
 ---
 title: Miner Commands
-description: 
+description: Miner minigame commands for Vertyco's Autto bot. Mine virtual resources, trade with other players, and build your mining empire.
 published: true
 date: 2026-01-17T17:01:35.777Z
-tags: cogs, miner, vc, commands
+tags: cogs, miner, vc, minigame, commands
 editor: markdown
 dateCreated: 2026-01-17T17:01:35.777Z
 ---

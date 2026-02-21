@@ -1,6 +1,6 @@
 ---
 title: Economy Commands
-description: 
+description: Economy commands for Vertyco's Autto bot. Manage your VertCoin balance, bank account, send currency to other players, and check leaderboards.
 published: true
 date: 2024-08-25T19:22:08.623Z
 tags: cogs, economy, vc, commands

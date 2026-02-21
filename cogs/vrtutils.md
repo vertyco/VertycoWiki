@@ -1,9 +1,9 @@
 ---
 title: VrtUtils Commands
-description: 
+description: VrtUtils commands for Vertyco's Autto bot. Utility commands for managing your Discord experience in the Vertyco community.
 published: true
 date: 2026-01-17T17:00:28.170Z
-tags: cogs, vrtutils, commands
+tags: cogs, vrtutils, utility, commands
 editor: markdown
 dateCreated: 2024-08-25T18:36:17.522Z
 ---

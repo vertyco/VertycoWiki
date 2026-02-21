@@ -1,6 +1,6 @@
 ---
 title: Racism/Hate Speech
-description: 
+description: Staff guide for handling racism and hate speech violations in the Vertyco community.
 published: true
 date: 2026-01-17T00:00:00.000Z
 tags: staff, moderation, hate-speech

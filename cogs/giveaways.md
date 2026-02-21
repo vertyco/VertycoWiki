@@ -1,6 +1,6 @@
 ---
 title: Giveaway Commands
-description: 
+description: Giveaways commands for Vertyco's Autto bot. Enter and manage giveaways hosted in the Vertyco Discord server.
 published: true
 date: 2024-08-25T19:14:10.119Z
 tags: cogs, giveaways, commands

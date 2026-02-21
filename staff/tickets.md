@@ -1,6 +1,6 @@
 ---
 title: Handling Tickets
-description: 
+description: Staff guide for handling support tickets in the Vertyco Discord community.
 published: true
 date: 2025-01-13T19:07:01.087Z
 tags: staff, tickets, support

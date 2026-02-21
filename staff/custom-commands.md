@@ -1,6 +1,6 @@
 ---
 title: Custom Commands
-description: 
+description: Guide to custom bot commands available to Vertyco staff in Discord.
 published: true
 date: 2024-08-25T23:44:09.378Z
 tags: staff, bot, custom-commands

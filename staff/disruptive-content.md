@@ -1,6 +1,6 @@
 ---
 title: NSFW or Disruptive Content
-description: 
+description: Staff guide for handling NSFW and disruptive content violations in the Vertyco Discord.
 published: true
 date: 2026-01-17T00:00:00.000Z
 tags: staff, moderation, disruptive-content

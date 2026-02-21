@@ -1,9 +1,9 @@
 ---
-title: Counting Commands (For the counting channel)
-description: 
+title: Counting Commands
+description: Counting game commands for Vertyco's Autto bot. Participate in the community counting channel and compete for high scores.
 published: true
 date: 2024-09-24T22:32:22.958Z
-tags: cogs, counting, commands
+tags: cogs, counting, minigame, commands
 editor: markdown
 dateCreated: 2024-05-02T02:31:58.014Z
 ---

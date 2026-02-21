@@ -1,6 +1,6 @@
 ---
 title: Events Commands
-description: 
+description: Events commands for Vertyco's Autto bot. Join server events, submit entries, and participate in community activities.
 published: true
 date: 2026-01-17T16:59:59.079Z
 tags: cogs, events, commands

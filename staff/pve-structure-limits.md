@@ -1,6 +1,6 @@
 ---
 title: PvE Structure Limits
-description: 
+description: Staff reference for PvE structure limit enforcement on Vertyco Ark servers.
 published: true
 date: 2024-08-26T02:19:28.030Z
 tags: staff, pve, structure-limits

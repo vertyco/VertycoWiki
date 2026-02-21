@@ -1,6 +1,6 @@
 ---
 title: Reminder Commands
-description: 
+description: Reminder commands for Vertyco's Autto bot. Set personal reminders so you never forget important events or tasks.
 published: true
 date: 2024-08-25T19:16:20.976Z
 tags: cogs, reminders, commands

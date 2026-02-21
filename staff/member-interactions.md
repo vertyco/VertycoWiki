@@ -1,6 +1,6 @@
 ---
 title: Member Interactions
-description: 
+description: Guidelines for staff interactions with community members in the Vertyco Discord.
 published: true
 date: 2024-08-25T23:22:27.147Z
 tags: staff, moderation, member-interactions

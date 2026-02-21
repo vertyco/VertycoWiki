@@ -1,9 +1,9 @@
 ---
 title: Fluent Commands
-description: 
+description: Fluent translation commands for Vertyco's Autto bot. Seamlessly translate messages between languages in Discord.
 published: true
 date: 2026-01-17T17:00:01.798Z
-tags: cogs, fluent, commands
+tags: cogs, fluent, translation, commands
 editor: markdown
 dateCreated: 2024-05-02T02:35:25.872Z
 ---

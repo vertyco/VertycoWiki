@@ -1,6 +1,6 @@
 ---
 title: Account Safety
-description: 
+description: Staff guide for handling account safety and security issues in the Vertyco community.
 published: true
 date: 2024-08-25T23:20:32.250Z
 tags: staff, security, account-safety

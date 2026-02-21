@@ -1,9 +1,9 @@
 ---
-title: Donations
-description: 
+title: Donations & VertCoin Economy
+description: Support Vertyco through donations via PayPal, Venmo, CashApp, or Upgrade.Chat subscriptions. Earn VertCoin for in-game items. Not pay-to-win — free players always have the advantage.
 published: true
 date: 2025-06-25T14:23:09.514Z
-tags: donations, vc, supporter
+tags: donations, vc, supporter, vertcoin, economy
 editor: markdown
 dateCreated: 2025-06-25T14:23:07.016Z
 ---

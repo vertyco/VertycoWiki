@@ -1,6 +1,6 @@
 ---
 title: Spamming or Off-Topic Content
-description: 
+description: Staff guide for handling spamming and off-topic content violations in the Vertyco Discord.
 published: true
 date: 2026-01-17T00:00:00.000Z
 tags: staff, moderation, spam

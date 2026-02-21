@@ -1,6 +1,6 @@
 ---
 title: Staff Onboard
-description: Onboard to the Vertyco Staff team
+description: Onboarding guide for new Vertyco staff members. Steps to get set up and start moderating.
 published: true
 date: 2024-08-25T22:53:31.322Z
 tags: staff, onboarding

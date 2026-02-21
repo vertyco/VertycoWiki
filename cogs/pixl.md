@@ -1,9 +1,9 @@
 ---
 title: Pixl Commands
-description: 
+description: Pixl commands for Vertyco's Autto bot. Guess pixelated images for points in this fun image-guessing minigame.
 published: true
 date: 2026-01-17T17:00:17.024Z
-tags: cogs, pixl, commands
+tags: cogs, pixl, minigame, commands
 editor: markdown
 dateCreated: 2024-08-25T19:15:40.317Z
 ---

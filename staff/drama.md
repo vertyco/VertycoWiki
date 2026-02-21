@@ -1,6 +1,6 @@
 ---
 title: Disrespect or Drama
-description: Doesn't apply to #pvp-general
+description: Staff guide for handling disrespect and drama in the Vertyco Discord. Does not apply to #pvp-general.
 published: true
 date: 2026-01-17T00:00:00.000Z
 tags: staff, moderation, drama

@@ -1,6 +1,6 @@
 ---
 title: Staff Moderation Guide
-description: 
+description: Comprehensive moderation guide for Vertyco staff covering warnings, mutes, bans, and escalation procedures.
 published: true
 date: 2025-01-13T19:11:57.128Z
 tags: staff, moderation, guide

@@ -1,9 +1,9 @@
 ---
-title: Welcome to the Vertyco Wiki
-description: 
+title: Vertyco Wiki — Dedicated Ark Survival Evolved & Ascended Servers
+description: Official wiki for Vertyco, a Discord gaming community hosting 20+ dedicated Ark Survival Evolved and Ark Survival Ascended servers across Xbox, Steam, PlayStation, and PC.
 published: true
 date: 2026-01-31T15:54:00.279Z
-tags: home, getting-started
+tags: home, getting-started, ark, discord, community
 editor: markdown
 dateCreated: 2024-04-16T01:22:45.087Z
 ---

@@ -1,6 +1,6 @@
 ---
 title: ArkTools Commands
-description: 
+description: All ArkTools commands for Vertyco's Autto bot. Register your gamertag, browse the Rshop, buy items and dinos with VertCoin, and manage your Ark server experience.
 published: true
 date: 2024-08-25T22:44:43.179Z
 tags: cogs, arktools, ark, commands

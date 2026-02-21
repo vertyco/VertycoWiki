@@ -1,9 +1,9 @@
 ---
-title: PvP Rules
-description: 
+title: PvP Rules — Vertyco Ark Servers
+description: PvP rules for Vertyco Ark Survival Evolved servers. Covers meshing, aimbotting, raid rules, turret limits, and punishment tiers for our competitive PvP cluster.
 published: true
 date: 2026-01-17T00:00:00.000Z
-tags: rules, pvp
+tags: rules, pvp, ark
 editor: markdown
 dateCreated: 2025-02-15T22:53:44.565Z
 ---

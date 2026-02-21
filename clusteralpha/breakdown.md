@@ -1,9 +1,9 @@
 ---
-title: Cluster Alpha Breakdown
-description:
+title: Cluster Alpha Breakdown — Competitive PvP Ranking System
+description: Complete breakdown of the Cluster Alpha competitive ranking system for Vertyco PvP. Learn how Alpha Points, power ratings, kills, and raids determine tribe rankings.
 published: true
 date: 2026-01-30T21:15:27.955Z
-tags:
+tags: clusteralpha, pvp, ranking, competitive
 editor: markdown
 dateCreated: 2026-01-30T21:15:27.955Z
 ---

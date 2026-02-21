@@ -1,6 +1,6 @@
 ---
 title: Meshing/Cheating
-description: 
+description: Staff guide for identifying and handling meshing, cheating, and exploit violations on Vertyco Ark servers.
 published: true
 date: 2026-01-17T00:00:00.000Z
 tags: staff, moderation, cheating

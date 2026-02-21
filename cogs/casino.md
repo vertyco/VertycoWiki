@@ -1,6 +1,6 @@
 ---
 title: Casino Commands
-description: 
+description: Casino commands for Vertyco's Autto bot. Gamble your VertCoin with slots, blackjack, roulette, and more games of chance.
 published: true
 date: 2024-08-25T19:08:59.788Z
 tags: cogs, casino, vc, commands

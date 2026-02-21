@@ -1,6 +1,6 @@
 ---
 title: Economy Guidelines
-description: 
+description: Economy and real-world transaction rules for Vertyco Ark servers. Covers prohibited RWT, VertCoin trading policies, and advertising restrictions.
 published: true
 date: 2025-02-16T00:08:56.433Z
 tags: rules, economy, vc

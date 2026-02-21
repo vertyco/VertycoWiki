@@ -1,6 +1,6 @@
 ---
 title: Advertising/Self Promotion
-description: 
+description: Staff guide for handling advertising and self-promotion violations in the Vertyco Discord.
 published: true
 date: 2026-01-17T00:00:00.000Z
 tags: staff, moderation, ads

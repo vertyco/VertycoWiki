@@ -1,6 +1,6 @@
 ---
 title: Staff Basics
-description: 
+description: Core guidelines for Vertyco staff members covering professional conduct, moderation commands, ticket handling, and conflict resolution.
 published: true
 date: 2024-08-25T20:34:48.397Z
 tags: staff, basics, guidelines

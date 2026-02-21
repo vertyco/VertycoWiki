@@ -1,6 +1,6 @@
 ---
 title: Vertyco Terms of Service
-description: You agree to these terms of service fully by playing on Vertyco Ark Servers
+description: Terms of service for Vertyco Ark Servers. Rules and agreements governing use of our dedicated Ark Survival Evolved and Ascended servers and Discord community.
 published: true
 date: 2025-06-25T14:01:49.096Z
 tags: legal, terms

@@ -1,9 +1,9 @@
 ---
 title: Cluster Alpha Example Scenarios
-description: 
+description: Example scenarios for the Cluster Alpha point system. Learn how PvP kills, raids, and tribe conflicts are scored with practical examples and edge cases.
 published: true
 date: 2026-01-30T21:15:27.955Z
-tags: 
+tags: clusteralpha, pvp, scenarios, examples
 editor: markdown
 dateCreated: 2026-01-30T21:15:27.955Z
 ---

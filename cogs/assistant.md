@@ -1,9 +1,9 @@
 ---
 title: Assistant Commands
-description: 
+description: AI Assistant commands for Vertyco's Autto bot. Chat with an AI, generate images, and get help directly in Discord.
 published: true
 date: 2026-01-17T16:59:50.080Z
-tags: cogs, assistant, commands
+tags: cogs, assistant, ai, commands
 editor: markdown
 dateCreated: 2024-05-02T02:30:07.783Z
 ---

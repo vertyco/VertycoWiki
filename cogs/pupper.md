@@ -1,9 +1,9 @@
 ---
 title: Pupper Commands
-description: 
+description: Pupper commands for Vertyco's Autto bot. Pet the doggo and earn rewards in this fun Discord minigame.
 published: true
 date: 2026-01-17T17:00:19.740Z
-tags: cogs, pupper, commands
+tags: cogs, pupper, minigame, commands
 editor: markdown
 dateCreated: 2024-08-25T19:16:07.039Z
 ---

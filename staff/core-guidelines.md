@@ -1,6 +1,6 @@
 ---
 title: Core Guidelines
-description: 
+description: Core moderation guidelines and principles for Vertyco staff members.
 published: true
 date: 2026-01-17T00:00:00.000Z
 tags: staff, guidelines

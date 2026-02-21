@@ -1,6 +1,6 @@
 ---
 title: Discord Rules
-description: 
+description: Official Discord rules for the Vertyco community. Covers toxicity, hate speech, scams, spam, chargebacks, and punishment tiers from warnings to temporary bans.
 published: true
 date: 2026-01-17T00:00:00.000Z
 tags: rules, discord

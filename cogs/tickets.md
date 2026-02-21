@@ -1,9 +1,9 @@
 ---
 title: Tickets Commands
-description: 
+description: Tickets commands for Vertyco's Autto bot. Open support tickets to get help from staff with server issues or questions.
 published: true
 date: 2026-01-17T17:00:25.369Z
-tags: cogs, tickets, commands
+tags: cogs, tickets, support, commands
 editor: markdown
 dateCreated: 2024-05-02T02:39:22.860Z
 ---

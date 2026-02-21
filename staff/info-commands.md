@@ -1,6 +1,6 @@
 ---
 title: Information Gathering
-description: 
+description: Guide to information gathering commands available to Vertyco staff for moderation.
 published: true
 date: 2024-08-26T00:14:46.465Z
 tags: staff, bot, info-commands

@@ -1,6 +1,6 @@
 ---
 title: Vertyco Privacy Policy
-description: You agree to this privacy policy and our Terms of Service by playing on Vertyco Ark Servers
+description: Privacy policy for Vertyco Ark Servers. Learn how we collect, use, and protect your data when you play on our servers and use our Discord community.
 published: true
 date: 2025-06-25T14:02:04.758Z
 tags: legal, privacy

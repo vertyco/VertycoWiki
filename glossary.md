@@ -1,9 +1,9 @@
 ---
 title: Glossary
-description: Definitions of common terms used throughout the wiki
+description: Definitions of common terms used in the Vertyco Ark server community including VertCoin, base types, tribe rules, and punishments.
 published: true
 date: 2026-01-26T00:00:00.000Z
-tags: glossary, terminology
+tags: glossary, terminology, ark
 editor: markdown
 dateCreated: 2026-01-26T00:00:00.000Z
 ---

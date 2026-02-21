@@ -1,9 +1,9 @@
 ---
 title: LevelUp Commands
-description: 
+description: LevelUp commands for Vertyco's Autto bot. Earn XP from chatting and voice, customize your profile, view leaderboards, and track your level progress.
 published: true
 date: 2026-01-17T17:00:13.749Z
-tags: cogs, levelup, commands
+tags: cogs, levelup, xp, commands
 editor: markdown
 dateCreated: 2024-05-02T02:37:48.377Z
 ---

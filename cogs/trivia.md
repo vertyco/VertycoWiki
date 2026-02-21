@@ -1,9 +1,9 @@
 ---
-title: Trivia
-description: 
+title: Trivia Commands
+description: Trivia commands for Vertyco's Autto bot. Play trivia games with friends and test your knowledge across various categories.
 published: true
 date: 2024-08-25T19:25:13.790Z
-tags: cogs, trivia, commands
+tags: cogs, trivia, minigame, commands
 editor: markdown
 dateCreated: 2024-08-25T19:25:12.461Z
 ---

@@ -1,6 +1,6 @@
 ---
 title: Referrals Commands
-description: 
+description: Referrals commands for Vertyco's Autto bot. Refer friends to the community and earn VertCoin rewards.
 published: true
 date: 2026-01-17T17:01:48.157Z
 tags: cogs, referrals, commands

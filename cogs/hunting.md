@@ -1,9 +1,9 @@
 ---
 title: Hunting Commands
-description: 
+description: Hunting minigame commands for Vertyco's Autto bot. Hunt birds and other targets to earn VertCoin rewards.
 published: true
 date: 2026-01-17T17:00:08.177Z
-tags: cogs, hunting, commands
+tags: cogs, hunting, minigame, commands
 editor: markdown
 dateCreated: 2024-05-02T02:36:37.757Z
 ---

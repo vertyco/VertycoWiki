@@ -1,6 +1,6 @@
 ---
 title: Gamesharing
-description: 
+description: Staff policy for handling gamesharing situations on Vertyco Ark servers.
 published: true
 date: 2026-01-17T00:00:00.000Z
 tags: staff, policy, gamesharing

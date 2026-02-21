@@ -1,6 +1,6 @@
 ---
 title: EmojiTracker Commands
-description: 
+description: EmojiTracker commands for Vertyco's Autto bot. Track emoji usage statistics across the server.
 published: true
 date: 2026-01-17T16:59:56.422Z
 tags: cogs, emojitracker, commands

@@ -1,6 +1,6 @@
 ---
 title: Wiki Tips
-description: 
+description: Tips and formatting guides for editing the Vertyco Wiki using Wiki.js.
 published: true
 date: 2024-08-26T00:09:55.948Z
 tags: staff, wiki, formatting

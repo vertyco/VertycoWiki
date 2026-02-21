@@ -1,6 +1,6 @@
 ---
 title: EconomyTrack Commands
-description: 
+description: EconomyTrack commands for Vertyco's Autto bot. View VertCoin balance graphs and track economy trends over time.
 published: true
 date: 2026-01-17T16:59:53.581Z
 tags: cogs, economytrack, vc, commands

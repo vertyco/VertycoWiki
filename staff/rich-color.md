@@ -1,6 +1,6 @@
 ---
 title: Rich Color Broadcasts
-description: 
+description: Guide to using rich color formatting in Discord broadcasts for Vertyco staff.
 published: true
 date: 2024-08-25T23:18:14.497Z
 tags: staff, wiki, formatting

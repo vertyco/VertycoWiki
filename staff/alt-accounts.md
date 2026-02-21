@@ -1,6 +1,6 @@
 ---
 title: Alt Accounts
-description: 
+description: Staff policy and procedures for handling alt accounts on Vertyco Ark servers.
 published: true
 date: 2024-08-31T18:50:10.875Z
 tags: staff, policy, alt-accounts

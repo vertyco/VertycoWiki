@@ -1,9 +1,9 @@
 ---
-title: PvE Rules
-description: 
+title: PvE Rules — Vertyco Ark Servers
+description: PvE rules for Vertyco Ark Survival Evolved servers. Covers base limits, community conduct, tribe policies, taming slots, and structure guidelines for our family-friendly cluster.
 published: true
 date: 2026-01-17T00:00:00.000Z
-tags: rules, pve
+tags: rules, pve, ark
 editor: markdown
 dateCreated: 2025-02-15T23:19:09.413Z
 ---
