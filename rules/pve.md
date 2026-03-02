@@ -47,21 +47,25 @@ dateCreated: 2025-02-15T23:19:09.413Z
   - **First Offense**: 7-day <span style="color: orange;">Temp Ban</span>.
   - **Second Offense**: 30-day <span style="color: orange;">Temp Ban</span>.
   - **Third Offense**: <span style="color: orange;">Permanent Ban</span>.
+  - *See rule 2.1 for more information on tribe policies regarding internal conflicts.*
 - **3.2 - No Stealing**
   - **First Offense**: 30-day <span style="color: orange;">Temp Ban</span>.
   - **Second Offense**: 90-day <span style="color: orange;">Temp Ban</span>.
   - **Third Offense**: <span style="color: orange;">Permanent Ban</span>.
+  - *See rule 2.1 for more information on tribe policies regarding internal conflicts.*
 - **3.3 - No Passive Killing**
   - *Passively killing players is forbidden. This includes dragging/drowning players or leading wild dinos to their base. Claiming to do so is an admission of guilt.*
   - **First Offense**: 30-day <span style="color: orange;">Temp Ban</span>.
   - **Second Offense**: 90-day <span style="color: orange;">Temp Ban</span>.
   - **Third Offense**: <span style="color: orange;">Permanent Ban</span>.
+  - *See rule 2.1 for more information on tribe policies regarding internal conflicts.*
 - **3.4 - No Interference**
   - *Do not interfere with players taming wild dinos or OSD activities on Extinction.*
   - **First Offense**: Warning.
   - **Second Offense**: 7-day <span style="color: orange;">Temp Ban</span>.
   - **Third Offense**: 30-day <span style="color: orange;">Temp Ban</span>.
   - **Fourth Offense**: <span style="color: orange;">Permanent Ban</span>.
+  - *See rule 2.1 for more information on tribe policies regarding internal conflicts.*
 
 ## 4️⃣ Structure Rules
 
