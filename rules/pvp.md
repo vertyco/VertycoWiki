@@ -2,12 +2,11 @@
 title: PvP Rules — Vertyco Ark Servers
 description: PvP rules for Vertyco Ark Survival Evolved servers. Covers meshing, aimbotting, raid rules, turret limits, and punishment tiers for our competitive PvP cluster.
 published: true
-date: 2026-01-17T00:00:00.000Z
-tags: rules, pvp, ark
+date: 2026-03-10T19:54:26.072Z
+tags: ark, rules, pvp
 editor: markdown
 dateCreated: 2025-02-15T22:53:44.565Z
 ---
-
 
 # ⚔️ PvP Rules & Procedures
 
@@ -106,7 +105,7 @@ All other offenses will result in temporary bans, timeouts, wipes, or warnings a
   - **Second Offense**: Full tribe wipe and <span style="color: orange;">90-day temp ban</span> for the offending member.
 
 - **2.3 - Popcorning During Raids**
-  - *Destroying loot to prevent enemies from obtaining it.*
+  - *Destroying loot to prevent attacking enemies from obtaining it.*(Defenders Only)
   - **First Offense**: Formal warning and Ark data wipe for the offending member.
   - **Second Offense**: <span style="color: orange;">7-day temp ban</span> for the offending player.
 
