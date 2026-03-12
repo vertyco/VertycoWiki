@@ -2,12 +2,11 @@
 title: Discord Rules
 description: Official Discord rules for the Vertyco community. Covers toxicity, hate speech, scams, spam, chargebacks, and punishment tiers from warnings to temporary bans.
 published: true
-date: 2026-01-17T00:00:00.000Z
+date: 2026-03-12T16:27:02.816Z
 tags: rules, discord
 editor: markdown
 dateCreated: 2025-02-15T18:21:21.165Z
 ---
-
 
 # 📋 General Discord Rules & Procedures
 
@@ -107,17 +106,18 @@ Examples include:
 ### 2.2 - Alt Account Harboring
 *Harboring alt accounts for other people is not allowed.*
 - **First Offense**:
-    - Recruiter receives formal warning
+    - Recruiter receives Ark data wipe
     - Knowing participants receive warning
     - No punishment for uninvolved tribe members
 - **Second Offense**:
-    - Recruiter receives Ark data wipe
-    - Knowing participants receive formal warning
+    - Recruiter receives <span style="color: orange;">7-day temp ban</span>/data wipe
+    - Knowing participants receive Ark data wipe and warning
     - No punishment for uninvolved tribe members
 - **Third Offense**:
     - Recruiter receives <span style="color: orange;">30-day temp ban</span>
     - Knowing participants receive Ark data wipe
     - No punishment for uninvolved tribe members
+    - If this is the same tribe within a single season, wipe the whole tribe.
 
 > Players without Discord have 24 hours to join and link their account or face a <span style="color: orange;">**ban**</span>.
 
