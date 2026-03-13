@@ -2,8 +2,8 @@
 title: PvE Rules — Vertyco Ark Servers
 description: PvE rules for Vertyco Ark Survival Evolved servers. Covers base limits, community conduct, tribe policies, taming slots, and structure guidelines for our family-friendly cluster.
 published: true
-date: 2026-01-17T00:00:00.000Z
-tags: rules, pve, ark
+date: 2026-03-13T22:34:09.481Z
+tags: ark, rules, pve
 editor: markdown
 dateCreated: 2025-02-15T23:19:09.413Z
 ---
@@ -77,7 +77,9 @@ dateCreated: 2025-02-15T23:19:09.413Z
 - **4.2 - Size Restrictions**
   - *Bases must fit within render distance (80 foundations maximum).*
   - **First Offense**: 48 hours to comply.
+    *For spam, removal of structures and warning.
   - **Second Offense**: Partial structure removal.
+    *For spam, AOE wipe area.
   - **Third Offense**: Complete base wipe.
 - **4.3 - Beach Building**
   - *No established bases on beaches.*
