@@ -2,7 +2,7 @@
 title: PvP Rules — Vertyco Ark Servers
 description: PvP rules for Vertyco Ark Survival Evolved servers. Covers meshing, aimbotting, raid rules, turret limits, and punishment tiers for our competitive PvP cluster.
 published: true
-date: 2026-03-10T19:54:26.072Z
+date: 2026-03-22T02:13:57.344Z
 tags: ark, rules, pvp
 editor: markdown
 dateCreated: 2025-02-15T22:53:44.565Z
@@ -74,8 +74,9 @@ All other offenses will result in temporary bans, timeouts, wipes, or warnings a
   - *Placing turrets behind the mesh for an unfair advantage.*
   - **Single Meshed Turret**:
     - **First Offense**: Turret removal and warning for all tribe members if person who placed it is unknown. Otherwise just warn the person who placed it.
-    - **Second Offense**: Turret removal and Ark Data wipe for all tribe members if person who placed it is unknown. Otherwise just data wipe the person who placed it.
-    - **Third Offense**: Turret removal and 3 day ban of all tribe members if turret placer is unknown, otherwise 5 day ban of individual placer.
+    - **Second Offense**: Turret removal and warning for all tribe members if person who placed it is unknown. Otherwise the person who placed it gets an ark data wipe.
+    - **Third Offense**: Turret removal and Ark Data wipe for all tribe members if person who placed it is unknown. Otherwise just data wipe the person who placed it.
+    - **Fourth Offense**: Turret removal and 3 day ban of all tribe members if turret placer is unknown, otherwise 5 day ban of individual placer.
   - **Multiple Meshed Turrets**:
     - **First Offense**: Turret removal and data wipe for all tribe members if turret placer is unkown, otherwise data wipe only the placer.
     - **Second Offense**: Turret removal and 3 day ban for all tribe members if placer is known, otherwise 5 day ban for individual who placed it.
