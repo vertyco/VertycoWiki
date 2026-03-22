@@ -1,9 +1,9 @@
 ---
-title: Cluster Alpha Breakdown — Competitive PvP Ranking System
-description: Complete breakdown of the Cluster Alpha competitive ranking system for Vertyco PvP. Learn how Alpha Points, power ratings, kills, and raids determine tribe rankings.
+title: Cluster Alpha Breakdown
+description:
 published: true
 date: 2026-01-30T21:15:27.955Z
-tags: clusteralpha, pvp, ranking, competitive
+tags:
 editor: markdown
 dateCreated: 2026-01-30T21:15:27.955Z
 ---
@@ -45,10 +45,17 @@ Power represents your tribe's base strength, calculated from defensive structure
 ### Requirements
 
 - **Turrets must be powered ON**
-- **Turrets must have ammo:**
-  - Heavy turrets: 2,900+ rounds
-  - Tek turrets: 2,500+ element shards
-  - Other turrets: 50+ ammo
+- **Turrets with 100+ rounds** = Full power value
+- **Turrets with 1-99 rounds** = Half power value
+- **Empty turrets (0 rounds)** = No power
+
+### Turret Ammo Examples
+
+| Turret | Full Ammo (100+) | Low Ammo (1-99) | Empty |
+|--------|------------------|-----------------|-------|
+| Auto Turret | 20 power | 10 power | 0 |
+| Heavy Turret | 35 power | 17 power | 0 |
+| Tek Turret | 55 power | 27 power | 0 |
 
 ### Base Detection
 
@@ -103,7 +110,7 @@ Every hour, active tribes earn: **power^0.23** points
 
 Activity means:
 - At least 1 PvP kill (as killer), OR
-- At least 1 enemy structure destroyed
+- At least 1 enemy power-contributing structure destroyed
 
 Tribes that "turtle" (sit in base without fighting) earn nothing.
 
@@ -183,7 +190,7 @@ Kill multiple **unique players** within 2.5 minutes for bonus points:
 | 9 | Killpocalypse | +200% |
 | 10+ | Killionaire | +250% |
 
-**Note:** Kills must be against different players (you can't farm the same person).
+**Note:** Consecutive kills against the same player don't count toward the chain, but don't break it either. You can kill Player A, then B, then A again (counts as 3).
 
 ### Bounty Board
 
@@ -397,8 +404,8 @@ Countdown announcements at: 7d, 3d, 1d, 12h, 6h, 3h, 1h before season end
 
 Each member of the winning tribe gets a starter pack next wipe:
 
-**Fighter Kit:** Max microraptor, flak armor, shotgun, ammo, medbrews, shadowsteak, bolas, whip, bear traps
+**Fighter Kit:** 10 bolas, wyvern chibi, microraptor, 1 set of mid flak, 1 set of prim flak, 10 bear traps, shotgun (double barrel), 35 shells, slingshot, prim whip
 
-**Tamer Kit:** Max gallimimus + asc saddle, cryopods, kibble, tranq gear, mutagen, nets
+**Tamer Kit:** 5 cryopods, stego chibi, gallimimus with saddle, harpoon and 35 nets, 10 large bear traps, 105.5 longneck, 35 tranq darts, 100 mutagel, 50 mutagen, 100 narcotics, 10 dino gateways and 5 gates, 5 wooden billboards, wooden club
 
-**Builder Kit:** Max parasaur + asc saddle, resources, crafting materials
+**Builder Kit:** Raft and stone base with smithy, regular forge, cooking pot, 2 simple beds, and a parasaur

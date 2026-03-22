@@ -69,19 +69,25 @@ Examples include:
 - **Second Offense**: Timeout issued (1-3 days)
 - **Third Offense**: <span style="color: orange;">**14-day temp ban**</span> issued to the user
 
-### 1.6 - Begging Policy
+### 1.6 - Joke Claims About Cheating
+*Do not joke, boast, or falsely claim that you use cheats, hacks, or exploits. Even if meant as a joke, it reflects poorly on the server and often leads to unnecessary reports or investigations because other players may not realize it is not serious.*
+- **First Offense**: Warning issued to the user
+- **Second Offense**: Timeout issued (1-3 days)
+- **Third Offense**: Lengthier timeout issued (up to 2 weeks)
+
+### 1.7 - Begging Policy
 *Do not beg other players/admins for items or virtual currency (VC).*
 - **First Offense**: Warning issued to the user
 - **Second Offense**: Timeout issued (1-3 days)
 - **Third Offense**: Lengthier timeout issued (up to 2 weeks)
 - **Fourth Offense**: <span style="color: orange;">**7-day temp ban**</span> issued to the user
 
-### 1.7 - Dating Service Policy
+### 1.8 - Dating Service Policy
 *This is not a dating service; unsolicited DM flirt attempts will lead to removal.*
 - **First Offense**: Warning issued to the user
 - **Second Offense**: <span style="color: orange;">**14-day temp ban**</span> issued to the user
 
-### 1.8 - Voice Channel Conduct
+### 1.9 - Voice Channel Conduct
 *Be respectful in voice channels. No excessive mic spam, soundboards, screaming, or disruptive behavior.*
 - **First Offense**: Verbal warning
 - **Second Offense**: Formal warning issued

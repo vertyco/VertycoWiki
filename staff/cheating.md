@@ -129,6 +129,15 @@ A structure is considered **meshed** when **any** of the following conditions ar
 > - Staff should always verify the exploit before implementing penalties.
 > - Permanent bans are reserved for confirmed Aimbot/ESP, DDoS attacks, doxxing, real-world threats, or chargebacks.
 
+### Joking or False Claims About Cheating
+- A joke or false claim about cheating is not, by itself, treated as confirmed cheating.
+- Handle those cases under Discord Rule 1.6 rather than the combat cheat penalties below.
+- The reason this is still punishable is that it reflects poorly on the server and many players will not recognize it as a joke, which creates avoidable reports and staff investigation work.
+- **First Offense**: Warning issued to the user.
+- **Second Offense**: Timeout issued (1-3 days).
+- **Third Offense**: Lengthier timeout issued (up to 2 weeks).
+- If there is actual corroborating evidence of cheats, exploits, or file-check issues, use the combat cheat procedures below instead.
+
 ---
 
 ## 2️⃣ Combat Cheats (Rule 2.1)
