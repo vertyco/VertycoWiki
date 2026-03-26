@@ -24,9 +24,9 @@ Encourage proper protocol, such as using the ticket system instead of direct pin
 ## Moderation Commands
 Use staff commands ONLY in the mod channel to avoid command conflicts.
 ## Maintain Composure
-Remain calm and professional, even when provoked. Consult with fellow staff members if unsure about taking action. In the case of a conflict of interest due to PvP drama, it is good practice to ask another staff member to step in.
+Remain calm and professional, even when provoked. Consult with fellow staff members if unsure about taking action. In the case of a conflict of interest due to PvP drama, it is good practice to ask another staff member to step in. See the full [Conflict of Interest](/en/staff/conflict-of-interest) policy for detailed recusal procedures.
 ## Ticket Etiquette
 Always explain the reason when closing a ticket. Avoid interfering in conversations handled by other staff unless asked for help.
 ## PvP General Channel
-If you are participating in PvP and get into altercations with someone, you MUST get another staff member not involved to handle any moderations that need to be performed!
+If you are participating in PvP and get into altercations with someone, you MUST get another staff member not involved to handle any moderations that need to be performed! Refer to the [Conflict of Interest](/en/staff/conflict-of-interest) policy for full details.
 

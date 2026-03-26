@@ -19,3 +19,5 @@ Closing your direct messages is strongly advised. If you choose not to do so, pl
 # Staff Complaints
 
 Complaints in Ticket that involve or mention another Staff member should not be addressed by the Staff member mentioned. This ensures a fair and unbiased handling of the situation. Both parties involved should provide evidence to support their side of the story.
+
+For situations involving personal relationships, tribal connections, or perceived favoritism, see the full [Conflict of Interest](/en/staff/conflict-of-interest) policy.
