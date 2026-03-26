@@ -42,33 +42,62 @@ Our professional donation platform offers subscription tiers and direct VC purch
 
 #### 🏆 Tier Supporter Roles
 
-<div style="padding: 15px; margin-bottom: 20px; background-color: rgba(220, 53, 69, 0.2); border: 1px solid #dc3545; border-radius: 6px;">
-  <h4>🥉 Tier 1 Supporter: $1.99/month</h4>
+<div style="padding: 15px; margin-bottom: 20px; background-color: rgba(46, 204, 113, 0.2); border: 1px solid #2ecc71; border-radius: 6px;">
+  <h4>💎 Tier 1 Supporter — $1.99/month</h4>
   <ul>
-    <li>🔓 VIP channel access</li>
-    <li>🎨 Custom hoisted Discord role & basic color selection</li>
-    <li>💰 Payday increased to <strong>200 VC</strong> every 12hrs</li>
+    <li>💎 Hoisted Discord role</li>
+    <li>👑 VIP channel access</li>
+    <li>🌈 Basic role color selection</li>
+    <li>💰 Payday increased to <strong>200 VC</strong></li>
   </ul>
 </div>
 
-<div style="padding: 15px; margin-bottom: 20px; background-color: rgba(40, 167, 69, 0.2); border: 1px solid #28a745; border-radius: 6px;">
-  <h4>🥈 Tier 2 Supporter: $4.99/month</h4>
+<div style="padding: 15px; margin-bottom: 20px; background-color: rgba(220, 53, 69, 0.2); border: 1px solid #dc3545; border-radius: 6px;">
+  <h4>💎 Tier 2 Supporter — $4.99/month</h4>
   <ul>
-    <li>🔓 VIP channel access</li>
-    <li>🎨 Custom hoisted Discord role & advanced color selection</li>
-    <li>🌈 Advanced role color selector</li>
-    <li>💰 Payday increased to <strong>500 VC</strong> every 12hrs</li>
+    <li>💎 Hoisted Discord role</li>
+    <li>👑 VIP channel access</li>
+    <li>🌈 Advanced + Basic role color selection</li>
+    <li>💰 Payday increased to <strong>500 VC</strong></li>
+    <li>🔐 Personal tribelogs</li>
   </ul>
 </div>
 
 <div style="padding: 15px; margin-bottom: 20px; background-color: rgba(255, 215, 0, 0.2); border: 1px solid #ffd700; border-radius: 6px;">
-  <h4>🥇 Tier 3 Supporter: $9.99/month</h4>
+  <h4>💎 Tier 3 Supporter — $9.99/month</h4>
   <ul>
-    <li>🔓 VIP channel access</li>
-    <li>🎨 Custom hoisted Discord role & advanced color selection</li>
-    <li>🌈 Advanced role color selector</li>
-    <li>💰 Payday increased to <strong>1000 VC</strong> every 11hrs</li>
-    <li>📊 Personal Tribe-log channel with the `.tribe` command!</li>
+    <li>💎 Hoisted Discord role</li>
+    <li>👑 VIP channel access</li>
+    <li>🌈 Advanced + Basic role color selection</li>
+    <li>💰 Payday increased to <strong>1000 VC</strong></li>
+    <li>🔐 Personal tribelogs</li>
+    <li>🖼️ AI Image Tools, 10 images/month</li>
+  </ul>
+</div>
+
+<div style="padding: 15px; margin-bottom: 20px; background-color: rgba(30, 30, 30, 0.4); border: 1px solid #333; border-radius: 6px;">
+  <h4>💎 Tier 4 Supporter — $14.99/month</h4>
+  <ul>
+    <li>💎 Hoisted Discord role</li>
+    <li>👑 VIP channel access</li>
+    <li>🌈 Advanced + Basic role color selection</li>
+    <li>💰 Payday increased to <strong>1500 VC</strong></li>
+    <li>🔐 Personal tribelogs</li>
+    <li>🖼️ AI Image Tools, 25 images/month</li>
+    <li>📈 +25% Discord XP gain</li>
+  </ul>
+</div>
+
+<div style="padding: 15px; margin-bottom: 20px; background-color: rgba(168, 130, 255, 0.2); border: 1px solid #a882ff; border-radius: 6px;">
+  <h4>💎 Tier 5 Supporter — $19.99/month</h4>
+  <ul>
+    <li>💎 Hoisted Discord role</li>
+    <li>👑 VIP channel access</li>
+    <li>🌈 Advanced + Basic role color selection</li>
+    <li>💰 Payday increased to <strong>2000 VC</strong></li>
+    <li>🔐 Personal tribelogs</li>
+    <li>🖼️ AI Image Tools, 100 images/month</li>
+    <li>📈 +50% Discord XP gain</li>
   </ul>
 </div>
 
@@ -80,9 +109,15 @@ Purchase VC directly at a rate of **$1 USD = 1000 VC** using the `.claim` comman
 VertCoin (VC) is our virtual currency designed for fun and convenience rather than competitive advantage:
 
 ### Free Ways to Earn VC
-- 🎮 Play minigames in #minigames channel
-- ⏰ Run `.vc` command every 11 hours for free currency
-- 💬 Be active in chat to earn bonus VC
+1. ⏰ Use the `.vc` command every 11 hours to get VertCoin. Use `.bal` to check your balance — to view level roles that affect bonuses, see `#role-info`.
+2. 🎰 Gamble (at your own risk) with VertCoin in the `#casino` channel and win big to increase your balance.
+3. 🐕 Pet the doggo when you see him react with 👋 and be rewarded for your kindness.
+4. 🐦 Shoot birbs when they pop up in channels by typing `bang` 🔫
+5. ❓ Play `#trivia` and compete with friends to see who can get more questions right.
+6. 🧩 Start a game of Pixl with the `.pixl` command and compete with friends to win VC each game for the fastest solutions.
+7. 🎁 Look out for `#auto-events` to participate in (explained in channel).
+8. 💀 Mug people in `#crimetime` and convert your cash to gems, which can then be converted into 1k VC!
+9. ⛏️ Grab your pickaxe and head to `#miner` to start mining — convert resources to VC with the `.miner` command.
 
 ### What Can You Buy With VC?
 The in-game shop offers:
