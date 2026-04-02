@@ -38,18 +38,18 @@ Vertyco features an engaging virtual economy where players can:
 ## 🗺️ Server Clusters
 
 ### 📊 Network Overview
-- **🖥️ Total Servers**: 20 servers across 4 clusters
+- **🖥️ Total Servers**: 25 servers across 5 clusters
 - **🌍 Platform Support**: Xbox, Steam, PlayStation, Microsoft Store
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; margin: 20px 0;">
   <div style="flex: 1; min-width: 300px; padding: 15px; background-color: rgba(46, 204, 113, 0.2); border-radius: 6px;">
-    <h3>🛡️ ASE PvE Cluster (8 Maps)</h3>
-    <p>Ragnarok • The Island • Lost Island • Aberration • Fjordur • Extinction • Valguero • The Center</p>
+    <h3>🛡️ ASE PvE Cluster (9 Maps)</h3>
+    <p>Ragnarok • The Island • Lost Island • Aberration • Fjordur • Extinction • Valguero • The Center • Scorched Earth</p>
   </div>
   
   <div style="flex: 1; min-width: 300px; padding: 15px; background-color: rgba(231, 76, 60, 0.2); border-radius: 6px;">
-    <h3>⚔️ ASE PvP Cluster (8 Maps)</h3>
-    <p>Ragnarok • The Island • Lost Island • Aberration • Fjordur • Extinction • Valguero • The Center</p>
+    <h3>⚔️ ASE PvP Cluster (9 Maps)</h3>
+    <p>Ragnarok • The Island • Lost Island • Aberration • Fjordur • Extinction • Valguero • The Center • Scorched Earth</p>
   </div>
 </div>
 
@@ -60,8 +60,15 @@ Vertyco features an engaging virtual economy where players can:
   </div>
   
   <div style="flex: 1; min-width: 300px; padding: 15px; background-color: rgba(52, 152, 219, 0.2); border-radius: 6px;">
-    <h3>🚀 ASA Cluster (5 Maps)</h3>
-    <p>The Island • The Center • Scorched Earth • Aberration • Extinction</p>
+    <h3>🚀 ASA Cluster (7 Maps)</h3>
+    <p>The Island • The Center • Scorched Earth • Aberration • Extinction • Ragnarok • Valguero</p>
+  </div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; margin: 20px 0;">
+  <div style="flex: 1; min-width: 300px; padding: 15px; background-color: rgba(155, 89, 182, 0.2); border-radius: 6px;">
+    <h3>🏕️ NeverWipe — Primitive+ (1 Map)</h3>
+    <p>Ragnarok</p>
   </div>
 </div>
 
