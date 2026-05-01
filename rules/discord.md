@@ -109,7 +109,13 @@ Examples include:
 
 - **First Offense**: <span style="color: orange;">**Permanent ban**</span> issued to the user
 
-### 1.10 - Voice Channel Conduct
+### 1.10 - Backseat Moderating / Speaking for Staff
+*Do not warn other users, argue moderation in public, or insert yourself into staff interactions. If you think a rule is being broken or a staff action is incorrect, open a support ticket instead.*
+- **First Offense**: Warning issued to the user
+- **Second Offense**: Timeout issued (1-3 days)
+- **Third Offense**: <span style="color: orange;">**14-day temp ban**</span> issued to the user
+
+### 1.11 - Voice Channel Conduct
 *Be respectful in voice channels. No excessive mic spam, soundboards, screaming, or disruptive behavior.*
 - **First Offense**: Verbal warning
 - **Second Offense**: Formal warning issued
@@ -175,8 +181,10 @@ Examples include:
 ### 2.6 - Ban Appeal Rules
 #### Prohibited Actions:
 - Do NOT ask when someone's ban appeal will be approved
+- Do NOT ask Staff for proof of another user's ban or punishment
+- Do NOT ask Staff for additional punishment details beyond what is publicly shared
 - It is ✅ **acceptable** to ask if someone was <span style="color: orange;">**banned**</span>.
-- Staff may explain <span style="color: orange;">**ban**</span> reasons to other users.
+- Staff may confirm whether a user was <span style="color: orange;">**banned**</span> and provide a general reason, but not further details.
 
 #### Ban Appeal Begging Penalties:
 - **First Offense**: Verbal reminder to use proper channels.
