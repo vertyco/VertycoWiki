@@ -2,7 +2,7 @@
 title: Handling Tickets
 description: Staff guide for handling support tickets in the Vertyco Discord community.
 published: true
-date: 2025-01-13T19:07:01.087Z
+date: 2026-05-01T00:00:00.000Z
 tags: staff, tickets, support
 editor: markdown
 dateCreated: 2024-08-25T23:29:55.546Z
@@ -46,7 +46,16 @@ When the Tickets are related to a user report, you must have evidence to issue a
 
 # Off-site behavior
 
-Reports concerning direct messages, off-site conduct, or external servers are assessed individually, taking into account the nature and seriousness of the accusation, as well as the strength of evidence provided. Typically, instances of mild rudeness or derogatory behavior in DMs are recommended to be addressed by blocking and moving on, unless it starts to affect the server environment.
+Reports concerning direct messages, off-site conduct, or external servers are assessed individually, taking into account the nature and seriousness of the accusation, as well as the strength of evidence provided. Mild rudeness or ordinary derogatory behavior in DMs can still be recommended to be handled by blocking and moving on unless it starts to affect the server environment.
+
+However, do not dismiss reports that fall under Discord Rule 1.8 or Rule 1.9 as ordinary DM drama. With evidence, the following are actionable even when they happen in DMs or off-site spaces tied to the community:
+
+- Using the server or its members to look for dates, hookups, or romantic attention
+- Unwanted romantic or suggestive comments directed at members
+- Continuing after a member says they are uncomfortable or after Staff tells the user to stop
+- Age-targeted, coercive, explicit, or otherwise predatory behavior
+
+If the report involves Rule 1.9 behavior, preserve the evidence, tell the reporting member not to continue engaging, and escalate it to an Admin immediately.
 
 # How to Say No
 > Unfortunately we cannot replace lost items.  We have no way of replicating exactly what was lost. If you ask around in the map-chats, there are friendly players who might be willing to help you with that.
@@ -83,6 +92,7 @@ Pretty much all of these will require an Admin, but Moderators are able to let P
 - Structure Issue tickets (meshed in the ground, base is too big, base disappeared.)
 - Dinos left on a base or public area, such as OB or CC. (<span style="color: magenta;">PvE Only</span>)
 - Cheating accusations.
+- Rule 1.8 or Rule 1.9 reports involving dating-service misuse, unwanted romantic conduct, or predatory behavior
 - Donations for VC.
 - Platform/Obelisk purchases from the Donations tab.
 - Gameplay settings issues, such as too many of a certain dino spawning, etc.
