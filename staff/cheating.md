@@ -2,7 +2,7 @@
 title: Meshing/Cheating
 description: Staff guide for identifying and handling meshing, cheating, and exploit violations on Vertyco Ark servers.
 published: true
-date: 2026-01-17T00:00:00.000Z
+date: 2026-05-14T00:00:00.000Z
 tags: staff, moderation, cheating
 editor: markdown
 dateCreated: 2024-08-26T02:41:24.978Z
@@ -154,6 +154,18 @@ A structure is considered **meshed** when **any** of the following conditions ar
 - Other tribe members will be investigated but not automatically punished.
 
 > File checks will be conducted for suspected players. Players must comply within 1 hour of the request.
+
+---
+
+## 🕳️ Mesh Raiding (Rule 2.2)
+
+**Definition**: Attacking bases through the mesh. This includes shooting from outside the mesh, using tames, mounts, or boats to push through the mesh, or meshing rafts into bases.
+
+### 🚨 Actions Required:
+- **First Offense**: Warning and Ark Data wipe for the offending member.
+- **Second Offense**: Full tribe wipe and <span style="color: orange;">**90-day temp ban**</span> for the offending member.
+
+If a confirmed mesh raid results in a tribe being wiped or effectively wiped from the inside, review [Mesh-Raid Rollbacks (SOP)](/staff/mesh-raid-rollback) before closing the ticket. Do not promise a rollback until the activity checks and Admin approvals are complete.
 
 ---
 

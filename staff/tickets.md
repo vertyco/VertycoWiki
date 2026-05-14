@@ -2,7 +2,7 @@
 title: Handling Tickets
 description: Staff guide for handling support tickets in the Vertyco Discord community.
 published: true
-date: 2026-05-01T00:00:00.000Z
+date: 2026-05-14T00:00:00.000Z
 tags: staff, tickets, support
 editor: markdown
 dateCreated: 2024-08-25T23:29:55.546Z
@@ -17,6 +17,7 @@ Upon a ticket being opened the following should be determined right away
 - Is it for ASA or ASE and PvE or PvP? Some of this info is listed at the top of the ticket.
 - If it involves a structure, dino, or player doing something, we will need the EXACT gps coordinates(34.1 57.9). General Map Coordinates(55 80) will not be enough. Obtain pertinent information "in a cave" or "in Asgard realm on Fjordur," or "underwater,"  information that may be necessary.
 - Look at their reason stated for opening a ticket. If it involves replacing any lost items/dinos, or a tribe argument, or a ban appeal; then we will tell them in a polite manner that isn’t something Support Tickets are for.
+- Exception: if the ticket is a credible **PvP mesh-raid wipe** report, collect the needed evidence and escalate it to Admin review under [Mesh-Raid Rollbacks (SOP)](/staff/mesh-raid-rollback).
 
 # Interacting With Players
 - For your first response to the player, make sure to either use REPLY to a message they sent in the ticket, or use the @ feature so they get pinged that someone is responding to their ticket.
@@ -59,6 +60,9 @@ If the report involves Rule 1.9 behavior, preserve the evidence, tell the report
 
 # How to Say No
 > Unfortunately we cannot replace lost items.  We have no way of replicating exactly what was lost. If you ask around in the map-chats, there are friendly players who might be willing to help you with that.
+
+> If the loss appears to be from a confirmed PvP mesh-raid wipe, do not promise a replacement or rollback in the ticket. Gather the evidence, escalate it to Admins, and follow [Mesh-Raid Rollbacks (SOP)](/staff/mesh-raid-rollback).
+{.is-info}
 
 > We understand being kicked out of your tribe is frustrating.  Unfortunately tribe affairs are not something we mediate and must be handled within the tribe itself.  We have rules about Joining/Merging tribes at your own risk for these purposes.
 

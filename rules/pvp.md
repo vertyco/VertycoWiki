@@ -2,7 +2,7 @@
 title: PvP Rules — Vertyco Ark Servers
 description: PvP rules for Vertyco Ark Survival Evolved servers. Covers meshing, aimbotting, raid rules, turret limits, and punishment tiers for our competitive PvP cluster.
 published: true
-date: 2026-03-22T02:13:57.344Z
+date: 2026-05-14T00:00:00.000Z
 tags: ark, rules, pvp
 editor: markdown
 dateCreated: 2025-02-15T22:53:44.565Z
@@ -102,6 +102,7 @@ All other offenses will result in temporary bans, timeouts, wipes, or warnings a
 - **2.2 - Mesh Raiding**
   - *Attacking bases through the mesh. This includes shooting from outside the mesh, using tames/mounts/boats to push through the mesh, or meshing rafts into bases.*
   - > Exception: Taking down pillars from within a raft is permitted.
+  - > In severe confirmed cheating cases, Staff may intervene beyond punishment alone, including rollback of the affected map or limited recovery relief when practical. This is not guaranteed and depends on impact to unrelated players.
   - **First Offense**: Warning and Ark Data wipe for the offending member.
   - **Second Offense**: Full tribe wipe and <span style="color: orange;">90-day temp ban</span> for the offending member.
 
