@@ -110,7 +110,7 @@ Examples include:
 - **First Offense**: <span style="color: orange;">**Permanent ban**</span> issued to the user
 
 ### 1.10 - Backseat Moderating / Speaking for Staff
-*Do not warn other users, argue moderation in public, or insert yourself into staff interactions. If you think a rule is being broken or a staff action is incorrect, open a support ticket instead.*
+*Do not warn other users, argue moderation in public, demand punishments, or insert yourself into staff interactions. If you think a rule is being broken or a staff action is incorrect, open a support ticket instead.*
 - **First Offense**: Warning issued to the user
 - **Second Offense**: Timeout issued (1-3 days)
 - **Third Offense**: <span style="color: orange;">**14-day temp ban**</span> issued to the user
