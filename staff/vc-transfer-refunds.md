@@ -2,7 +2,7 @@
 title: VC Transfer Refunds (SOP)
 description: Internal process for mistaken VertCoin transfers
 published: true
-date: 2026-01-31T00:00:00.000Z
+date: 2026-05-23T00:00:00.000Z
 tags: staff, vc, refunds
 editor: markdown
 dateCreated: 2026-01-31T00:00:00.000Z
@@ -36,7 +36,7 @@ Do **not** reverse if any of the following apply:
 > {.is-warning}
 
 ## Misconduct Exception
-If evidence shows **scamming, impersonation, or coercion**, treat it as a rules violation. In those cases:
+If evidence shows **scamming, impersonation, or coercion**, treat it as a rules violation. Intentional exploitation of the shop or VC economy is handled under [Shop & Economy Exploitation](/staff/cheating), not as a refund. In misconduct cases:
 
 - Follow the applicable disciplinary steps in the Discord rules.
 - Admins may reverse or wipe VC as part of enforcement, but **reversals without consent** are only allowed when the recipient account is confirmed inactive.

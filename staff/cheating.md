@@ -2,7 +2,7 @@
 title: Meshing/Cheating
 description: Staff guide for identifying and handling meshing, cheating, and exploit violations on Vertyco Ark servers.
 published: true
-date: 2026-05-14T00:00:00.000Z
+date: 2026-05-23T00:00:00.000Z
 tags: staff, moderation, cheating
 editor: markdown
 dateCreated: 2024-08-26T02:41:24.978Z
@@ -126,8 +126,9 @@ A structure is considered **meshed** when **any** of the following conditions ar
 >
 > - All punishments follow the tiered system in the PvP Rules.
 > - Evidence must be documented before taking action.
+> - Act on member-visible evidence. Private or unshowable intel is for monitoring only — log it with `.mnote` and watch, do not punish on it.
 > - Staff should always verify the exploit before implementing penalties.
-> - Permanent bans are reserved for confirmed Aimbot/ESP, DDoS attacks, doxxing, real-world threats, or chargebacks.
+> - Permanent bans are reserved for confirmed Aimbot/ESP, DDoS attacks, doxxing, real-world threats, chargebacks, or shop/economy exploitation causing severe economy damage.
 
 ### Joking or False Claims About Cheating
 - A joke or false claim about cheating is not, by itself, treated as confirmed cheating.
@@ -182,6 +183,30 @@ If a confirmed mesh raid results in a tribe being wiped or effectively wiped fro
 - **Individual Duping** (*Evidence shows isolated duping by a single player*):
   - <span style="color: orange;">**60-day temp ban**</span> for the offending player only
   - Other tribe members receive a formal warning
+
+---
+
+## 🛒 Shop & Economy Exploitation (Rule 2.5)
+
+**Definition**: Intentionally manipulating the VertCoin economy or the Rshop/data shop to gain unearned currency or items. Examples: abusing a pricing or refund bug, buy/refund loops, claiming items without paying, forcing a negative balance, or duping an item then selling it back to the shop.
+
+> This covers exploiting the **shop systems themselves**. Accidental VC transfers go to [VC Transfer Refunds (SOP)](/staff/vc-transfer-refunds). In-game item duplication is handled under Rule 2.4 above.
+{.is-info}
+
+### 🚨 Actions Required:
+- **Reversible first**: freeze or zero the exploited VC/items and monitor while scope is confirmed before issuing a ban (see [Decision Principles](/staff/core-guidelines)).
+- **First Offense**: Reverse all ill-gotten VC and Ark Data wipe of items obtained, plus a formal warning.
+- **Second Offense**: <span style="color: orange;">**60-day temp ban**</span> for the offending player, aligning with item duplication.
+- **Large-Scale or Tribe-Wide** (*economy gain shared across a tribe, e.g. a base or stockpile built from exploited VC*):
+  - Full reversal of gains and Ark Data wipe for beneficiaries
+  - <span style="color: orange;">**60-day temp ban**</span> for all confirmed participants
+  - Warning for uninvolved members
+- **Severe Economy Damage** (*sustained or repeated exploitation that corrupts the server's economy or item balance beyond what reversals can fix — e.g. months of undetected abuse that may force a server wipe*):
+  - <span style="color: orange;">**Permanent ban**</span> for the offending player.
+  - This is the one shop-exploit tier that is irreversible and high-stakes — requires Admin sign-off and a logged decision per [Decision Principles](/staff/core-guidelines).
+
+> A player who **reports** a shop or economy bug instead of abusing it receives no penalty. Reward disclosure over exploitation.
+{.is-success}
 
 
 
