@@ -19,8 +19,8 @@ User/Server/Message IDs provide a more accurate lookup and moderation of users. 
 
 **Moderation Commands**
 > Ensure that every moderation with a reason field is used properly.
-Do not put immature, vague, or otherwise useless reasons for actions placed.
-This reflects poorly on us and causes issues during the appeals process.
+> Do not put immature, vague, or otherwise useless reasons for actions placed.
+> This reflects poorly on us and causes issues during the appeals process.
 {.is-info}
 
 
@@ -120,7 +120,7 @@ Admin Only
 `.ban <user> <reason>`
 
 Bans are a permanent suspension of the user's account from the server.
-Optionally, you can provide this appeal link in the ban: https://forms.gle/k41rwLhSxbzix3gw5
+Optionally, you can provide the ban appeal Discord link in the ban: https://discord.gg/KZFbS4aJxA
 <br>
 <figure style="text-align: left;">
   <img src="/assets/ban-example.png" alt="Description" style="width: 65%; max-width: 600px;" />

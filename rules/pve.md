@@ -137,10 +137,10 @@ dateCreated: 2025-02-15T23:19:09.413Z
 ---
 
 > **Important Notes:**
-> - PvE servers are "Neverwipe" maps (Launched: August 15th, 2021).
-> - Staff reserves the right to adjust punishments based on severity and context.
-> - Multiple infractions across different categories may result in accelerated punishment tiers.
-> - Appeals can be made through the standard support ticket system.
+> • PvE servers are "Neverwipe" maps (Launched: August 15th, 2021).
+> • Staff reserves the right to adjust punishments based on severity and context.
+> • Multiple infractions across different categories may result in accelerated punishment tiers.
+> • Appeals can be made through the standard support ticket system.
 
 ## 📖 Definitions
 

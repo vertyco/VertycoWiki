@@ -284,4 +284,4 @@ The fallback policy is:
 
 ## Suggested Staff Response
 > Thanks for the report. We are investigating this as a possible PvP cheating case. If Staff confirm a mesh-raid wipe, we will review whether a rollback on the affected map is possible. We cannot promise a rollback or item replacement while that review is in progress.
-> {.is-info}
+{.is-info}

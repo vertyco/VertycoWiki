@@ -34,9 +34,9 @@ All other offenses will result in temporary bans, timeouts, wipes, or warnings a
   - > **Rule of thumb:** If you cannot walk or crouch into the entrance normally, it is off-limits. If you are unsure about a location, open a ticket **before** building there.
   - **First Offense**:
     - Non-Discord Members: 24 hours to join Discord and link account or receive a <span style="color: orange;">3-day temp ban</span>.
-    - Discord Members: **Full demolition** of the meshed/glitch base and all connected structures. Formal warning issued. The tribe must relocate to a legitimate spot.
-  - **Second Offense**: **Full demolition** of the base, Ark Data wipe for all involved members, and a <span style="color: orange;">3-day temp ban</span>. Tribe must relocate.
-  - **Third Offense**: **Full tribe wipe** on the map where the offense occurred (all structures, tames, and inventory) and <span style="color: orange;">14-day temp ban</span> for all involved members.
+    - Discord Members: Warning and removal of the meshed/glitch structures.
+  - **Second Offense**: Ark Data wipe and formal warning.
+  - **Third Offense**: **Full tribe wipe** for repeat offenders.
 
 - **1.2 - Meshed Spam**
   - *Placing structures in the mesh to prevent building or claiming territory.*

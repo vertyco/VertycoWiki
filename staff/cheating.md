@@ -124,11 +124,11 @@ A structure is considered **meshed** when **any** of the following conditions ar
 
 > ## ⚠️ Important Notes
 >
-> - All punishments follow the tiered system in the PvP Rules.
-> - Evidence must be documented before taking action.
-> - Act on member-visible evidence. Private or unshowable intel is for monitoring only — log it with `.mnote` and watch, do not punish on it.
-> - Staff should always verify the exploit before implementing penalties.
-> - Permanent bans are reserved for confirmed Aimbot/ESP, DDoS attacks, doxxing, real-world threats, chargebacks, or shop/economy exploitation causing severe economy damage.
+> • All punishments follow the tiered system in the PvP Rules.
+> • Evidence must be documented before taking action.
+> • Act on member-visible evidence. Private or unshowable intel is for monitoring only — log it with `.mnote` and watch, do not punish on it.
+> • Staff should always verify the exploit before implementing penalties.
+> • Permanent bans are reserved for confirmed Aimbot/ESP, DDoS attacks, doxxing, real-world threats, chargebacks, or shop/economy exploitation causing severe economy damage.
 
 ### Joking or False Claims About Cheating
 - A joke or false claim about cheating is not, by itself, treated as confirmed cheating.

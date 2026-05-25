@@ -38,7 +38,7 @@ Vertyco features an engaging virtual economy where players can:
 ## 🗺️ Server Clusters
 
 ### 📊 Network Overview
-- **🖥️ Total Servers**: 25 servers across 5 clusters
+- **🖥️ Total Servers**: 27 servers across 5 clusters
 - **🌍 Platform Support**: Xbox, Steam, PlayStation, Microsoft Store
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; margin: 20px 0;">

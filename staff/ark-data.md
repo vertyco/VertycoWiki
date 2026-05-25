@@ -42,7 +42,7 @@ If a player knows they should have something in their Ark data but cannot see it
 </figure>
 
 > • If the cluster they're on isn't shown then there is <span style="color: red;">Nothing</span> in their Ark data.
-• If the file size says <span style="color: orange;">0 bytes</span> then there is <span style="color: red;">Nothing</span> in their ark data.
+> • If the file size says <span style="color: orange;">0 bytes</span> then there is <span style="color: red;">Nothing</span> in their ark data.
 {.is-info}
 
 ## Step 2: Try Clearing Cache

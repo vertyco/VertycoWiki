@@ -28,7 +28,7 @@ Returns the Xbox ID of a given Gamertag.
 
 `search_query` can be the following:
 
-> Username, ID, or @mention of a Discord account.
+> • Username, ID, or @mention of a Discord account.
 > • In-game Gamertag or Username
 > • XUID, Steam ID, PSN ID, or EOS ID
 > • In-game character name of the player.

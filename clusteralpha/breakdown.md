@@ -1,9 +1,9 @@
 ---
 title: Cluster Alpha Breakdown
-description:
+description: Full breakdown of the Cluster Alpha ranking system for ARK PvP seasons: power ratings, Alpha Points, passive income, kill and raid scoring, home tribes, alliances, and season rewards.
 published: true
 date: 2026-01-30T21:15:27.955Z
-tags:
+tags: clusteralpha, pvp, ranking, alpha-points
 editor: markdown
 dateCreated: 2026-01-30T21:15:27.955Z
 ---

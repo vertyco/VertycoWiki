@@ -14,7 +14,7 @@ dateCreated: 2026-01-31T00:00:00.000Z
 Accidental VC transfers are treated as user error and are **not** automatically reversed. Staff will only reverse a transfer when **all** eligibility requirements are met. If the recipient does not consent, staff will not force a reversal unless there is clear evidence of rule-breaking (e.g., scam, impersonation, or exploit).
 
 > This protects innocent recipients, avoids disputes over “he said / she said,” and keeps the VC economy consistent.
-> {.is-info}
+{.is-info}
 
 ## Eligibility for Reversal
 All of the following must be true:
@@ -33,7 +33,7 @@ Do **not** reverse if any of the following apply:
 - The user is requesting repeated reversals (more than 1 in 90 days).
 
 > If the recipient refuses, staff do not deduct VC from them unless there is clear evidence of misconduct.
-> {.is-warning}
+{.is-warning}
 
 ## Misconduct Exception
 If evidence shows **scamming, impersonation, or coercion**, treat it as a rules violation. Intentional exploitation of the shop or VC economy is handled under [Shop & Economy Exploitation](/staff/cheating), not as a refund. In misconduct cases:
@@ -56,4 +56,4 @@ If evidence shows **scamming, impersonation, or coercion**, treat it as a rules 
 
 ## Suggested Staff Response (Template)
 > Thanks for reaching out. Accidental VC transfers aren’t automatically reversed. If the recipient agrees and the VC hasn’t been spent, we can reverse it. I’ll contact them and follow up with you.
-> {.is-info}
+{.is-info}

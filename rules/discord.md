@@ -140,18 +140,17 @@ Examples include:
 ### 2.2 - Alt Account Harboring
 *Harboring alt accounts for other people is not allowed.*
 - **First Offense**:
-    - Recruiter receives Ark data wipe
-    - Knowing participants receive warning
+    - Recruiter receives a formal warning
+    - Knowing participants receive a warning
     - No punishment for uninvolved tribe members
 - **Second Offense**:
-    - Recruiter receives <span style="color: orange;">7-day temp ban</span>/data wipe
-    - Knowing participants receive Ark data wipe and warning
+    - Recruiter receives an Ark data wipe
+    - Knowing participants receive a formal warning
     - No punishment for uninvolved tribe members
 - **Third Offense**:
     - Recruiter receives <span style="color: orange;">30-day temp ban</span>
     - Knowing participants receive Ark data wipe
     - No punishment for uninvolved tribe members
-    - If this is the same tribe within a single season, wipe the whole tribe.
 
 > Players without Discord have 24 hours to join and link their account or face a <span style="color: orange;">**ban**</span>.
 
@@ -212,9 +211,9 @@ Examples include:
 ## 🔄 Alt Account Appeals Process
 
 Alternative accounts may only appeal <span style="color: orange;">**bans**</span> under these specific conditions:
-> - ✅ The alt account has not been used in the server (no registration or VC claims).
-> - ✅ The alt immediately contacts Staff about their appeal.
-> - ✅ The alt was not in the server simultaneously with the main account.
+> • ✅ The alt account has not been used in the server (no registration or VC claims).
+> • ✅ The alt immediately contacts Staff about their appeal.
+> • ✅ The alt was not in the server simultaneously with the main account.
 
 ### Appeal Process:
 1. Use the `.appeal` command and provide:
