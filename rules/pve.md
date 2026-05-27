@@ -2,7 +2,7 @@
 title: PvE Rules — Vertyco Ark Servers
 description: PvE rules for Vertyco Ark Survival Evolved servers. Covers base limits, community conduct, tribe policies, taming slots, and structure guidelines for our family-friendly cluster.
 published: true
-date: 2026-03-13T22:34:09.481Z
+date: 2026-05-27T18:37:41.299Z
 tags: ark, rules, pve
 editor: markdown
 dateCreated: 2025-02-15T23:19:09.413Z
@@ -60,12 +60,14 @@ dateCreated: 2025-02-15T23:19:09.413Z
   - **Third Offense**: <span style="color: orange;">Permanent Ban</span>.
   - *See rule 2.1 for more information on tribe policies regarding internal conflicts.*
 - **3.4 - No Interference**
-  - *Do not interfere with players taming wild dinos or OSD activities on Extinction.*
+  - *Do not interfere with players taming wild dinos, take action to kill off rare wild spawns(wild sniping), or OSD/veins activities on Extinction.*
   - **First Offense**: Warning.
-  - **Second Offense**: 7-day <span style="color: orange;">Temp Ban</span>.
-  - **Third Offense**: 30-day <span style="color: orange;">Temp Ban</span>.
-  - **Fourth Offense**: <span style="color: orange;">Permanent Ban</span>.
+  - **Second Offense**: 7-day <span style="color: orange;">Temp Ban</span> and a Tribe Dino Wipe.
+  - **Third Offense**: 30-day <span style="color: orange;">Temp Ban</span> and a Tribe Dino Wipe.
+  - **Fourth Offense**: <span style="color: orange;">Permanent Ban</span> and a Tribe Dino Wipe.
   - *See rule 2.1 for more information on tribe policies regarding internal conflicts.*
+
+(Attempting to prevent veins, osd's, or dinos from being on the map for others to use for any reason will result in swift and harsh repercussions.)
 
 ## 4️⃣ Structure Rules
 
