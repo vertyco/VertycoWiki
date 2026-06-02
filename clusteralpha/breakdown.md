@@ -2,8 +2,8 @@
 title: Cluster Alpha Breakdown
 description: Full breakdown of the Cluster Alpha ranking system for ARK PvP seasons - power ratings, Alpha Points, passive income, kill and raid scoring, home tribes, alliances, and season rewards.
 published: true
-date: 2026-01-30T21:15:27.955Z
-tags: clusteralpha, pvp, ranking, alpha-points
+date: 2026-06-02T22:18:09.855Z
+tags: pvp, clusteralpha, ranking, alpha-points
 editor: markdown
 dateCreated: 2026-01-30T21:15:27.955Z
 ---
@@ -40,9 +40,9 @@ dateCreated: 2026-01-30T21:15:27.955Z
 ## 📡 See It Live
 
 Every day and week, the bot auto-posts recaps to our `alpha-feed` channel: top killers, top raiders, biggest point swings, active rivalries, and the reigning alpha tribe.
-
+![weekly-alpha-recap.png](/weekly-alpha-recap.png)
 <div style="margin: 20px 0; text-align: center;">
-  <img src="/clusteralpha/weekly-alpha-recap.png" alt="Weekly Alpha Recap embed posted automatically in Discord" style="max-width: 480px; width: 100%; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.3);" />
+  <img src="/weekly-alpha-recap.png" alt="Weekly Alpha Recap embed posted automatically in Discord" style="max-width: 480px; width: 100%; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.3);" />
   <p style="font-size: 0.9em; opacity: 0.75; margin-top: 10px;">Live weekly recap, auto-posted every Monday at 10am Eastern.</p>
 </div>
 
