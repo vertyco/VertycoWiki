@@ -1,6 +1,6 @@
 ---
 title: Cluster Alpha Breakdown
-description: Full breakdown of the Cluster Alpha ranking system for ARK PvP seasons: power ratings, Alpha Points, passive income, kill and raid scoring, home tribes, alliances, and season rewards.
+description: Full breakdown of the Cluster Alpha ranking system for ARK PvP seasons - power ratings, Alpha Points, passive income, kill and raid scoring, home tribes, alliances, and season rewards.
 published: true
 date: 2026-01-30T21:15:27.955Z
 tags: clusteralpha, pvp, ranking, alpha-points
@@ -8,9 +8,45 @@ editor: markdown
 dateCreated: 2026-01-30T21:15:27.955Z
 ---
 
-# Cluster Alpha System - Full Breakdown
+# Cluster Alpha System - Competitive ARK PvP Seasons
 
-The Cluster Alpha System is a competitive ranking mechanism for ARK PvP seasons. Tribes earn "Alpha Points" through base power, PvP kills, and raiding.
+<div style="margin: 30px 0; padding: 35px; background-color: rgba(231, 76, 60, 0.15); border-radius: 10px; text-align: center;">
+  <h2 style="margin-bottom: 12px;">⚔️ Raid. Conquer. Rank Up.</h2>
+  <p style="font-size: 1.15em; max-width: 760px; margin: 0 auto 24px;">Cluster Alpha turns every kill and raid into points. Climb the leaderboard across the season, and the top tribes split massive VertCoin payouts and exclusive starter kits when the map wipes.</p>
+  <a href="https://discord.gg/vertyco" style="display: inline-block; padding: 14px 28px; background-color: #5865F2; color: white; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 1.05em; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+    <i class="fab fa-discord" style="margin-right: 10px;"></i> Join the Battle on Discord
+  </a>
+</div>
+
+## 🏆 Why Cluster Alpha?
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; margin: 20px 0;">
+  <div style="flex: 1; min-width: 240px; padding: 18px; background-color: rgba(46, 204, 113, 0.15); border-radius: 6px;">
+    <h3>💯 Zero-Sum Economy</h3>
+    <p>Every point you earn is stolen from a rival. No farming, no exploits, only real PvP moves the leaderboard.</p>
+  </div>
+
+  <div style="flex: 1; min-width: 240px; padding: 18px; background-color: rgba(241, 196, 15, 0.15); border-radius: 6px;">
+    <h3>🗡️ Raids That Matter</h3>
+    <p>Wipe an enemy base and steal up to 75% of their points. Raiding is finally worth the C4.</p>
+  </div>
+
+  <div style="flex: 1; min-width: 240px; padding: 18px; background-color: rgba(155, 89, 182, 0.15); border-radius: 6px;">
+    <h3>👑 Season Rewards</h3>
+    <p>Top 3 tribes earn up to 15× their Alpha Points in VertCoin, plus a Fighter, Tamer, or Builder starter kit next wipe.</p>
+  </div>
+</div>
+
+## 📡 See It Live
+
+Every day and week, the bot auto-posts recaps to our `alpha-feed` channel: top killers, top raiders, biggest point swings, active rivalries, and the reigning alpha tribe.
+
+<div style="margin: 20px 0; text-align: center;">
+  <img src="/clusteralpha/weekly-alpha-recap.png" alt="Weekly Alpha Recap embed posted automatically in Discord" style="max-width: 480px; width: 100%; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.3);" />
+  <p style="font-size: 0.9em; opacity: 0.75; margin-top: 10px;">Live weekly recap, auto-posted every Monday at 10am Eastern.</p>
+</div>
+
+The Cluster Alpha System is a competitive ranking mechanism for ARK PvP seasons. Tribes earn **Alpha Points** through base power, PvP kills, and raiding.
 
 > **See Also:** [PvP Scenarios & Examples](/clusteralpha/scenarios)
 
@@ -254,7 +290,7 @@ When multiple tribes raid together, points are split based on **power destroyed*
 
 ### Home Tribe Attribution
 
-Points always go to your **"home tribe"** — the tribe you belong to with the highest power in the cluster.
+Points always go to your **"home tribe"**, the tribe you belong to with the highest power in the cluster.
 
 **Why this matters:**
 - You can't abuse FOB tribes to hide points
@@ -329,8 +365,8 @@ The most important anti-abuse feature: **all PvP points are transfers, not creat
 
 | Abuse Attempt | Result |
 |---------------|--------|
-| Kill trading between friends | Net zero — you gain what they lose |
-| Farming your own alt | Net zero — your alt's tribe loses what you gain |
+| Kill trading between friends | Net zero, you gain what they lose |
+| Farming your own alt | Net zero, your alt's tribe loses what you gain |
 | Creating shell tribes | Can't accumulate without fighting |
 | Bounty farming | Bounty comes from victim, not created |
 
@@ -394,11 +430,11 @@ Countdown announcements at: 7d, 3d, 1d, 12h, 6h, 3h, 1h before season end
 
 | Place | Reward |
 |-------|--------|
-| 1st | 20x their alpha points |
+| 1st | 15x their alpha points |
 | 2nd | 10x their alpha points |
 | 3rd | 5x their alpha points |
 
-**Example:** 1st place with 10,000 points = 200,000 VC split among members
+**Example:** 1st place with 80,000 points = 1,200,000 VC split among members
 
 ### 1st Place Bonus
 
@@ -409,3 +445,13 @@ Each member of the winning tribe gets a starter pack next wipe:
 **Tamer Kit:** 5 cryopods, stego chibi, gallimimus with saddle, harpoon and 35 nets, 10 large bear traps, 105.5 longneck, 35 tranq darts, 100 mutagel, 50 mutagen, 100 narcotics, 10 dino gateways and 5 gates, 5 wooden billboards, wooden club
 
 **Builder Kit:** Raft and stone base with smithy, regular forge, cooking pot, 2 simple beds, and a parasaur
+
+---
+
+<div style="margin: 40px 0; padding: 35px; background-color: rgba(88, 101, 242, 0.15); border-radius: 10px; text-align: center;">
+  <h2 style="margin-bottom: 12px;">Ready to claim the top spot?</h2>
+  <p style="font-size: 1.1em; max-width: 700px; margin: 0 auto 24px;">Pick a tribe, build your power, and start stealing points. The next season is waiting.</p>
+  <a href="https://discord.gg/vertyco" style="display: inline-block; padding: 14px 28px; background-color: #5865F2; color: white; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 1.05em; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+    <i class="fab fa-discord" style="margin-right: 10px;"></i> Join the Vertyco Discord
+  </a>
+</div>

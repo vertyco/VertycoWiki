@@ -38,7 +38,7 @@ Vertyco features an engaging virtual economy where players can:
 ## 🗺️ Server Clusters
 
 ### 📊 Network Overview
-- **🖥️ Total Servers**: 27 servers across 5 clusters
+- **🖥️ Total Servers**: 28 servers across 5 clusters
 - **🌍 Platform Support**: Xbox, Steam, PlayStation, Microsoft Store
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; margin: 20px 0;">
@@ -60,15 +60,16 @@ Vertyco features an engaging virtual economy where players can:
   </div>
   
   <div style="flex: 1; min-width: 300px; padding: 15px; background-color: rgba(52, 152, 219, 0.2); border-radius: 6px;">
-    <h3>🚀 ASA Cluster (7 Maps)</h3>
-    <p>The Island • The Center • Scorched Earth • Aberration • Extinction • Ragnarok • Valguero</p>
+    <h3>🚀 ASA Cluster (8 Servers)</h3>
+    <p><strong>PvE (7):</strong> The Island • The Center • Scorched Earth • Aberration • Extinction • Ragnarok • Valguero</p>
+    <p><strong>PvP (1):</strong> The Center</p>
   </div>
 </div>
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; margin: 20px 0;">
   <div style="flex: 1; min-width: 300px; padding: 15px; background-color: rgba(155, 89, 182, 0.2); border-radius: 6px;">
     <h3>🏕️ NeverWipe — Primitive+ (1 Map)</h3>
-    <p>Ragnarok</p>
+    <p>The Island</p>
   </div>
 </div>
 
