@@ -47,7 +47,7 @@ If the main account is under an active **temp ban** and an alt is found:
 - <span style="color: orange;">Permanent ban</span> the alt account.
 
 ## Escalation to Permanent
-Once a main account's accumulated ban duration reaches **30 days or more**, the next ban evasion offense results in a <span style="color: orange;">permanent ban</span> of the main account.
+Once a main account's accumulated ban duration reaches **60 days or more**, the next ban evasion offense results in a <span style="color: orange;">permanent ban</span> of the main account.
 
 ## Permanently-Banned Mains
 If the main account is already <span style="color: orange;">permanently banned</span>, the alt is to be <span style="color: orange;">permanently banned</span> as well. See [Alt Account Appeal](#alt-account-appeal) for the only exception where engagement is permitted.
