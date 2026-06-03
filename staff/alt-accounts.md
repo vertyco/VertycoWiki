@@ -2,7 +2,7 @@
 title: Alt Accounts
 description: Staff policy and procedures for handling alt accounts on Vertyco Ark servers.
 published: true
-date: 2024-08-31T18:50:10.875Z
+date: 2026-06-02T00:00:00.000Z
 tags: staff, policy, alt-accounts
 editor: markdown
 dateCreated: 2024-08-26T00:22:11.710Z
@@ -36,6 +36,21 @@ Tribes that knowingly harbor alt accounts will face the following:
 	- Knowing participants receive Ark data wipe.
 	- No punishment for uninvolved tribe members.
 
+
+# Ban Evasion
+
+When a user's main account is already <span style="color: orange;">banned</span> and they are caught using an alt account, this is **ban evasion** — a more serious violation than a standard alt account offense. The alt is always <span style="color: orange;">permanently banned</span>; the main account is handled as below.
+
+## Temp-Banned Mains
+If the main account is under an active **temp ban** and an alt is found:
+- Extend the main account's ban by <span style="color: orange;">an additional 7 days per alt account</span> discovered.
+- <span style="color: orange;">Permanent ban</span> the alt account.
+
+## Escalation to Permanent
+Once a main account's accumulated ban duration reaches **30 days or more**, the next ban evasion offense results in a <span style="color: orange;">permanent ban</span> of the main account.
+
+## Permanently-Banned Mains
+If the main account is already <span style="color: orange;">permanently banned</span>, the alt is to be <span style="color: orange;">permanently banned</span> as well. See [Alt Account Appeal](#alt-account-appeal) for the only exception where engagement is permitted.
 
 # Alt Account Appeal
 
