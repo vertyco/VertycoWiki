@@ -78,7 +78,7 @@ A dedicated Event and PvP arena on Ragnarok with pre-built battlegrounds and boo
 
 ## 🏕️ NeverWipe Primitive Plus (1 server, Xbox & MS Store PC)
 
-Our Primitive Plus server, **VertNoWipe** (The Island), shows up automatically on the player-dedicated list when your game mode is set to Primitive Plus.
+Our Primitive Plus server, host gamertag **Vertyco Prim** (The Island), shows up automatically on the player-dedicated list when your game mode is set to Primitive Plus.
 
 ---
 
