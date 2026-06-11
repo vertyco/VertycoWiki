@@ -62,3 +62,52 @@ ASE clusters run 9 maps each (PvE and PvP): Ragnarok, The Island, Lost Island, A
 
 ### Are the servers boosted?
 Server rates and settings are posted in Discord and vary by cluster. The Vertydome arena runs boosted rewards for events and PvP.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can Xbox and PlayStation play together on Vertyco's Ark servers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, on Ark Survival Ascended (ASA). Vertyco's ASA cluster is full crossplay across Xbox, PlayStation, Steam, and Microsoft Store. ASE supports Xbox and Microsoft Store PC only."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need Discord to play on Vertyco?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Server access and support run through the Vertyco Discord at https://discord.gg/vertyco."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are Vertyco's Ark servers free to play on?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Donations are optional and the shop is designed to not be pay-to-win."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What maps does Vertyco run?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ASE clusters run 9 maps each (PvE and PvP): Ragnarok, The Island, Lost Island, Aberration, Fjordur, Extinction, Valguero, The Center, and Scorched Earth. The ASA cluster runs The Island, The Center, Scorched Earth, Aberration, Extinction, Ragnarok, and Valguero."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are Vertyco's servers boosted?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Server rates and settings are posted in Discord and vary by cluster. The Vertydome arena runs boosted rewards for events and PvP."
+      }
+    }
+  ]
+}
+</script>
