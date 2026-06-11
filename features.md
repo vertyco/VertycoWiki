@@ -8,6 +8,15 @@ editor: markdown
 dateCreated: 2026-06-11T00:00:00.000Z
 ---
 
+<div class="v-pagehead">
+  <h1>What Makes Vertyco Unique</h1>
+  <p>Custom automation no rented or Nitrado server can run. Competitive PvP seasons, CoD-style killstreaks, smart offline-raid protection, and a self-service economy, since 2019.</p>
+  <div class="v-cta-row">
+    <a class="v-btn-primary" href="https://discord.gg/vertyco">⚡ Join Our Discord</a>
+    <a class="v-btn-ghost" href="/servers">See All Servers →</a>
+  </div>
+</div>
+
 Most ARK servers run on rented or Nitrado hosting, so they all offer the same thing: boosted rates and a Discord. Vertyco is different. We have run crossplay ARK servers since 2019, and we build automation on our own infrastructure that rented servers simply cannot replicate.
 
 > **The short version:** Vertyco is the most automated ARK community online. 28 servers across ASE and ASA (Xbox, PlayStation, Steam, PC). Our ASE PvP cluster runs Cluster Alpha competitive seasons, CoD-style killstreaks, and smart offline-raid protection, and across the whole network we run a self-service shop and anti-cheat that actually catches cheaters. Not pay-to-win.

@@ -8,6 +8,26 @@ editor: markdown
 dateCreated: 2024-04-16T01:22:45.087Z
 ---
 
+<div class="v-hero">
+  <div class="v-hero-inner">
+    <img class="v-hero-logo" src="/assets/vertycologo-compressed.jpg" alt="Vertyco logo" />
+    <div class="v-hero-text">
+      <h1 class="v-wordmark">VERTYCO</h1>
+      <p class="v-tagline">The most automated ARK community online. Crossplay servers since 2019.</p>
+      <div class="v-cta-row">
+        <a class="v-btn-primary" href="https://discord.gg/vertyco">⚡ Join Our Discord</a>
+        <a class="v-btn-ghost" href="/how-to-join">How to Join →</a>
+      </div>
+      <div class="v-stats">
+        <div class="v-chip"><b>28</b><span>Servers</span></div>
+        <div class="v-chip"><b>5</b><span>Clusters</span></div>
+        <div class="v-chip"><b>2019</b><span>Since</span></div>
+        <div class="v-chip"><b>ASE + ASA</b><span>Both Games</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
 This wiki contains comprehensive documentation for the Vertyco Community - a Discord server hosting dedicated Ark Survival Evolved and Ark Survival Ascended servers with crossplay support for Xbox, PlayStation, Steam, and Microsoft Store PC.
 
 > **New here?** See [How to Join Our Ark Servers](/how-to-join) for platform compatibility and step-by-step join instructions.
@@ -49,24 +69,24 @@ Vertyco features an engaging virtual economy where players can:
 - **🌍 Platform Support**: Xbox, Steam, PlayStation, Microsoft Store
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; margin: 20px 0;">
-  <div style="flex: 1; min-width: 300px; padding: 15px; background-color: rgba(46, 204, 113, 0.2); border-radius: 6px;">
+  <div class="v-card" style="flex: 1; min-width: 300px; padding: 15px; background-color: rgba(46, 204, 113, 0.2); border-radius: 6px;">
     <h3>🛡️ ASE PvE Cluster (9 Maps)</h3>
     <p>Ragnarok • The Island • Lost Island • Aberration • Fjordur • Extinction • Valguero • The Center • Scorched Earth</p>
   </div>
   
-  <div style="flex: 1; min-width: 300px; padding: 15px; background-color: rgba(231, 76, 60, 0.2); border-radius: 6px;">
+  <div class="v-card" style="flex: 1; min-width: 300px; padding: 15px; background-color: rgba(231, 76, 60, 0.2); border-radius: 6px;">
     <h3>⚔️ ASE PvP Cluster (9 Maps)</h3>
     <p>Ragnarok • The Island • Lost Island • Aberration • Fjordur • Extinction • Valguero • The Center • Scorched Earth</p>
   </div>
 </div>
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; margin: 20px 0;">
-  <div style="flex: 1; min-width: 300px; padding: 15px; background-color: rgba(241, 196, 15, 0.2); border-radius: 6px;">
+  <div class="v-card" style="flex: 1; min-width: 300px; padding: 15px; background-color: rgba(241, 196, 15, 0.2); border-radius: 6px;">
     <h3>🏟️ ASE Vertydome</h3>
     <p>A special Event/PvP arena on Ragnarok with pre-built battlegrounds and boosted rewards.</p>
   </div>
   
-  <div style="flex: 1; min-width: 300px; padding: 15px; background-color: rgba(52, 152, 219, 0.2); border-radius: 6px;">
+  <div class="v-card" style="flex: 1; min-width: 300px; padding: 15px; background-color: rgba(52, 152, 219, 0.2); border-radius: 6px;">
     <h3>🚀 ASA Cluster (8 Servers)</h3>
     <p><strong>PvE (7):</strong> The Island • The Center • Scorched Earth • Aberration • Extinction • Ragnarok • Valguero</p>
     <p><strong>PvP (1):</strong> The Center</p>
@@ -74,7 +94,7 @@ Vertyco features an engaging virtual economy where players can:
 </div>
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; margin: 20px 0;">
-  <div style="flex: 1; min-width: 300px; padding: 15px; background-color: rgba(155, 89, 182, 0.2); border-radius: 6px;">
+  <div class="v-card" style="flex: 1; min-width: 300px; padding: 15px; background-color: rgba(155, 89, 182, 0.2); border-radius: 6px;">
     <h3>🏕️ NeverWipe - Primitive+ (1 Map)</h3>
     <p>The Island</p>
   </div>
@@ -98,12 +118,10 @@ Vertyco features an engaging virtual economy where players can:
 
 ---
 
-<div class="join-container" style="margin: 40px 0; padding: 30px; background-color: rgba(114, 137, 218, 0.2); border-radius: 8px; text-align: center;">
+<div class="v-card join-container" style="margin: 40px 0; padding: 36px; text-align: center;">
   <h2 style="margin-bottom: 20px;">🔗 Join Our Community</h2>
-  
-  <a href="https://discord.gg/vertyco" style="display: inline-block; padding: 12px 24px; background-color: #7289da; color: white; text-decoration: none; border-radius: 4px; font-weight: bold; margin-bottom: 15px;">
-    <span style="margin-right: 8px;"><i class="fab fa-discord"></i></span> Join Our Discord
-  </a>
-  
-  <p style="margin-top: 15px; font-size: 1.1em;"><strong>Discord</strong>: <a href="https://discord.gg/vertyco" style="color: #7289da;">https://discord.gg/vertyco</a></p>
+
+  <a class="v-btn-primary" href="https://discord.gg/vertyco"><i class="fab fa-discord"></i> Join Our Discord</a>
+
+  <p style="margin-top: 18px; font-size: 1.1em;"><strong>Discord</strong>: <a href="https://discord.gg/vertyco">https://discord.gg/vertyco</a></p>
 </div>

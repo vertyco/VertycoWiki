@@ -8,7 +8,19 @@ editor: markdown
 dateCreated: 2026-06-11T00:00:00.000Z
 ---
 
-# Vertyco Ark Server List
+<div class="v-pagehead">
+  <h1>Vertyco Ark Server List</h1>
+  <p>28 dedicated Ark servers across 5 clusters, spanning Ark Survival Evolved and Ark Survival Ascended. Crossplay since 2019.</p>
+  <div class="v-stats">
+    <div class="v-chip"><b>28</b><span>Servers</span></div>
+    <div class="v-chip"><b>5</b><span>Clusters</span></div>
+    <div class="v-chip"><b>ASE + ASA</b><span>Both Games</span></div>
+  </div>
+  <div class="v-cta-row" style="margin-top:18px;">
+    <a class="v-btn-primary" href="https://discord.gg/vertyco">⚡ Join Our Discord</a>
+    <a class="v-btn-ghost" href="/how-to-join">How to Join →</a>
+  </div>
+</div>
 
 Vertyco runs **28 dedicated Ark servers across 5 clusters**, spanning both Ark Survival Evolved (ASE) and Ark Survival Ascended (ASA). We have hosted crossplay Ark servers since 2019. For step-by-step connection help see [How to Join](/how-to-join), and for what makes our servers unique see [What Makes Vertyco Unique](/features).
 

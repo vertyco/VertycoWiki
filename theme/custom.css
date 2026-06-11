@@ -1,0 +1,252 @@
+/* ============================================================
+   VERTYCO WIKI - Neon-on-dark brand theme
+   Paste this whole block into: Admin > Theme > CSS Override
+   This file is a git-tracked master copy. Wiki.js does NOT
+   auto-sync it; the live change is the manual admin paste.
+   Reversible: clear the CSS Override box to remove.
+   ============================================================ */
+
+:root {
+  --v-green: #39ff14;
+  --v-cyan: #00e5d0;
+  --v-bg: #0a0e0a;
+  --v-bg-2: #05080c;
+  --v-card-bg: rgba(20, 28, 22, 0.6);
+  --v-card-border: rgba(57, 255, 20, 0.35);
+  --v-glow: 0 0 12px rgba(57, 255, 20, 0.45);
+  --v-glow-strong: 0 0 22px rgba(57, 255, 20, 0.6);
+}
+
+/* ---- Sitewide reader polish (scoped to rendered content) ---- */
+
+/* Headings: neon green with soft glow; h3 leans cyan */
+.contents h1,
+.contents h2 {
+  color: var(--v-green) !important;
+  text-shadow: 0 0 10px rgba(57, 255, 20, 0.35);
+}
+.contents h3 {
+  color: var(--v-cyan) !important;
+}
+
+/* Links: neon green, glow on hover */
+.contents a:not(.v-btn):not(.is-internal-link.is-valid-page) {
+  color: var(--v-green);
+  transition: text-shadow 0.18s ease, color 0.18s ease;
+}
+.contents a:hover {
+  color: #bfffb0;
+  text-shadow: var(--v-glow);
+}
+
+/* Tables: green-tinted header + borders */
+.contents table.table thead th {
+  background: rgba(57, 255, 20, 0.12) !important;
+  color: var(--v-green) !important;
+  border-bottom: 2px solid var(--v-card-border) !important;
+}
+.contents table.table td,
+.contents table.table th {
+  border-color: rgba(57, 255, 20, 0.15) !important;
+}
+
+/* Callouts: dark fill + brand left accent bar */
+.contents .is-info,
+.contents .is-success,
+.contents .is-warning {
+  background: rgba(12, 18, 14, 0.7) !important;
+  border-radius: 6px;
+  color: #e8ffe5 !important;
+}
+.contents .is-info    { border-left: 4px solid var(--v-cyan) !important; }
+.contents .is-success { border-left: 4px solid var(--v-green) !important; }
+.contents .is-warning { border-left: 4px solid #ffb648 !important; }
+
+/* Text selection */
+.contents ::selection {
+  background: rgba(57, 255, 20, 0.3);
+  color: #fff;
+}
+
+/* Thin neon scrollbar */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--v-bg-2); }
+::-webkit-scrollbar-thumb {
+  background: rgba(57, 255, 20, 0.4);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover { background: var(--v-green); }
+
+/* ============================================================
+   HOME PAGE HERO  (markup lives in home.md)
+   ============================================================ */
+
+.v-hero {
+  position: relative;
+  margin: 0 0 36px;
+  padding: 44px 40px;
+  border-radius: 14px;
+  border: 1px solid var(--v-card-border);
+  box-shadow: var(--v-glow), inset 0 0 60px rgba(0, 0, 0, 0.6);
+  background:
+    radial-gradient(120% 140% at 0% 0%, rgba(57, 255, 20, 0.18), transparent 55%),
+    radial-gradient(120% 140% at 100% 100%, rgba(0, 229, 208, 0.14), transparent 55%),
+    linear-gradient(135deg, var(--v-bg) 0%, var(--v-bg-2) 100%);
+  overflow: hidden;
+}
+/* faint star dots */
+.v-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(1px 1px at 20% 30%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1px 1px at 70% 60%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1px 1px at 40% 80%, rgba(0,229,208,0.6), transparent),
+    radial-gradient(1px 1px at 85% 25%, rgba(57,255,20,0.6), transparent),
+    radial-gradient(1px 1px at 55% 15%, rgba(255,255,255,0.4), transparent);
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.v-hero-inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.v-hero-logo {
+  flex: 0 0 auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 14px;
+  border: 1px solid var(--v-card-border);
+  box-shadow: var(--v-glow);
+  object-fit: cover;
+}
+
+.v-hero-text { flex: 1 1 320px; min-width: 280px; }
+
+.v-hero-text .v-wordmark {
+  margin: 0;
+  font-size: 2.8rem;
+  font-weight: 800;
+  letter-spacing: 4px;
+  color: var(--v-green) !important;
+  text-shadow: var(--v-glow-strong);
+  border: none !important;
+}
+.v-hero-text .v-tagline {
+  margin: 8px 0 22px;
+  font-size: 1.12rem;
+  color: #d7ffd2;
+  line-height: 1.5;
+}
+
+/* CTA buttons */
+.v-cta-row { display: flex; flex-wrap: wrap; gap: 14px; }
+.v-btn-primary,
+.v-btn-ghost {
+  display: inline-block;
+  padding: 12px 26px;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none !important;
+  transition: transform 0.16s ease, box-shadow 0.16s ease, background 0.16s ease;
+}
+.v-btn-primary {
+  background: linear-gradient(135deg, var(--v-green), var(--v-cyan));
+  color: #05140a !important;
+  box-shadow: var(--v-glow);
+}
+.v-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--v-glow-strong);
+  color: #03200f !important;
+}
+.v-btn-ghost {
+  border: 1px solid var(--v-green);
+  color: var(--v-green) !important;
+  background: transparent;
+}
+.v-btn-ghost:hover {
+  transform: translateY(-2px);
+  background: rgba(57, 255, 20, 0.12);
+  box-shadow: var(--v-glow);
+}
+
+/* Stat chips */
+.v-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 26px;
+}
+.v-chip {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 18px;
+  border-radius: 10px;
+  background: var(--v-card-bg);
+  border: 1px solid var(--v-card-border);
+}
+.v-chip b {
+  font-size: 1.35rem;
+  color: var(--v-green);
+  text-shadow: var(--v-glow);
+  line-height: 1.1;
+}
+.v-chip span {
+  font-size: 0.78rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #9fe89a;
+}
+
+/* ---- Interior page header (features, servers, etc.) ---- */
+.v-pagehead {
+  margin: 0 0 30px;
+  padding: 28px 32px;
+  border-radius: 12px;
+  border: 1px solid var(--v-card-border);
+  box-shadow: var(--v-glow), inset 0 0 50px rgba(0, 0, 0, 0.5);
+  background:
+    radial-gradient(120% 160% at 0% 0%, rgba(57, 255, 20, 0.14), transparent 55%),
+    linear-gradient(135deg, var(--v-bg) 0%, var(--v-bg-2) 100%);
+}
+.v-pagehead h1 {
+  margin: 0 0 10px;
+  color: var(--v-green) !important;
+  text-shadow: var(--v-glow);
+  border: none !important;
+}
+.v-pagehead p {
+  margin: 0 0 18px;
+  color: #d7ffd2;
+  font-size: 1.06rem;
+  line-height: 1.5;
+}
+
+/* ---- Content cards (cluster boxes etc.) ---- */
+.v-card {
+  background: var(--v-card-bg) !important;
+  border: 1px solid var(--v-card-border);
+  border-radius: 10px;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+.v-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--v-glow);
+}
+
+/* ---- Responsive: stack hero on narrow screens ---- */
+@media (max-width: 700px) {
+  .v-hero { padding: 30px 22px; }
+  .v-hero-inner { gap: 22px; }
+  .v-hero-logo { width: 110px; height: 110px; }
+  .v-hero-text .v-wordmark { font-size: 2.1rem; }
+  .v-cta-row { width: 100%; }
+  .v-btn-primary, .v-btn-ghost { flex: 1 1 auto; text-align: center; }
+}
