@@ -16,8 +16,8 @@ Vertyco hosts 28 dedicated Ark servers across 6 clusters. Which servers you can 
 
 | Your Setup | Can Join |
 | ---------- | -------- |
-| Ark Survival Evolved (ASE) on Xbox | ✅ ASE PvE, PvP, Vertydome & NeverWipe clusters |
-| Ark Survival Evolved (ASE) on Microsoft Store PC | ✅ ASE PvE, PvP, Vertydome & NeverWipe clusters |
+| Ark Survival Evolved (ASE) on Xbox | ✅ ASE PvE, PvP, Vertydome & Primitive+ clusters |
+| Ark Survival Evolved (ASE) on Microsoft Store PC | ✅ ASE PvE, PvP, Vertydome & Primitive+ clusters |
 | Ark Survival Evolved (ASE) on Steam or PlayStation | ❌ Not compatible (ASE crossplay is Xbox/MS Store only) |
 | Ark Survival Ascended (ASA) on Xbox, PlayStation, Steam, or Microsoft Store | ✅ ASA cluster (full crossplay) |
 

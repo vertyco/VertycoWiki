@@ -95,7 +95,7 @@ Vertyco features an engaging virtual economy where players can:
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; margin: 20px 0;">
   <div class="v-card" style="flex: 1; min-width: 300px; padding: 15px; background-color: rgba(155, 89, 182, 0.2); border-radius: 6px;">
-    <h3>🏕️ NeverWipe - Primitive+ (1 Map)</h3>
+    <h3>🏕️ Primitive+ (1 Map)</h3>
     <p>The Island</p>
   </div>
 </div>

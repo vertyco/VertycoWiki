@@ -1,6 +1,6 @@
 ---
 title: Vertyco Ark Server List (All 28 Servers, ASE & ASA Crossplay)
-description: The full list of Vertyco's 28 dedicated Ark servers across 6 clusters - ASE PvE, ASE PvP, Vertydome, ASA PvE, ASA PvP (Xbox, PlayStation, Steam, PC), and NeverWipe Primitive Plus. Maps, platforms, and how to join each.
+description: The full list of Vertyco's 28 dedicated Ark servers across 6 clusters - ASE PvE, ASE PvP, Vertydome, ASA PvE, ASA PvP (Xbox, PlayStation, Steam, PC), and Primitive Plus. Maps, platforms, and how to join each.
 published: true
 date: 2026-06-11T00:00:00.000Z
 tags: servers, ark, crossplay, server-list, xbox, playstation, steam, asa, ase
@@ -48,7 +48,7 @@ Full crossplay across Xbox, PlayStation, Steam, and Microsoft Store PC. To join,
 
 ## 🛡️ ASE PvE Cluster (9 servers, Xbox & MS Store PC)
 
-NeverWipe PvE. To join, add the host gamertag as an Xbox friend, then join their game from their profile.
+No-wipe PvE. To join, add the host gamertag as an Xbox friend, then join their game from their profile.
 
 | Map | Host Gamertag |
 | --- | --- |
@@ -88,7 +88,7 @@ A dedicated Event and PvP arena on Ragnarok with pre-built battlegrounds and boo
 
 ---
 
-## 🏕️ NeverWipe Primitive Plus (1 server, Xbox & MS Store PC)
+## 🏕️ Primitive Plus (1 server, Xbox & MS Store PC)
 
 Our Primitive Plus server, host gamertag **Vertyco Prim** (The Island), shows up automatically on the player-dedicated list when your game mode is set to Primitive Plus.
 
