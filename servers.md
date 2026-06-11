@@ -30,7 +30,7 @@ Full crossplay across Xbox, PlayStation, Steam, and Microsoft Store PC. To join,
 | Vertyco PvE [Aberration] | Aberration | PvE |
 | Vertyco PvE [Extinction] | Extinction | PvE |
 | Vertyco PvE [Valguero] | Valguero | PvE |
-| Vertyco PvP [The Center] | The Center | PvP, home of [Cluster Alpha](/features) |
+| Vertyco PvP [The Center] | The Center | PvP |
 
 ---
 
@@ -54,7 +54,7 @@ NeverWipe PvE. To join, add the host gamertag as an Xbox friend, then join their
 
 ## ⚔️ ASE PvP Cluster (9 servers, Xbox & MS Store PC)
 
-Competitive PvP with seasonal wipes, [CoD-style killstreaks, smart offline-raid protection, and more](/features). To join, add the host gamertag as an Xbox friend, then join their game from their profile.
+Competitive PvP with seasonal wipes and our custom code-injected automation: [Cluster Alpha competitive seasons, CoD-style killstreaks, and smart offline-raid protection](/features). These systems are exclusive to this ASE PvP cluster (not on ASA). To join, add the host gamertag as an Xbox friend, then join their game from their profile.
 
 | Map | Host Gamertag |
 | --- | --- |

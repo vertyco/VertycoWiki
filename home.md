@@ -23,7 +23,7 @@ This wiki contains comprehensive documentation for the Vertyco Community - a Dis
 
 Vertyco is the most automated ARK community online, running crossplay "player dedicated" servers since 2019. We offer a comprehensive gaming experience through both legacy and modern versions of the game: **Ark Survival Evolved (ASE)** and **Ark Survival Ascended (ASA)**.
 
-What sets us apart is custom automation no rented or Nitrado server can run: **Cluster Alpha** competitive PvP seasons, **CoD-style killstreaks**, **smart offline-raid protection**, a **self-service shop**, and real anti-cheat. See [What Makes Vertyco Unique](/features).
+What sets us apart is custom automation no rented or Nitrado server can run. On our **ASE PvP cluster**: **Cluster Alpha** competitive seasons, **CoD-style killstreaks**, and **smart offline-raid protection** (custom code-injected systems, ASE PvP only). Across the whole network: a **self-service shop**, VertCoin economy, and real anti-cheat. See [What Makes Vertyco Unique](/features).
 
 ---
 

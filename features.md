@@ -10,14 +10,17 @@ dateCreated: 2026-06-11T00:00:00.000Z
 
 Most ARK servers run on rented or Nitrado hosting, so they all offer the same thing: boosted rates and a Discord. Vertyco is different. We have run crossplay ARK servers since 2019, and we build automation on our own infrastructure that rented servers simply cannot replicate.
 
-> **The short version:** Vertyco is the most automated ARK community online. 28 servers across ASE and ASA (Xbox, PlayStation, Steam, PC), Cluster Alpha competitive PvP, CoD-style killstreaks, smart offline-raid protection, a self-service shop, and anti-cheat that actually catches cheaters. Not pay-to-win.
+> **The short version:** Vertyco is the most automated ARK community online. 28 servers across ASE and ASA (Xbox, PlayStation, Steam, PC). Our ASE PvP cluster runs Cluster Alpha competitive seasons, CoD-style killstreaks, and smart offline-raid protection, and across the whole network we run a self-service shop and anti-cheat that actually catches cheaters. Not pay-to-win.
 {.is-success}
+
+> **Where these run:** Cluster Alpha, CoD-style killstreaks, and smart offline-raid protection are custom code-injected systems exclusive to our **ASE PvP cluster** (they are not possible on rented, Nitrado, or ASA servers). The self-service shop, VertCoin economy, and anti-cheat run across the entire network, ASE and ASA.
+{.is-info}
 
 ---
 
-## 👑 Cluster Alpha - Automated Competitive PvP
+## 👑 Cluster Alpha - Automated Competitive PvP (ASE PvP)
 
-Cluster Alpha turns the entire PvP cluster into a season-long competition that runs itself, with **no admin bias and no favoritism.** Every tribe earns a live Power rating from what they actually build, and an Alpha Points score earned purely through PvP.
+Cluster Alpha turns our **ASE PvP cluster** into a season-long competition that runs itself, with **no admin bias and no favoritism.** Every tribe earns a live Power rating from what they actually build, and an Alpha Points score earned purely through PvP.
 
 - **Zero-sum economy:** points are stolen, never handed out. Kill an enemy or raid their base and their points transfer to you.
 - **Kills pay out:** rewards scale with the victim's power, with underdog bonuses for punching up, bounties on the top tribes, and "most wanted" bonuses for hunting the top killers.
@@ -28,7 +31,7 @@ No other ARK community automatically crowns its best tribe from real data. See t
 
 ---
 
-## 🔪 CoD-Style Killstreaks
+## 🔪 CoD-Style Killstreaks (ASE PvP)
 
 Killstreaks like Call of Duty, in ARK. Chain kills in a row and unlock rewards you activate on demand. This runs on a custom system, which is exactly why no rented or Nitrado server can offer it.
 
@@ -41,7 +44,7 @@ Streaks stack, survive relogs, and only count fair kills.
 
 ---
 
-## ⏰ Smart Offline-Raid Protection
+## ⏰ Smart Offline-Raid Protection (ASE PvP)
 
 Vanilla ARK offline raid protection is broken. Ours is custom built and fair to both sides. After your tribe goes offline, your turrets deal bonus damage to raiders, so you are not free loot while you sleep.
 
