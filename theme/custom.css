@@ -63,6 +63,11 @@
 .contents .is-info    { border-left: 4px solid var(--v-cyan) !important; }
 .contents .is-success { border-left: 4px solid var(--v-green) !important; }
 .contents .is-warning { border-left: 4px solid #ffb648 !important; }
+/* Hide the default MDI callout icon (floated left into the nav); the
+   neon accent bar already signals the callout type. */
+.contents .is-info::before,
+.contents .is-success::before,
+.contents .is-warning::before { display: none !important; }
 
 /* Text selection */
 .contents ::selection {
