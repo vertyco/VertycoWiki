@@ -105,18 +105,3 @@ Vertyco features an engaging virtual economy where players can:
   
   <p style="margin-top: 15px; font-size: 1.1em;"><strong>Discord</strong>: <a href="https://discord.gg/vertyco" style="color: #7289da;">https://discord.gg/vertyco</a></p>
 </div>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Vertyco Ark",
-  "alternateName": "Vertyco",
-  "url": "https://vertyco.net",
-  "foundingDate": "2019",
-  "description": "Vertyco is the most automated crossplay Ark community online, running 28 dedicated Ark Survival Evolved and Ark Survival Ascended servers across Xbox, PlayStation, Steam, and Microsoft Store PC since 2019. Home of Cluster Alpha competitive PvP, CoD-style killstreaks, smart offline-raid protection, and a self-service shop. Not pay-to-win.",
-  "sameAs": [
-    "https://discord.gg/vertyco"
-  ]
-}
-</script>
