@@ -85,7 +85,7 @@ Vertyco is actively moderated by a real staff team, with cheat-detection methods
 
 ## 🚀 The Network
 
-- **28 servers across 5 clusters** spanning ASE and ASA.
+- **28 servers across 6 clusters** spanning ASE and ASA.
 - **Full ASA crossplay:** Xbox, PlayStation, Steam, and Microsoft Store PC.
 - **Running since 2019**, never pay-to-win.
 

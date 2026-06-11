@@ -20,7 +20,7 @@ dateCreated: 2024-04-16T01:22:45.087Z
       </div>
       <div class="v-stats">
         <div class="v-chip"><b>28</b><span>Servers</span></div>
-        <div class="v-chip"><b>5</b><span>Clusters</span></div>
+        <div class="v-chip"><b>6</b><span>Clusters</span></div>
         <div class="v-chip"><b>2019</b><span>Since</span></div>
         <div class="v-chip"><b>ASE + ASA</b><span>Both Games</span></div>
       </div>
@@ -65,7 +65,7 @@ Vertyco features an engaging virtual economy where players can:
 ## 🗺️ Server Clusters
 
 ### 📊 Network Overview
-- **🖥️ Total Servers**: 28 servers across 5 clusters
+- **🖥️ Total Servers**: 28 servers across 6 clusters
 - **🌍 Platform Support**: Xbox, Steam, PlayStation, Microsoft Store
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; margin: 20px 0;">

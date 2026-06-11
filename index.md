@@ -19,7 +19,7 @@ Audience tags: **[public]** pages are visible to all members; **[staff]** pages 
 - [/home](/home) - **[public]** Landing page and community overview. Entry point for the wiki.
 - [/features](/features) - **[public]** What makes Vertyco unique: the custom automation suite (Cluster Alpha, CoD-style killstreaks, smart offline-raid protection, self-service shop, anti-cheat) that rented/Nitrado servers cannot run. Crossplay since 2019.
 - [/how-to-join](/how-to-join) - **[public]** How to join the Ark servers: platform/crossplay compatibility (Xbox, PlayStation, Steam, Microsoft Store), join steps via Discord, and FAQ.
-- [/servers](/servers) - **[public]** Full list of all 28 servers across 5 clusters (ASE PvE/PvP, Vertydome, ASA crossplay, NeverWipe Prim+) with maps, platforms, and per-cluster join method (ASA search, ASE gamertags).
+- [/servers](/servers) - **[public]** Full list of all 28 servers across 6 clusters (ASE PvE, ASE PvP, Vertydome, ASA PvE, ASA PvP, NeverWipe Prim+) with maps, platforms, and per-cluster join method (ASA search, ASE gamertags).
 - [/donations](/donations) - **[public]** How to support Vertyco (PayPal, Venmo, CashApp, Upgrade.Chat) and how VertCoin is earned. States the server is not pay-to-win.
 - [/glossary](/glossary) - **[public]** Definitions of common community terms: VertCoin, base types, tribe rules, punishments.
 - [/commands](/commands) - **[public]** Top-level command reference for the Autto Discord bot, linking out to per-cog command pages.

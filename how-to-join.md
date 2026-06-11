@@ -10,7 +10,7 @@ dateCreated: 2026-06-11T00:00:00.000Z
 
 # How to Join Our Ark Servers
 
-Vertyco hosts 28 dedicated Ark servers across 5 clusters. Which servers you can join depends on your game and platform.
+Vertyco hosts 28 dedicated Ark servers across 6 clusters. Which servers you can join depends on your game and platform.
 
 ## Which Game and Platform?
 
