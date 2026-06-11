@@ -80,6 +80,9 @@ Vertyco is actively moderated by a real staff team, with cheat-detection methods
 - **Full ASA crossplay:** Xbox, PlayStation, Steam, and Microsoft Store PC.
 - **Running since 2019**, never pay-to-win.
 
+> **Want quick answers?** See [Common Questions](/answers) for short, direct answers to what players ask most.
+{.is-info}
+
 <div class="join-container" style="margin: 40px 0; padding: 30px; background-color: rgba(114, 137, 218, 0.2); border-radius: 8px; text-align: center;">
   <h2 style="margin-bottom: 20px;">🔗 Come See For Yourself</h2>
   <a href="https://discord.gg/vertyco" style="display: inline-block; padding: 12px 24px; background-color: #7289da; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">Join Our Discord</a>
