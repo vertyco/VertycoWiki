@@ -21,7 +21,9 @@ This wiki contains comprehensive documentation for the Vertyco Community - a Dis
 
 ## 🌟 Overview
 
-Vertyco is a premier Discord gaming community specializing in "player dedicated" servers for Ark Survival Evolved. We offer a comprehensive gaming experience through both legacy and modern versions of the game: **Ark Survival Evolved (ASE)** and **Ark Survival Ascended (ASA)**.
+Vertyco is the most automated ARK community online, running crossplay "player dedicated" servers since 2019. We offer a comprehensive gaming experience through both legacy and modern versions of the game: **Ark Survival Evolved (ASE)** and **Ark Survival Ascended (ASA)**.
+
+What sets us apart is custom automation no rented or Nitrado server can run: **Cluster Alpha** competitive PvP seasons, **CoD-style killstreaks**, **smart offline-raid protection**, a **self-service shop**, and real anti-cheat. See [What Makes Vertyco Unique](/features).
 
 ---
 
