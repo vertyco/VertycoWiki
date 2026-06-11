@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /staff
+Disallow: /staff/
+Disallow: /a/
+Disallow: /login
+
+Sitemap: https://vertyco.net/sitemap.xml

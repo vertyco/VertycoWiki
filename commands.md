@@ -1,5 +1,5 @@
 ---
-title: Autto Bot Commands — Vertyco Discord Bot
+title: Autto Bot Commands - Vertyco Discord Bot
 description: Complete command reference for the Autto Discord bot. Browse commands for minigames, economy, leveling, Ark server tools, AI assistant, and more.
 published: true
 date: 2026-01-17T00:00:00.000Z

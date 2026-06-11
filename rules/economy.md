@@ -55,7 +55,7 @@ In this scenario no one is specifically poaching members, they both play on anot
 
 # Shameless Begging
 
-Begging for games, DLC, money, VC, or any form of labor is not allowed. Plain begging is handled under the tiered **Begging Policy (Rule 1.7)** in the [Discord Rules](/rules/discord) — a warning first, then timeouts, escalating to a temp ban for repeat offenders.
+Begging for games, DLC, money, VC, or any form of labor is not allowed. Plain begging is handled under the tiered **Begging Policy (Rule 1.7)** in the [Discord Rules](/rules/discord) - a warning first, then timeouts, escalating to a temp ban for repeat offenders.
 
 Soliciting payment for trades, however, whether sending or receiving, is a real-world transaction and is treated more severely: it will result in a <span style="color: orange;">ban</span> under the Real World Transactions policy above. In essence, the server is not to be used for any form of real world transactions.
 

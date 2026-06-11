@@ -39,7 +39,7 @@ Tribes that knowingly harbor alt accounts will face the following:
 
 # Ban Evasion
 
-When a user's main account is already <span style="color: orange;">banned</span> and they are caught using an alt account, this is **ban evasion** — a more serious violation than a standard alt account offense. The alt is always <span style="color: orange;">permanently banned</span>; the main account is handled as below.
+When a user's main account is already <span style="color: orange;">banned</span> and they are caught using an alt account, this is **ban evasion** - a more serious violation than a standard alt account offense. The alt is always <span style="color: orange;">permanently banned</span>; the main account is handled as below.
 
 ## Temp-Banned Mains
 If the main account is under an active **temp ban** and an alt is found:

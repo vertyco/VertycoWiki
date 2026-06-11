@@ -18,10 +18,10 @@ The common sense rules are base guidelines that all members should follow. They 
 When a call isn't spelled out in the rules, decide by these:
 
 1. **Protect the majority's experience over any one player.** When in doubt, side with the server, not the loudest individual.
-2. **Evidence we can show beats intel we can't.** Act on member-visible proof. Private intel is for monitoring only — log it with `.mnote` and watch, do not punish on it.
+2. **Evidence we can show beats intel we can't.** Act on member-visible proof. Private intel is for monitoring only - log it with `.mnote` and watch, do not punish on it.
 3. **Reversible action first.** Warn or mute before banning when unsure. Easy to undo, and it buys time to gather evidence.
 4. **Consistency over perfection.** A fair-enough call applied the same way every time beats an agonized "perfect" call applied unevenly.
-5. **Escalate only if it's irreversible AND high-stakes AND novel — all three.** Otherwise the on-duty Admin decides and logs the call (ticket or `#🛡｜mod-log`). For irreversible high-stakes situations with precedent (e.g. mesh-raid rollbacks), follow the existing SOP.
+5. **Escalate only if it's irreversible AND high-stakes AND novel - all three.** Otherwise the on-duty Admin decides and logs the call (ticket or `#🛡｜mod-log`). For irreversible high-stakes situations with precedent (e.g. mesh-raid rollbacks), follow the existing SOP.
 
 ### Rule Interpretation
 - Server rules are not open to interpretation.

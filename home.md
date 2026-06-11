@@ -1,5 +1,5 @@
 ---
-title: Vertyco Wiki — Dedicated Ark Survival Evolved & Ascended Servers
+title: Vertyco Wiki - Dedicated Ark Survival Evolved & Ascended Servers
 description: Official wiki for Vertyco, a Discord gaming community hosting 20+ dedicated Ark Survival Evolved and Ark Survival Ascended servers across Xbox, Steam, PlayStation, and PC.
 published: true
 date: 2026-01-31T15:54:00.279Z
@@ -8,7 +8,10 @@ editor: markdown
 dateCreated: 2024-04-16T01:22:45.087Z
 ---
 
-This wiki contains comprehensive documentation for the Vertyco Community - a Discord server hosting dedicated Ark Survival Evolved and Ark Survival Ascended servers.
+This wiki contains comprehensive documentation for the Vertyco Community - a Discord server hosting dedicated Ark Survival Evolved and Ark Survival Ascended servers with crossplay support for Xbox, PlayStation, Steam, and Microsoft Store PC.
+
+> **New here?** See [How to Join Our Ark Servers](/how-to-join) for platform compatibility and step-by-step join instructions.
+{.is-success}
 
 > If on mobile, click the blue circle with 3 lines to open the nav bar.
 {.is-info}
@@ -68,7 +71,7 @@ Vertyco features an engaging virtual economy where players can:
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; margin: 20px 0;">
   <div style="flex: 1; min-width: 300px; padding: 15px; background-color: rgba(155, 89, 182, 0.2); border-radius: 6px;">
-    <h3>🏕️ NeverWipe — Primitive+ (1 Map)</h3>
+    <h3>🏕️ NeverWipe - Primitive+ (1 Map)</h3>
     <p>The Island</p>
   </div>
 </div>

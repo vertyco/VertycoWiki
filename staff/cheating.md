@@ -126,7 +126,7 @@ A structure is considered **meshed** when **any** of the following conditions ar
 >
 > • All punishments follow the tiered system in the PvP Rules.
 > • Evidence must be documented before taking action.
-> • Act on member-visible evidence. Private or unshowable intel is for monitoring only — log it with `.mnote` and watch, do not punish on it.
+> • Act on member-visible evidence. Private or unshowable intel is for monitoring only - log it with `.mnote` and watch, do not punish on it.
 > • Staff should always verify the exploit before implementing penalties.
 > • Permanent bans are reserved for confirmed Aimbot/ESP, DDoS attacks, doxxing, real-world threats, chargebacks, or shop/economy exploitation causing severe economy damage.
 
@@ -201,9 +201,9 @@ If a confirmed mesh raid results in a tribe being wiped or effectively wiped fro
   - Full reversal of gains and Ark Data wipe for beneficiaries
   - <span style="color: orange;">**60-day temp ban**</span> for all confirmed participants
   - Warning for uninvolved members
-- **Severe Economy Damage** (*sustained or repeated exploitation that corrupts the server's economy or item balance beyond what reversals can fix — e.g. months of undetected abuse that may force a server wipe*):
+- **Severe Economy Damage** (*sustained or repeated exploitation that corrupts the server's economy or item balance beyond what reversals can fix - e.g. months of undetected abuse that may force a server wipe*):
   - <span style="color: orange;">**Permanent ban**</span> for the offending player.
-  - This is the one shop-exploit tier that is irreversible and high-stakes — requires Admin sign-off and a logged decision per [Decision Principles](/staff/core-guidelines).
+  - This is the one shop-exploit tier that is irreversible and high-stakes - requires Admin sign-off and a logged decision per [Decision Principles](/staff/core-guidelines).
 
 > A player who **reports** a shop or economy bug instead of abusing it receives no penalty. Reward disclosure over exploitation.
 {.is-success}
