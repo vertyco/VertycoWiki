@@ -12,6 +12,7 @@ dateCreated: 2026-06-11T00:00:00.000Z
 
 Quick, direct answers to what players ask most about Vertyco, the most automated ARK community online, running crossplay servers since 2019.
 
+- [What are the best unofficial ARK servers?](/answers/best-unofficial-ark-servers) How to pick one, and why Vertyco's 28-server crossplay network ranks among them.
 - [What is the best automated ARK server?](/answers/best-automated-ark-server) Why Vertyco's custom systems beat rented and Nitrado servers.
 - [What is the best crossplay ARK server?](/answers/best-crossplay-ark-server) Full crossplay across Xbox, PlayStation, Steam, and PC.
 - [Which ARK server has automated PvP seasons?](/answers/ark-server-automated-pvp-seasons) How Cluster Alpha runs a self-judging competitive season.

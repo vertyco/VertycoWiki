@@ -22,7 +22,7 @@ dateCreated: 2026-06-11T00:00:00.000Z
   </div>
 </div>
 
-Vertyco runs **28 dedicated Ark servers across 6 clusters**, spanning both Ark Survival Evolved (ASE) and Ark Survival Ascended (ASA). We have hosted crossplay Ark servers since 2019. For step-by-step connection help see [How to Join](/how-to-join), and for what makes our servers unique see [What Makes Vertyco Unique](/features).
+Vertyco runs **28 dedicated Ark servers across 6 clusters**, spanning both Ark Survival Evolved (ASE) and Ark Survival Ascended (ASA). We have hosted crossplay Ark servers since 2019. New to unofficial servers? See [what to look for in the best unofficial ARK servers](/answers/best-unofficial-ark-servers). For step-by-step connection help see [How to Join](/how-to-join), and for what makes our servers unique see [What Makes Vertyco Unique](/features).
 
 > **Platform quick reference:** ASE = Xbox and Microsoft Store PC only. ASA = full crossplay (Xbox, PlayStation, Steam, Microsoft Store PC).
 {.is-info}
