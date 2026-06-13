@@ -1,6 +1,6 @@
 ---
 title: Vertyco Wiki - Dedicated Ark Survival Evolved & Ascended Servers
-description: Official wiki for Vertyco, a Discord gaming community hosting 20+ dedicated Ark Survival Evolved and Ark Survival Ascended servers across Xbox, Steam, PlayStation, and PC.
+description: Official wiki for Vertyco, a Discord gaming community hosting 25+ dedicated Ark Survival Evolved and Ark Survival Ascended servers across Xbox, Steam, PlayStation, and PC.
 published: true
 date: 2026-01-31T15:54:00.279Z
 tags: home, getting-started, ark, discord, community
@@ -20,7 +20,7 @@ dateCreated: 2024-04-16T01:22:45.087Z
       </div>
       <div class="v-stats">
         <div class="v-chip"><b>28</b><span>Servers</span></div>
-        <div class="v-chip"><b>6</b><span>Clusters</span></div>
+        <div class="v-chip"><b>3</b><span>Clusters</span></div>
         <div class="v-chip"><b>2019</b><span>Since</span></div>
         <div class="v-chip"><b>ASE + ASA</b><span>Both Games</span></div>
       </div>
@@ -65,7 +65,7 @@ Vertyco features an engaging virtual economy where players can:
 ## 🗺️ Server Clusters
 
 ### 📊 Network Overview
-- **🖥️ Total Servers**: 28 servers across 6 clusters
+- **🖥️ Total Servers**: 28 servers across 3 connected clusters (ASE PvE, ASE PvP, ASA) plus standalone Vertydome and Primitive+ servers
 - **🌍 Platform Support**: Xbox, Steam, PlayStation, Microsoft Store
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; margin: 20px 0;">
