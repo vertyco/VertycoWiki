@@ -23,6 +23,7 @@ Audience tags: **[public]** pages are visible to all members; **[staff]** pages 
 - [/donations](/donations) - **[public]** How to support Vertyco (PayPal, Venmo, CashApp, Upgrade.Chat) and how VertCoin is earned. States the server is not pay-to-win.
 - [/glossary](/glossary) - **[public]** Definitions of common community terms: VertCoin, base types, tribe rules, punishments.
 - [/commands](/commands) - **[public]** Top-level command reference for the Autto Discord bot, linking out to per-cog command pages.
+- [/status](/status) - **[public]** Service status / uptime monitor for Vertyco infrastructure (website, bots, ASA servers) via HetrixTools.
 
 ## Answers (public - quick-answer / AEO pages)
 
