@@ -41,7 +41,7 @@ dateCreated: 2026-01-30T21:15:27.955Z
 
 Every day and week, the bot auto-posts recaps to our `alpha-feed` channel: top killers, top raiders, biggest point swings, active rivalries, and the reigning alpha tribe.
 <div style="margin: 20px 0; text-align: center;">
-  <img src="/weekly-alpha-recap.png" alt="Weekly Alpha Recap embed posted automatically in Discord" style="max-width: 480px; width: 100%; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.3);" />
+  <img src="/assets/weekly-alpha-recap.png" alt="Weekly Alpha Recap embed posted automatically in Discord" style="max-width: 480px; width: 100%; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.3);" />
   <p style="font-size: 0.9em; opacity: 0.75; margin-top: 10px;">Live weekly recap, auto-posted every Monday at 10am Eastern.</p>
 </div>
 
