@@ -2,7 +2,7 @@
 title: Discord Rules
 description: Official Discord rules for the Vertyco community. Covers toxicity, harassment, scams, spam, chargebacks, and punishment tiers from warnings to temporary bans.
 published: true
-date: 2026-05-01T00:00:00.000Z
+date: 2026-07-05T00:00:00.000Z
 tags: rules, discord
 editor: markdown
 dateCreated: 2025-02-15T18:21:21.165Z
@@ -20,8 +20,12 @@ dateCreated: 2025-02-15T18:21:21.165Z
 - Doxxing (releasing private/personal information)
 - Real-world threats of violence or harm (e.g., "I know where you live")
 - Server advertisements (poaching members)
+- Severe predatory conduct (see Rule 1.9)
+- Real-world economic activity (see Rule 2.4)
 
 All other offenses will result in temporary bans, timeouts, wipes, or warnings as described below.
+
+> **Note:** Repeat offenders are not exempt. At a certain point, continued rule breaking of any kind can result in a permanent ban.
 
 ## 1️⃣ General Rules
 
@@ -152,7 +156,7 @@ Examples include:
     - Knowing participants receive Ark data wipe
     - No punishment for uninvolved tribe members
 
-> Players without Discord have 24 hours to join and link their account or face a <span style="color: orange;">**ban**</span>.
+> Players without Discord have 48 hours to join and link their account (an Xbox DM will be sent) or be removed from the server. The <span style="color: orange;">**ban**</span> remains permanent until they join the Discord and submit an appeal.
 
 ### 2.3 - Username/Avatar Policy
 *Overly offensive/super NSFW usernames or avatars are not allowed.*

@@ -2,7 +2,7 @@
 title: PvP Rules - Vertyco Ark Servers
 description: PvP rules for Vertyco Ark Survival Evolved servers. Covers meshing, aimbotting, raid rules, turret limits, and punishment tiers for our competitive PvP cluster.
 published: true
-date: 2026-05-14T00:00:00.000Z
+date: 2026-07-05T00:00:00.000Z
 tags: ark, rules, pvp
 editor: markdown
 dateCreated: 2025-02-15T22:53:44.565Z
@@ -23,6 +23,8 @@ dateCreated: 2025-02-15T22:53:44.565Z
 
 All other offenses will result in temporary bans, timeouts, wipes, or warnings as described below.
 
+> **Note:** Repeat offenders are not exempt. At a certain point, continued rule breaking of any kind can result in a permanent ban.
+
 
 ## 1️⃣ Base Building Rules
 
@@ -33,18 +35,18 @@ All other offenses will result in temporary bans, timeouts, wipes, or warnings a
     - **Grapple Spots**: The spot can only be reached by using the grapple glitch to clip through terrain.
   - > **Rule of thumb:** If you cannot walk or crouch into the entrance normally, it is off-limits. If you are unsure about a location, open a ticket **before** building there.
   - **First Offense**:
-    - Non-Discord Members: 24 hours to join Discord and link account or receive a <span style="color: orange;">3-day temp ban</span>.
+    - Non-Discord Members: 48 hours to join Discord and link account (an Xbox DM will be sent) or be removed from the server. The ban remains permanent until they join the Discord and submit an appeal.
     - Discord Members: Warning and removal of the meshed/glitch structures.
   - **Second Offense**: Ark Data wipe and formal warning.
   - **Third Offense**: **Full tribe wipe** for repeat offenders.
 
 - **1.2 - Meshed Spam**
   - *Placing structures in the mesh to prevent building or claiming territory.*
-  - Non-Discord Members: 48 hours to join Discord or receive a 3-day temp ban.
+  - Non-Discord Members: 48 hours to join Discord (an Xbox DM will be sent) or be removed from the server. The ban remains permanent until they join the Discord and submit an appeal.
   - **Minor Intentional Meshing** (*Placing a single foundation or structure in the mesh*):
     - **First Offense**: Structure removal and warning.
     - **Second Offense**: Structure removal and Ark Data wipe.
-  - **Third Offense**: <span style="color: orange;">7-day temp ban</span> for the offending member.
+    - **Third Offense**: <span style="color: orange;">7-day temp ban</span> for the offending member.
   - **Major Intentional Meshing** (*Placing multiple structures or using the mesh to expand a base*):
     - **First Offense**: Structure removal and Ark Data wipe.
     - **Second Offense**: Full tribe wipe.
@@ -54,7 +56,7 @@ All other offenses will result in temporary bans, timeouts, wipes, or warnings a
 
 - **1.3 - Meshed Loot Stashes**
   - *Placing storage structures in the mesh to prevent destruction.*
-  - Non-Discord Members: 24 hours to join Discord or receive a <span style="color: orange;">3-day temp ban</span>.
+  - Non-Discord Members: 48 hours to join Discord (an Xbox DM will be sent) or be removed from the server. The ban remains permanent until they join the Discord and submit an appeal.
   - **Empty Stashes**:
     - **First Offense**: Structure deletion and warning for all members.
     - **Second Offense**: Structure deletion and Ark Data wipe for all members.
@@ -62,12 +64,12 @@ All other offenses will result in temporary bans, timeouts, wipes, or warnings a
   - **Stashes with Loot**:
     - **First Offense**: Structure deletion, Ark Data wipe, and formal warning.
     - **Second Offense**: Full tribe wipe.
-  - **Third Offense**: <span style="color: orange;">15-day temp ban</span> for members involved.
+    - **Third Offense**: Full tribe wipe and <span style="color: orange;">15-day temp ban</span> for members involved.
 
 - **1.4 - Meshed Sleeping Bags**
   - *Placing sleeping bags/beds behind terrain.*
   - **First Offense**:
-  - Non-Discord Members: 24 hours to join Discord or receive a <span style="color: orange;">3-day temp ban</span>.
+    - Non-Discord Members: 48 hours to join Discord (an Xbox DM will be sent) or be removed from the server. The ban remains permanent until they join the Discord and submit an appeal.
     - Discord Members: Ark Data wipe and formal warning.
 
 - **1.5 - Meshed Turrets**
@@ -78,8 +80,8 @@ All other offenses will result in temporary bans, timeouts, wipes, or warnings a
     - **Third Offense**: Turret removal and Ark Data wipe for all tribe members if person who placed it is unknown. Otherwise just data wipe the person who placed it.
     - **Fourth Offense**: Turret removal and 3 day ban of all tribe members if turret placer is unknown, otherwise 5 day ban of individual placer.
   - **Multiple Meshed Turrets**:
-    - **First Offense**: Turret removal and data wipe for all tribe members if turret placer is unkown, otherwise data wipe only the placer.
-    - **Second Offense**: Turret removal and 3 day ban for all tribe members if placer is known, otherwise 5 day ban for individual who placed it.
+    - **First Offense**: Turret removal and data wipe for all tribe members if turret placer is unknown, otherwise data wipe only the placer.
+    - **Second Offense**: Turret removal and 3 day ban for all tribe members if placer is unknown, otherwise 5 day ban for individual who placed it.
     - **Third Offense**: Full structure wipe of the tribe.
     - **Fourth Offense**: Full structure wipe of the tribe and <span style="color: orange;">30-day temp ban</span> for repeat offenders.
 
@@ -95,6 +97,7 @@ All other offenses will result in temporary bans, timeouts, wipes, or warnings a
 - **2.1 - ESP/Aimbot/Cheats**
   - *Using any third-party software to gain an unfair advantage.*
   - File checks will be conducted for suspected players. Players must comply within 1 hour of the request. An executable will be provided to generate a compliance file while screen sharing.
+  - > In severe confirmed cheating cases, Staff may intervene beyond punishment alone, including rollback of the affected map or limited recovery relief when practical. This is not guaranteed and depends on impact to unrelated players.
   - **Confirmed Aimbot or ESP**: <span style="color: orange;">**Permanent ban**</span> for the offending player.
   - **Other Cheats** (macros, exploits, etc.): <span style="color: orange;">**90-day temp ban**</span> for the offending player.
   - Other tribe members will be investigated but not automatically punished.
@@ -102,7 +105,6 @@ All other offenses will result in temporary bans, timeouts, wipes, or warnings a
 - **2.2 - Mesh Raiding**
   - *Attacking bases through the mesh. This includes shooting from outside the mesh, using tames/mounts/boats to push through the mesh, or meshing rafts into bases.*
   - > Exception: Taking down pillars from within a raft is permitted.
-  - > In severe confirmed cheating cases, Staff may intervene beyond punishment alone, including rollback of the affected map or limited recovery relief when practical. This is not guaranteed and depends on impact to unrelated players.
   - **First Offense**: Warning and Ark Data wipe for the offending member.
   - **Second Offense**: Full tribe wipe and <span style="color: orange;">90-day temp ban</span> for the offending member.
 

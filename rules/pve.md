@@ -2,7 +2,7 @@
 title: PvE Rules - Vertyco Ark Servers
 description: PvE rules for Vertyco Ark Survival Evolved servers. Covers base limits, community conduct, tribe policies, taming slots, and structure guidelines for our family-friendly cluster.
 published: true
-date: 2026-05-27T18:37:41.299Z
+date: 2026-07-05T00:00:00.000Z
 tags: ark, rules, pve
 editor: markdown
 dateCreated: 2025-02-15T23:19:09.413Z
@@ -11,7 +11,9 @@ dateCreated: 2025-02-15T23:19:09.413Z
 # 🛡️ PvE Rules & Procedures
 
 > **Our Philosophy:**
-> PvE is the family-friendly side of our community. We enforce strict rules to ensure a welcoming environment for all players. Antisocial behavior is not tolerated.
+> PvE is the family-friendly side of our community. We enforce strict rules to ensure a welcoming environment for all players. Antisocial behavior is not tolerated. Temporary bans, timeouts, and wipes are our primary punishments; permanent bans are reserved for the most severe, real-world violations.
+
+> **Note:** Repeat offenders are not exempt. At a certain point, continued rule breaking of any kind can result in a permanent ban.
 
 ## 1️⃣ General Rules
 
@@ -26,11 +28,11 @@ dateCreated: 2025-02-15T23:19:09.413Z
   - **First Offense**: Warning issued.
   - **Second Offense**: 3-day timeout from Discord.
   - **Third Offense**: Base wipe may be issued.
-  - **Fourth Offense**: <span style="color: orange;">Ban</span> may be issued.
+  - **Fourth Offense**: <span style="color: orange;">14-day temp ban</span> may be issued.
 
 - **1.4 - Admin Structures**
   - *Do not demolish Admin structures.*
-  - **First Offense**: <span style="color: orange;">Ban</span> issued to the player.
+  - **First Offense**: <span style="color: orange;">30-day temp ban</span> issued to the player.
 
 ## 2️⃣ Tribe Rules
 
@@ -46,25 +48,25 @@ dateCreated: 2025-02-15T23:19:09.413Z
 - **3.1 - No Caging Players**
   - **First Offense**: 7-day <span style="color: orange;">Temp Ban</span>.
   - **Second Offense**: 30-day <span style="color: orange;">Temp Ban</span>.
-  - **Third Offense**: <span style="color: orange;">Permanent Ban</span>.
+  - **Third Offense**: 90-day <span style="color: orange;">Temp Ban</span>.
   - *See rule 2.1 for more information on tribe policies regarding internal conflicts.*
 - **3.2 - No Stealing**
   - **First Offense**: 30-day <span style="color: orange;">Temp Ban</span>.
   - **Second Offense**: 90-day <span style="color: orange;">Temp Ban</span>.
-  - **Third Offense**: <span style="color: orange;">Permanent Ban</span>.
+  - **Third Offense**: 90-day <span style="color: orange;">Temp Ban</span> and base wipe.
   - *See rule 2.1 for more information on tribe policies regarding internal conflicts.*
 - **3.3 - No Passive Killing**
   - *Passively killing players is forbidden. This includes dragging/drowning players or leading wild dinos to their base. Claiming to do so is an admission of guilt.*
   - **First Offense**: 30-day <span style="color: orange;">Temp Ban</span>.
   - **Second Offense**: 90-day <span style="color: orange;">Temp Ban</span>.
-  - **Third Offense**: <span style="color: orange;">Permanent Ban</span>.
+  - **Third Offense**: 90-day <span style="color: orange;">Temp Ban</span> and base wipe.
   - *See rule 2.1 for more information on tribe policies regarding internal conflicts.*
 - **3.4 - No Interference**
   - *Do not interfere with players taming wild dinos, take action to kill off rare wild spawns(wild sniping), or OSD/veins activities on Extinction.*
   - **First Offense**: Warning.
   - **Second Offense**: 7-day <span style="color: orange;">Temp Ban</span> and a Tribe Dino Wipe.
   - **Third Offense**: 30-day <span style="color: orange;">Temp Ban</span> and a Tribe Dino Wipe.
-  - **Fourth Offense**: <span style="color: orange;">Permanent Ban</span> and a Tribe Dino Wipe.
+  - **Fourth Offense**: 90-day <span style="color: orange;">Temp Ban</span> and a Tribe Dino Wipe.
   - *See rule 2.1 for more information on tribe policies regarding internal conflicts.*
 
 (Attempting to prevent veins, osd's, or dinos from being on the map for others to use for any reason will result in swift and harsh repercussions.)
@@ -75,13 +77,11 @@ dateCreated: 2025-02-15T23:19:09.413Z
   - *One main base and one outpost (< 300 structures) are allowed. Only one location can be in a cave.*
   - **First Offense**: 48 hours to comply or face base removal.
   - **Second Offense**: Immediate base wipe.
-  - **Third Offense**: <span style="color: orange;">Ban</span>.
+  - **Third Offense**: <span style="color: orange;">30-day temp ban</span>.
 - **4.2 - Size Restrictions**
   - *Bases must fit within render distance (80 foundations maximum).*
-  - **First Offense**: 48 hours to comply.
-    *For spam, removal of structures and warning.
-  - **Second Offense**: Partial structure removal.
-    *For spam, AOE wipe area.
+  - **First Offense**: 48 hours to comply. *For spam: removal of structures and warning.*
+  - **Second Offense**: Partial structure removal. *For spam: AOE wipe area.*
   - **Third Offense**: Complete base wipe.
 - **4.3 - Beach Building**
   - *No established bases on beaches.*
@@ -101,18 +101,19 @@ dateCreated: 2025-02-15T23:19:09.413Z
   - **First Offense**: 24 hours to remove excess teleporters.
   - **Second Offense**: Admin removal of all teleporters.
 - **4.7 - Taming Trap Cleanup**
+  - *Remove taming traps when you are done with them.*
   - **First Offense**: Warning.
   - **Second Offense**: Admin removal of the trap.
   - **Third Offense**: Base wipe.
 - **4.8 - No Meshing**
   - **First Offense**: Structure removal.
   - **Second Offense**: Base wipe.
-  - **Third Offense**: <span style="color: orange;">Ban</span>.
+  - **Third Offense**: <span style="color: orange;">30-day temp ban</span>.
 - **4.9 - Territory Trading**
   - *Do not sell territory for VC or block areas for trade.*
   - **First Offense**: Warning and structure removal.
   - **Second Offense**: Base wipe.
-  - **Third Offense**: <span style="color: orange;">Ban</span>.
+  - **Third Offense**: <span style="color: orange;">30-day temp ban</span>.
 
 ## 5️⃣ Tame Rules
 
