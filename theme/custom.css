@@ -1,88 +1,172 @@
 /* ============================================================
-   VERTYCO WIKI - Neon-on-dark brand theme
+   VERTYCO WIKI - "Engineered" dev-first theme
+   Linear/Raycast discipline · one signal-green accent · real type
    Paste this whole block into: Admin > Theme > CSS Override
-   This file is a git-tracked master copy. Wiki.js does NOT
-   auto-sync it; the live change is the manual admin paste.
+   Git-tracked master copy; Wiki.js does NOT auto-sync it.
    Reversible: clear the CSS Override box to remove.
    ============================================================ */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+
 :root {
-  --v-green: #39ff14;
-  --v-cyan: #00e5d0;
-  --v-bg: #0a0e0a;
-  --v-bg-2: #05080c;
-  --v-card-bg: rgba(20, 28, 22, 0.6);
-  --v-card-border: rgba(57, 255, 20, 0.35);
-  --v-glow: 0 0 12px rgba(57, 255, 20, 0.45);
-  --v-glow-strong: 0 0 22px rgba(57, 255, 20, 0.6);
+  --bg:        #0d0f0e;   /* near-black, faint green undertone (not pure #000) */
+  --surface:   #151917;   /* cards / panels, one step up */
+  --surface-2: #1b201d;   /* hover / raised */
+  --border:    #232a26;   /* hairline, replaces every glow border */
+  --text:      #e7ebe8;   /* primary */
+  --muted:     #8b968f;   /* labels, captions, secondary */
+  --accent:    #35d07f;   /* signal green - the ONLY color, used sparingly */
+  --accent-dim:#2aa866;
+  --shadow:    0 1px 2px rgba(0,0,0,0.4), 0 8px 24px rgba(0,0,0,0.35);
+
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-body:    'Inter', system-ui, sans-serif;
+  --font-mono:    'JetBrains Mono', ui-monospace, 'SFMono-Regular', monospace;
 }
 
 /* ---- Sitewide reader polish (scoped to rendered content) ---- */
 
-/* Headings: neon green with soft glow; h3 leans cyan */
-.contents h1,
-.contents h2 {
-  color: var(--v-green) !important;
-  text-shadow: 0 0 10px rgba(57, 255, 20, 0.35);
-}
-.contents h3 {
-  color: var(--v-cyan) !important;
+.contents {
+  font-family: var(--font-body);
+  color: var(--text);
+  line-height: 1.65;
+  letter-spacing: 0.1px;
 }
 
-/* Links: neon green, glow on hover */
-.contents a:not(.v-btn):not(.is-internal-link.is-valid-page) {
-  color: var(--v-green);
-  transition: text-shadow 0.18s ease, color 0.18s ease;
+/* Headings: display face, no glow. Weight + scale carry hierarchy. */
+.contents h1,
+.contents h2,
+.contents h3,
+.contents h4 {
+  font-family: var(--font-display);
+  color: var(--text) !important;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-shadow: none !important;
+}
+.contents h1 { font-size: 2.1rem; line-height: 1.15; }
+.contents h2 {
+  font-size: 1.5rem;
+  margin-top: 2.2em;
+  padding-bottom: 0.35em;
+  border-bottom: 1px solid var(--border);
+}
+.contents h3 { font-size: 1.2rem; color: var(--text) !important; }
+/* One accent moment in headers: a thin leading bar on h2, not color-flooding */
+.contents h2::before {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 0.9em;
+  margin-right: 0.55em;
+  vertical-align: -0.05em;
+  background: var(--accent);
+  border-radius: 2px;
+}
+
+/* Links: accent, underline offset, no glow */
+.contents a:not(.v-btn-primary):not(.v-btn-ghost):not(.is-internal-link.is-valid-page) {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease, color 0.15s ease;
 }
 .contents a:hover {
-  color: #bfffb0;
-  text-shadow: var(--v-glow);
+  color: #7fe6ac;
+  border-bottom-color: var(--accent-dim);
 }
 
-/* Tables: green-tinted header + borders */
+/* Inline code + data read as mono */
+.contents code {
+  font-family: var(--font-mono);
+  font-size: 0.88em;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.1em 0.4em;
+  color: #cfeede;
+}
+
+/* Tables: hairline, mono cells for scannable data */
 .contents table.table thead th {
-  background: rgba(57, 255, 20, 0.12) !important;
-  color: var(--v-green) !important;
-  border-bottom: 2px solid var(--v-card-border) !important;
+  background: var(--surface) !important;
+  color: var(--muted) !important;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border-bottom: 1px solid var(--border) !important;
 }
 .contents table.table td,
 .contents table.table th {
-  border-color: rgba(57, 255, 20, 0.15) !important;
+  border-color: var(--border) !important;
 }
+.contents table.table td {
+  border-bottom: 1px solid var(--border) !important;
+  padding: 9px 12px;
+}
+.contents table.table tbody tr:hover td { background: rgba(53, 208, 127, 0.04); }
 
-/* Callouts: dark fill + brand left accent bar */
+/* Callouts: quiet bordered note boxes, no colored accent stripe */
 .contents .is-info,
 .contents .is-success,
 .contents .is-warning {
-  background: rgba(12, 18, 14, 0.7) !important;
-  border-radius: 6px;
-  color: #e8ffe5 !important;
+  background: var(--surface) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 8px;
+  color: var(--text) !important;
   padding: 14px 18px !important;
   overflow-wrap: anywhere;
 }
-.contents .is-info    { border-left: 4px solid var(--v-cyan) !important; }
-.contents .is-success { border-left: 4px solid var(--v-green) !important; }
-.contents .is-warning { border-left: 4px solid #ffb648 !important; }
-/* Hide the default MDI callout icon (floated left into the nav); the
-   neon accent bar already signals the callout type. */
+/* Only warnings carry a faint tint; info/success stay neutral */
+.contents .is-warning {
+  background: rgba(224, 165, 65, 0.06) !important;
+  border-color: rgba(224, 165, 65, 0.28) !important;
+}
 .contents .is-info::before,
 .contents .is-success::before,
 .contents .is-warning::before { display: none !important; }
 
 /* Text selection */
 .contents ::selection {
-  background: rgba(57, 255, 20, 0.3);
+  background: rgba(53, 208, 127, 0.25);
   color: #fff;
 }
 
-/* Thin neon scrollbar */
+/* Thin, muted scrollbar (no neon) */
 ::-webkit-scrollbar { width: 10px; height: 10px; }
-::-webkit-scrollbar-track { background: var(--v-bg-2); }
+::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb {
-  background: rgba(57, 255, 20, 0.4);
+  background: var(--border);
   border-radius: 6px;
 }
-::-webkit-scrollbar-thumb:hover { background: var(--v-green); }
+::-webkit-scrollbar-thumb:hover { background: #2f3a34; }
+
+/* ---- Wiki.js page header (title + description above content) ----
+   Default theme pins this row to a fixed inline height: 90px, so a long
+   title + description overflow and collide with the divider on mobile.
+   Let it grow, and align type with the theme. */
+.page-header-section {
+  height: auto !important;
+  min-height: 72px;
+  padding: 14px 0;
+}
+.page-header-headings .headline {
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--text) !important;
+}
+.page-header-headings .caption {
+  color: var(--muted) !important;
+  line-height: 1.45;
+  display: block;
+  margin-top: 4px;
+}
+@media (max-width: 700px) {
+  .page-header-headings .headline { font-size: 1.15rem !important; }
+  .page-header-headings .caption  { font-size: 0.8rem !important; }
+}
 
 /* ============================================================
    HOME PAGE HERO  (markup lives in home.md)
@@ -90,170 +174,229 @@
 
 .v-hero {
   position: relative;
-  margin: 0 0 36px;
+  margin: 0 0 40px;
   padding: 44px 40px;
   border-radius: 14px;
-  border: 1px solid var(--v-card-border);
-  box-shadow: var(--v-glow), inset 0 0 60px rgba(0, 0, 0, 0.6);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
   background:
-    radial-gradient(120% 140% at 0% 0%, rgba(57, 255, 20, 0.18), transparent 55%),
-    radial-gradient(120% 140% at 100% 100%, rgba(0, 229, 208, 0.14), transparent 55%),
-    linear-gradient(135deg, var(--v-bg) 0%, var(--v-bg-2) 100%);
+    radial-gradient(90% 120% at 100% 0%, rgba(53, 208, 127, 0.06), transparent 60%),
+    var(--surface);
   overflow: hidden;
-}
-/* faint star dots */
-.v-hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image:
-    radial-gradient(1px 1px at 20% 30%, rgba(255,255,255,0.7), transparent),
-    radial-gradient(1px 1px at 70% 60%, rgba(255,255,255,0.5), transparent),
-    radial-gradient(1px 1px at 40% 80%, rgba(0,229,208,0.6), transparent),
-    radial-gradient(1px 1px at 85% 25%, rgba(57,255,20,0.6), transparent),
-    radial-gradient(1px 1px at 55% 15%, rgba(255,255,255,0.4), transparent);
-  opacity: 0.6;
-  pointer-events: none;
 }
 
 .v-hero-inner {
   position: relative;
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 34px;
   flex-wrap: wrap;
 }
 
 .v-hero-logo {
   flex: 0 0 auto;
-  width: 150px;
-  height: 150px;
-  border-radius: 14px;
-  border: 1px solid var(--v-card-border);
-  box-shadow: var(--v-glow);
+  width: 132px;
+  height: 132px;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
   object-fit: cover;
 }
 
-.v-hero-text { flex: 1 1 320px; min-width: 280px; }
+.v-hero-text { flex: 1 1 340px; min-width: 300px; }
 
 .v-hero-text .v-wordmark {
   margin: 0;
-  font-size: 2.8rem;
-  font-weight: 800;
-  letter-spacing: 4px;
-  color: var(--v-green) !important;
-  text-shadow: var(--v-glow-strong);
+  font-family: var(--font-display);
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text) !important;
+  text-shadow: none !important;
   border: none !important;
 }
+
+/* Pronunciation: mono, quiet, the "engineered" register */
+.v-hero-text .v-pronounce {
+  margin: 6px 0 0;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+}
+.v-hero-text .v-pronounce em { font-style: normal; color: var(--accent); }
+
 .v-hero-text .v-tagline {
-  margin: 8px 0 22px;
-  font-size: 1.12rem;
-  color: #d7ffd2;
-  line-height: 1.5;
+  margin: 16px 0 18px;
+  font-size: 1.1rem;
+  color: var(--muted);
+  line-height: 1.55;
+  max-width: 46ch;
 }
 
-/* CTA buttons */
-.v-cta-row { display: flex; flex-wrap: wrap; gap: 14px; }
-.v-btn-primary,
-.v-btn-ghost {
-  display: inline-block;
-  padding: 12px 26px;
+/* SIGNATURE: live console-style status strip */
+.v-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 24px;
+  padding: 8px 14px;
+  border: 1px solid var(--border);
   border-radius: 8px;
-  font-weight: 700;
-  text-decoration: none !important;
-  transition: transform 0.16s ease, box-shadow 0.16s ease, background 0.16s ease;
+  background: var(--bg);
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  text-transform: uppercase;
 }
-.v-btn-primary {
-  background: linear-gradient(135deg, var(--v-green), var(--v-cyan));
-  color: #05140a !important;
-  box-shadow: var(--v-glow);
+.v-status .v-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 0 rgba(53, 208, 127, 0.5);
+  animation: v-pulse 2.4s ease-out infinite;
 }
-.v-btn-primary:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--v-glow-strong);
-  color: #03200f !important;
-}
-.v-btn-ghost {
-  border: 1px solid var(--v-green);
-  color: var(--v-green) !important;
-  background: transparent;
-}
-.v-btn-ghost:hover {
-  transform: translateY(-2px);
-  background: rgba(57, 255, 20, 0.12);
-  box-shadow: var(--v-glow);
+.v-status .v-live { color: var(--accent); }
+.v-status .v-sep { color: var(--border); }
+@keyframes v-pulse {
+  0%   { box-shadow: 0 0 0 0 rgba(53, 208, 127, 0.5); }
+  70%  { box-shadow: 0 0 0 7px rgba(53, 208, 127, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(53, 208, 127, 0); }
 }
 
-/* Stat chips */
+/* Legacy stat markup (.v-stats/.v-chip) - styled as mono tags so it reads
+   clean until home.md publishes the status strip. Harmless once it does. */
 .v-stats {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
-  margin-top: 26px;
+  gap: 8px 10px;
+  margin: 20px 0 4px;
+  font-family: var(--font-mono);
 }
 .v-chip {
-  display: flex;
-  flex-direction: column;
-  padding: 10px 18px;
-  border-radius: 10px;
-  background: var(--v-card-bg);
-  border: 1px solid var(--v-card-border);
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
 }
 .v-chip b {
-  font-size: 1.35rem;
-  color: var(--v-green);
-  text-shadow: var(--v-glow);
-  line-height: 1.1;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.85rem;
 }
 .v-chip span {
-  font-size: 0.78rem;
-  letter-spacing: 1px;
+  color: var(--muted);
+  font-size: 0.72rem;
   text-transform: uppercase;
-  color: #9fe89a;
+  letter-spacing: 0.5px;
+}
+
+/* CTA buttons: flat, bordered; accent fill only on primary */
+.v-cta-row { display: flex; flex-wrap: wrap; gap: 12px; }
+.v-btn-primary,
+.v-btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 22px;
+  border-radius: 8px;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none !important;
+  transition: background 0.15s ease, border-color 0.15s ease, transform 0.12s ease;
+}
+.v-btn-primary {
+  background: var(--accent);
+  color: #062012 !important;
+  border: 1px solid var(--accent);
+}
+.v-btn-primary:hover {
+  background: #47dd8d;
+  transform: translateY(-1px);
+}
+.v-btn-ghost {
+  border: 1px solid var(--border);
+  color: var(--text) !important;
+  background: transparent;
+}
+.v-btn-ghost:hover {
+  border-color: var(--muted);
+  background: var(--surface-2);
+  transform: translateY(-1px);
 }
 
 /* ---- Interior page header (features, servers, etc.) ---- */
 .v-pagehead {
-  margin: 0 0 30px;
-  padding: 28px 32px;
+  margin: 0 0 32px;
+  padding: 26px 30px;
   border-radius: 12px;
-  border: 1px solid var(--v-card-border);
-  box-shadow: var(--v-glow), inset 0 0 50px rgba(0, 0, 0, 0.5);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
   background:
-    radial-gradient(120% 160% at 0% 0%, rgba(57, 255, 20, 0.14), transparent 55%),
-    linear-gradient(135deg, var(--v-bg) 0%, var(--v-bg-2) 100%);
+    radial-gradient(90% 140% at 0% 0%, rgba(53, 208, 127, 0.05), transparent 60%),
+    var(--surface);
 }
 .v-pagehead h1 {
   margin: 0 0 10px;
-  color: var(--v-green) !important;
-  text-shadow: var(--v-glow);
+  font-family: var(--font-display);
+  color: var(--text) !important;
+  text-shadow: none !important;
   border: none !important;
 }
 .v-pagehead p {
   margin: 0 0 18px;
-  color: #d7ffd2;
-  font-size: 1.06rem;
-  line-height: 1.5;
+  color: var(--muted);
+  font-size: 1.02rem;
+  line-height: 1.55;
 }
 
 /* ---- Content cards (cluster boxes etc.) ---- */
 .v-card {
-  background: var(--v-card-bg) !important;
-  border: 1px solid var(--v-card-border);
+  background: var(--surface) !important;
+  border: 1px solid var(--border);
   border-radius: 10px;
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  transition: transform 0.15s ease, border-color 0.15s ease;
 }
 .v-card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--v-glow);
+  transform: translateY(-3px);
+  border-color: #3a453f;
 }
+.v-card h3 { font-family: var(--font-display); }
+
+/* Cluster identity: restore per-type color as a disciplined signal
+   (top keyline + heading), driven by the existing inline tint colors.
+   No flood, no glow - color encodes cluster type. */
+.v-card[style*="46, 204, 113"]  { border-top: 2px solid #34d07f; }   /* ASE PvE  green  */
+.v-card[style*="231, 76, 60"]   { border-top: 2px solid #e5645a; }   /* ASE PvP  red    */
+.v-card[style*="241, 196, 15"]  { border-top: 2px solid #e0a541; }   /* Vertydome amber */
+.v-card[style*="52, 152, 219"]  { border-top: 2px solid #4aa3e0; }   /* ASA      blue   */
+.v-card[style*="155, 89, 182"]  { border-top: 2px solid #a06cc4; }   /* Prim+    purple */
+
+.v-card[style*="46, 204, 113"]  h3 { color: #34d07f; }
+.v-card[style*="231, 76, 60"]   h3 { color: #e5645a; }
+.v-card[style*="241, 196, 15"]  h3 { color: #e0a541; }
+.v-card[style*="52, 152, 219"]  h3 { color: #4aa3e0; }
+.v-card[style*="155, 89, 182"]  h3 { color: #a06cc4; }
 
 /* ---- Responsive: stack hero on narrow screens ---- */
 @media (max-width: 700px) {
   .v-hero { padding: 30px 22px; }
   .v-hero-inner { gap: 22px; }
-  .v-hero-logo { width: 110px; height: 110px; }
-  .v-hero-text .v-wordmark { font-size: 2.1rem; }
+  .v-hero-logo { width: 96px; height: 96px; }
+  .v-hero-text .v-wordmark { font-size: 2.2rem; }
   .v-cta-row { width: 100%; }
-  .v-btn-primary, .v-btn-ghost { flex: 1 1 auto; text-align: center; }
+  .v-btn-primary, .v-btn-ghost { flex: 1 1 auto; justify-content: center; }
+  .v-status { font-size: 0.68rem; flex-wrap: wrap; }
+}
+
+/* ---- Respect reduced-motion ---- */
+@media (prefers-reduced-motion: reduce) {
+  .v-dot { animation: none; }
+  .v-btn-primary, .v-btn-ghost, .v-card { transition: none; }
 }

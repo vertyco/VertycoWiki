@@ -28,6 +28,9 @@ A temporary ban from the server, usually lasting 3, 7, 14, 30, 60, or 90 days de
 ### VC / VertCoin
 The Discord server's virtual currency, earned through activity and minigames. A "VC Wipe" means the player's balance is reset to zero.
 
+### Vertyco
+Pronounced **ver-TIH-coh** (stress on the middle syllable). The name of the community and its ARK server network, running since 2019. A coined name, not an acronym.
+
 ---
 
 ## Structure Terms
