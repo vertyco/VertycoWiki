@@ -32,7 +32,7 @@ By using Vertyco services, participating in the virtual economy, or making donat
 - Donation perks and VC rewards are offered as a "thank you" gesture and not as payment for services
 
 ## Donation Methods
-Donations can be made through various payment methods including but not limited to PayPal, Venmo, CashApp, and Upgrade.Chat. Different donation methods may have different refund policies as outlined below.
+Donations can be made through various payment methods including but not limited to PayPal and Upgrade.Chat. Different donation methods may have different refund policies as outlined below.
 
 ---
 
@@ -93,7 +93,7 @@ VertCoin (VC) may be used for:
 - Processing fees may be deducted from any refunded amount
 
 ### Manual Donations
-- Direct manual donations made through PayPal, Venmo, or CashApp are **non-refundable under any circumstances**
+- Direct manual donations made through PayPal or any other manual payment method are **non-refundable under any circumstances**
 
 ### Banned Users
 - If a user is <span style="color: orange;">**banned**</span> from the Discord server for violating community rules, they are generally not eligible for refunds

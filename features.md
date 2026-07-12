@@ -67,7 +67,7 @@ Vanilla ARK offline raid protection is broken. Ours is custom built and fair to 
 
 Vertyco runs a full in-game economy on **VertCoin**, earned by playing (not just bought). The shop is fully self-service through Discord and in-game, no waiting on an admin.
 
-- Buy items and dinos from the shop on your own schedule.
+- Redeem VC for items and dinos from the shop on your own schedule.
 - Locate any creature on the map, view tame and structure ownership, and check map stats with simple commands.
 - Run community votes for day, night, dino wipes, and cleanups.
 - Earn periodic in-game rewards just for playing.

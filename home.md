@@ -59,9 +59,9 @@ Have a quick question? See [Common Questions](/answers) for direct answers on au
 Vertyco features an engaging virtual economy where players can:
 - 🎮 **Play minigames** to earn virtual currency
 - ⏰ **Run `.vc` command** every 11 hours for free currency
-- 💎 **Earn VertCoin (VC)** to purchase in-game items and dinosaurs
+- 💎 **Earn VertCoin (VC)** to redeem for in-game items and dinosaurs
 
-> **Not Pay-to-Win:** Our shop system is designed so that items available for purchase are not as powerful as what you can find or tame in-game. Learn more on our [Donations page](/donations)
+> **Not Pay-to-Win:** Our shop system is designed so that items you can redeem are not as powerful as what you can find or tame in-game. Learn more on our [Donations page](/donations)
 {.is-success}
 
 

@@ -1,6 +1,6 @@
 ---
 title: Donations & VertCoin Economy
-description: Support Vertyco through donations via PayPal, Venmo, CashApp, or Upgrade.Chat subscriptions. Earn VertCoin for in-game items. Not pay-to-win - free players always have the advantage.
+description: Support Vertyco through donations via PayPal or Upgrade.Chat subscriptions. Earn VertCoin for in-game items. Not pay-to-win - free players always have the advantage.
 published: true
 date: 2025-06-25T14:23:09.514Z
 tags: donations, vc, supporter, vertcoin, economy
@@ -14,10 +14,10 @@ Vertyco is primarily maintained through community donations, which help cover se
 
 <div style="margin: 20px 0; padding: 15px; background-color: rgba(46, 204, 113, 0.2); border-left: 4px solid #2ecc71; border-radius: 4px;">
   <h2 style="margin-top: 0;">Not Pay-to-Win</h2>
-  <p>Vertyco's shop system is deliberately designed to ensure free players can achieve better results than those who purchase items:</p>
+  <p>Vertyco's shop system is deliberately designed to ensure free players can achieve better results than those who redeem VC for items:</p>
   <ul>
     <li>Shop blueprints are capped at quality 5 for PvP (in-game drops can reach quality 10)</li>
-    <li>Purchased dinosaurs have lower stats than those you can tame yourself in the wild</li>
+    <li>Redeemed dinosaurs have lower stats than those you can tame yourself in the wild</li>
     <li>All items available in the shop can be obtained through regular gameplay</li>
   </ul>
   <p>Donations support server costs while providing minor conveniences, not gameplay advantages.</p>
@@ -27,9 +27,7 @@ Vertyco is primarily maintained through community donations, which help cover se
 
 ### Direct Manual Donations
 Support Vertyco directly through:
-- **💵 CashApp**: `$AlexGoble`
-- **🟣 Venmo**: `@AlexGoble`
-- **🔵 PayPal**: `@AlexanderGoble`
+- **🔵 PayPal**: [paypal.biz/vertyco](https://www.paypal.biz/vertyco)
 
 <div style="margin: 15px 0; padding: 10px; background-color: rgba(255, 193, 7, 0.2); border-left: 4px solid #ffc107; border-radius: 4px;">
   <p style="margin: 0;"><strong>⚠️ Important</strong>: Direct manual donations are non-refundable under any circumstance.</p>
@@ -38,7 +36,7 @@ Support Vertyco directly through:
 ---
 
 ### Upgrade.Chat Platform
-Our professional donation platform offers subscription tiers and direct VC purchases.
+Our professional donation platform offers subscription tiers and direct VC contributions.
 
 #### 🏆 Tier Supporter Roles
 
@@ -102,7 +100,7 @@ Our professional donation platform offers subscription tiers and direct VC purch
 </div>
 
 #### 💎 Direct VC Claiming
-Purchase VC directly at a rate of **$1 USD = 1000 VC** using the `.claim` command. All donation methods provide a permanent "Donator" role.
+Claim VC directly using the `.claim` command. Contributions are acknowledged at an approximate rate of **$1 USD ≈ 1000 VC** (an appreciation rate, not a purchase price). All donation methods provide a permanent "Donator" role.
 
 ## 🪙 VertCoin Economy
 
@@ -119,7 +117,7 @@ VertCoin (VC) is our virtual currency designed for fun and convenience rather th
 8. 💀 Mug people in `#crimetime` and convert your cash to gems, which can then be converted into 1k VC!
 9. ⛏️ Grab your pickaxe and head to `#miner` to start mining - convert resources to VC with the `.miner` command.
 
-### What Can You Buy With VC?
+### What Can You Redeem VC For?
 The in-game shop offers:
 - Dinosaurs (with stats lower than wild tames)
 - Blueprints (capped at quality 5 for PvP)
