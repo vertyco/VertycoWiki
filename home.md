@@ -13,7 +13,6 @@ dateCreated: 2024-04-16T01:22:45.087Z
     <img class="v-hero-logo" src="/assets/vertycologo-compressed.jpg" alt="Vertyco logo" />
     <div class="v-hero-text">
       <h1 class="v-wordmark">VERTYCO</h1>
-      <p class="v-pronounce"><em>/ ver-TIH-coh /</em> · say it "ver-TIH-coh"</p>
       <p class="v-tagline">The most automated ARK community online. Crossplay servers since 2019.</p>
       <div class="v-status" role="status">
         <span class="v-dot" aria-hidden="true"></span>
@@ -46,7 +45,7 @@ This wiki contains comprehensive documentation for the Vertyco Community - a Dis
 
 ## 🌟 Overview
 
-Vertyco (pronounced **ver-TIH-coh**) is the most automated ARK community online, running crossplay "player dedicated" servers since 2019. We offer a comprehensive gaming experience through both legacy and modern versions of the game: **Ark Survival Evolved (ASE)** and **Ark Survival Ascended (ASA)**.
+Vertyco is the most automated ARK community online, running crossplay "player dedicated" servers since 2019. We offer a comprehensive gaming experience through both legacy and modern versions of the game: **Ark Survival Evolved (ASE)** and **Ark Survival Ascended (ASA)**.
 
 What sets us apart is custom automation no rented or Nitrado server can run. On our **ASE PvP cluster**: **Cluster Alpha** competitive seasons, **CoD-style killstreaks**, and **smart offline-raid protection** (custom code-injected systems, ASE PvP only). Across the whole network: a **self-service shop**, VertCoin economy, and real anti-cheat. See [What Makes Vertyco Unique](/features).
 
