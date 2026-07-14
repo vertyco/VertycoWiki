@@ -2,8 +2,8 @@
 title: Donations & VertCoin Economy
 description: Support Vertyco through donations via PayPal or Upgrade.Chat subscriptions. Earn VertCoin for in-game items. Not pay-to-win - free players always have the advantage.
 published: true
-date: 2025-06-25T14:23:09.514Z
-tags: donations, vc, supporter, vertcoin, economy
+date: 2026-07-14T15:29:40.854Z
+tags: vc, economy, donations, supporter, vertcoin
 editor: markdown
 dateCreated: 2025-06-25T14:23:07.016Z
 ---
@@ -123,5 +123,12 @@ The in-game shop offers:
 - Blueprints (capped at quality 5 for PvP)
 - Resources and basic items
 - Cosmetic items
+
+### ⏳ Inactivity Decay
+To keep the economy healthy, VertCoin decays if an account goes inactive:
+- If you go **30 days without any Discord activity** (messages or reactions), your VC balance starts to decay by **5% per day** for every day you stay inactive.
+- Coming back and being active again **stops the decay immediately**, but any VC already lost to decay cannot be restored.
+- **Tier Supporters and Server Boosters are exempt** - their balance never decays while the role is active.
+- Decay applies to all VC equally, regardless of whether it was earned for free or claimed from a donation.
 
 For more details about our policies regarding donations and virtual currency, please see our [Terms of Service](/legal/terms-of-service).
