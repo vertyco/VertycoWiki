@@ -2,7 +2,7 @@
 title: Vertyco Terms of Service
 description: Terms of service for Vertyco Ark Servers. Rules and agreements governing use of our dedicated Ark Survival Evolved and Ascended servers and Discord community.
 published: true
-date: 2026-05-24T00:00:00.000Z
+date: 2026-07-14T15:29:37.498Z
 tags: legal, terms
 editor: markdown
 dateCreated: 2025-04-21T21:07:14.486Z
@@ -50,6 +50,7 @@ Donations can be made through various payment methods including but not limited 
 - Your VertCoin balance and benefits are tied to your account and may not be transferred, shared, loaned, or resold to other users without express written permission from Vertyco administration
 - VC is tied to active membership in the Vertyco Discord server. Vertyco reserves the right, at its sole discretion, to reset or remove the VC balance of any account that is no longer present in the Discord server, regardless of how the account left, including voluntary departure, removal, or <span style="color: orange;">**ban**</span>
 - Rejoining the Discord server does not entitle a user to restoration of any VC balance that was previously reset or removed
+- **Inactivity decay:** To maintain a healthy economy, the VC balance of any account that remains inactive in the Discord server (no messages or reactions) for **30 consecutive days** is reduced by **5% per day** for each further day of inactivity, until the account becomes active again. Returning to activity stops the decay but does not restore any VC already decayed. Tier Supporters and Server Boosters are exempt from decay while their role is active.
 
 ---
 
