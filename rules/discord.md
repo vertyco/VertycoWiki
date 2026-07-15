@@ -2,7 +2,7 @@
 title: Discord Rules
 description: Official Discord rules for the Vertyco community. Covers toxicity, harassment, scams, spam, chargebacks, and punishment tiers from warnings to temporary bans.
 published: true
-date: 2026-07-05T00:00:00.000Z
+date: 2026-07-15T12:59:02.700Z
 tags: rules, discord
 editor: markdown
 dateCreated: 2025-02-15T18:21:21.165Z
@@ -257,9 +257,10 @@ Alternative accounts may only appeal <span style="color: orange;">**bans**</span
 *Any form of abuse of the bots is forbidden.*
 > Punishment is at the discretion of the staff member.
 
-### 4.3 - UserBot Policy *(Zero Tolerance)*
-*UserBots are strictly prohibited and will result in an instant ban.*
-- **First Offense**: <span style="color: orange;">**Permanent ban**</span> issued to the user
+### 4.3 - UserBot & Account Automation Policy
+*Automating a user account (macros, autoclickers, scripts, or userbots) to send commands, messages, or event answers is prohibited. Punishment scales with the severity of the botting.*
+- **Account macros / autoclickers** (a member's own account scripted to farm bot commands, currency, chat, or events): <span style="color: orange;">14-day temp ban</span> plus VC and Ark data wipe with a formal warning. Repeat offense: <span style="color: orange;">**permanent ban**</span>.
+- **Token userbots / selfbots** (software running on the account token itself): <span style="color: orange;">**permanent ban**</span> on first offense. This is a direct Discord ToS violation and an account-compromise risk.
 
 ### 4.4 - Currency Exploitation Policy
 *Exploiting the Discord currency system is forbidden.*
