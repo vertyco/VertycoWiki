@@ -2,13 +2,11 @@
 title: ArkTools Commands
 description: All ArkTools commands for Vertyco's Autto bot. Register your gamertag, browse the Rshop, buy items and dinos with VertCoin, and manage your Ark server experience.
 published: true
-date: 2024-08-25T22:44:43.179Z
+date: 2026-07-24T14:11:24.220Z
 tags: cogs, arktools, ark, commands
 editor: markdown
 dateCreated: 2024-04-16T01:23:23.026Z
 ---
-
-
 
 AIO server manager for Ark: Survival Evolved!
 
@@ -75,6 +73,12 @@ This command requires api keys to be set for the servers<br/>
 This command requires api keys to be set for the servers<br/>
  - Usage: `.addplayer <player>`
  - Restricted to: `ADMIN`
+ - Checks: `server_only`
+# .rename
+Rename your in-game character<br/>
+
+Run this in the in-game GLOBAL chat (not Discord) to change your character's name. Enabled on all clusters with a 1-hour cooldown between renames.<br/>
+ - Usage: `.rename <NewName>`
  - Checks: `server_only`
 # .unregisterplayer
 Unlink the discord account from a player<br/>
