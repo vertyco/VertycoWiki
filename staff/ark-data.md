@@ -2,8 +2,8 @@
 title: Ark Data Help
 description: Staff guide for assisting players with Ark data issues including transfers and data recovery.
 published: true
-date: 2024-08-25T23:38:44.067Z
-tags: staff, ark, data
+date: 2026-07-24T14:11:41.939Z
+tags: ark, staff, data
 editor: markdown
 dateCreated: 2024-08-25T23:38:42.766Z
 ---
@@ -53,13 +53,6 @@ Use the `.clearcache` info command that will send them to **[This](https://nordv
 ## Step 3: They got Arked... it happens 😕
 `.step3`
 
+# Upload / Transfer Failing
 
-
-
-
-
-
-
-
-
-
+If a player says `.upload` did nothing, or their character, dinos or items would not transfer, the usual cause is closing the terminal too early. **The transmitter / obelisk / terminal menu must stay OPEN until the upload finishes.** Closing it mid-upload cancels or breaks the transfer. Have them reopen the terminal, run the upload again, and leave it open until it completes.
