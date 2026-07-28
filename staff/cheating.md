@@ -2,7 +2,7 @@
 title: Meshing/Cheating
 description: Staff guide for identifying and handling meshing, cheating, and exploit violations on Vertyco Ark servers.
 published: true
-date: 2026-05-23T00:00:00.000Z
+date: 2026-07-28T14:45:30.297Z
 tags: staff, moderation, cheating
 editor: markdown
 dateCreated: 2024-08-26T02:41:24.978Z
@@ -154,7 +154,15 @@ A structure is considered **meshed** when **any** of the following conditions ar
 - **First Offense**: <span style="color: orange;">**90-day temp ban**</span> for the offending player.
 - Other tribe members will be investigated but not automatically punished.
 
-> File checks will be conducted for suspected players. Players must comply within 1 hour of the request.
+### 🔍 File Check Procedure
+
+File checks are **discretionary**, not automatic. Staff decide case by case whether to run one, based on the amount (or lack) of other evidence. Typical use is when clips and history leave staff without consensus; if the evidence already supports a ban, ban.
+
+- **A screen share is mandatory.** The player must be on a call sharing their screen for the entire check: seen on the device they play on, downloading and running the file check, then minimizing so staff can watch the results. Without the screen share the check is worthless, since the player could run it on any other device and return clean results.
+- Players must comply within **1 hour** of the request.
+- **Refusal to run the check (or to screen share) results in a ban.** A file check is only requested when suspicion is already at a bannable level; refusal confirms the decision.
+- **A clean result is not exoneration.** It means nothing was found on that device at that moment. It does not overrule other evidence, and it does not grant a "passed the file check" defense against later or stronger evidence.
+
 
 ---
 
