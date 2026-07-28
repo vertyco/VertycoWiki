@@ -2,7 +2,7 @@
 title: Donations & VertCoin Economy
 description: Support Vertyco through donations via PayPal or Upgrade.Chat subscriptions. Earn VertCoin for in-game items. Not pay-to-win - free players always have the advantage.
 published: true
-date: 2026-07-14T15:29:40.854Z
+date: 2026-07-28T14:06:11.168Z
 tags: vc, economy, donations, supporter, vertcoin
 editor: markdown
 dateCreated: 2025-06-25T14:23:07.016Z
@@ -101,6 +101,27 @@ Our professional donation platform offers subscription tiers and direct VC contr
 
 #### 💎 Direct VC Claiming
 Claim VC directly using the `.claim` command. Contributions are acknowledged at an approximate rate of **$1 USD ≈ 1000 VC** (an appreciation rate, not a purchase price). All donation methods provide a permanent "Donator" role.
+
+## 🎁 Donation Rewards
+
+One-time rewards available via direct donation (see the #donations channel in Discord to arrange):
+
+- **Dino painting**: $12 per dino (may take some time for an admin to be available)
+- **VertCoin packs**: 5,000 VC / $5 · 10,000 VC / $10 · 15,000 VC / $15 · 20,000 VC / $20
+- **Personal Water/Oil Vein**: $8
+
+**🦖 PvP Specific**
+- Floating metal tree platform: $40
+- Personal Obelisk: $30
+
+**🦕 PvE Specific**
+- Floating metal tree platform: $30
+- Personal Obelisk: $20
+
+**ASA Only**
+- Player Ascension: $15 (15k VC for Tier Supporters). Marks all bosses as defeated, unlocking your max level. You must have defeated the alpha bosses on your current map first.
+
+*Donation rewards are non-refundable and cannot be replaced if lost. Tier supporters may use VC to buy dino paints only.*
 
 ## 🪙 VertCoin Economy
 
