@@ -2,7 +2,7 @@
 title: Cluster Alpha Breakdown
 description: Full breakdown of the Cluster Alpha ranking system for ARK PvP seasons - power ratings, Alpha Points, passive income, kill and raid scoring, home tribes, alliances, and season rewards.
 published: true
-date: 2026-07-28T00:00:00.000Z
+date: 2026-07-29T00:00:00.000Z
 tags: pvp, clusteralpha, ranking, alpha-points
 editor: markdown
 dateCreated: 2026-01-30T21:15:27.955Z
@@ -410,16 +410,13 @@ Rivalries add narrative to the competition without affecting point calculations.
 
 ## Announcements
 
-### Milestones
-Tribes are announced when reaching: 100, 500, 1K, 5K, 10K, 25K, 50K, 100K points
-
-### Daily Recap (10am UTC)
+### Daily Recap (10am Eastern)
 - Top killer of the day
 - Top raider of the day
 - Biggest point swings
 - New rivalries formed
 
-### Weekly Recap (Mondays 10am UTC)
+### Weekly Recap (Mondays 10am Eastern)
 - Top 5 killers
 - Top 5 raiders
 - Active rivalries
@@ -456,7 +453,9 @@ Countdown announcements at: 7d, 3d, 1d, 12h, 6h, 3h, 1h before season end
 | 2nd | 10x their alpha points |
 | 3rd | 5x their alpha points |
 
-**Example:** 1st place with 80,000 points = 1,200,000 VC split among members
+**Example:** 1st place with 80,000 points = 1,200,000 VC
+
+The payout goes to the tribe owner, who distributes it among the members.
 
 ### 1st Place Bonus
 
