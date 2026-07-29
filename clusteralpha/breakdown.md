@@ -2,7 +2,7 @@
 title: Cluster Alpha Breakdown
 description: Full breakdown of the Cluster Alpha ranking system for ARK PvP seasons - power ratings, Alpha Points, passive income, kill and raid scoring, home tribes, alliances, and season rewards.
 published: true
-date: 2026-06-02T22:18:34.379Z
+date: 2026-07-28T00:00:00.000Z
 tags: pvp, clusteralpha, ranking, alpha-points
 editor: markdown
 dateCreated: 2026-01-30T21:15:27.955Z
@@ -79,10 +79,11 @@ Power represents your tribe's base strength, calculated from defensive structure
 
 ### Requirements
 
-- **Turrets must be powered ON**
+- **A powered structure that is toggled OFF does not count.** Unpowered turrets still count if they hold ammo
 - **Turrets with 100+ rounds** = Full power value
 - **Turrets with 1-99 rounds** = Half power value
 - **Empty turrets (0 rounds)** = No power
+- **Turrets do not stack when crowded.** A turret placed within 200 units (about 2 metres) of an already-counted turret is skipped, and only one of the pair counts. The higher-value turret is the one kept, so a Heavy next to an Auto keeps the Heavy
 
 ### Turret Ammo Examples
 
@@ -94,17 +95,16 @@ Power represents your tribe's base strength, calculated from defensive structure
 
 ### Base Detection
 
-Your power comes from your **single largest qualifying base**, not all structures.
+Your power comes from your **single highest-power base**, not from all your structures added together.
 
 **How it works:**
-1. Structures are grouped by density clustering (10+ structures within 2.1 lat/lon)
-2. Each cluster must have: 2+ foundations, 2+ walls, 1+ door
-3. Only the highest-power cluster counts
+1. Structures are grouped by density clustering: 10 or more structures within 2.1 lat/lon of each other
+2. Only the highest-power cluster counts toward your rating
 
 **This means:**
-- FOBs and outposts don't add to your power
-- Scattered turrets around the map don't count
-- Only your main, defended base matters
+- Only one base counts. A second base, a FOB or an outpost adds nothing, unless it out-powers your main and becomes the one that counts
+- Isolated turrets and thin scatter are ignored. They never reach the density needed to form a cluster
+- There is **no** foundation, wall or door requirement. Density is the only test
 
 ### Power Cap
 
@@ -141,17 +141,22 @@ Every hour, active tribes earn: **power^0.23** points
 
 ### Activity Requirement
 
-**You must have PvP activity within the last 7 days to earn passive points.**
+**Your tribe must have PvP activity within the last 2 days to earn passive points.**
 
-Activity means:
-- At least 1 PvP kill (as killer), OR
-- At least 1 enemy power-contributing structure destroyed
+Activity means any of these, and it counts in **either direction**:
+- A PvP kill, whether your tribe made it or took it
+- A structure destroyed, whether you blew up theirs or they blew up yours
+- An enemy tame killed
 
-Tribes that "turtle" (sit in base without fighting) earn nothing.
+**Being attacked counts.** If someone raids you or kills your members, your activity timer refreshes
+exactly as if you had gone on the offensive yourself. A tribe under regular attack keeps earning.
 
 ### Zero-Power Decay
 
-Tribes with 0 power lose **10% of their points per hour**. Build a base or lose everything.
+A tribe sitting at **exactly 0 power** loses **10% of its points per hour**. Build a base or lose everything.
+
+Any power at all stops the decay, and a tribe inside its wipe grace window does not decay either
+(see Wipe Grace below).
 
 ---
 
@@ -173,14 +178,6 @@ base_points = 5 + log₁₀(victim_tribe_power) × 2
 | 5,000 | 12 pts |
 | 10,000+ | 13 pts (capped) |
 
-### Tame Kills
-
-When your tame kills an enemy player, you earn **20%** of normal PvP kill points.
-
-**Example:** If killing a player from a 5,000 power tribe normally gives 12 points, your tame killing them gives **2.4 points**.
-
-This rewards tame-based kills while keeping direct player kills more valuable.
-
 ### Kill Streak Multiplier
 
 Consecutive kills against the **same tribe** within 1 hour stack:
@@ -192,26 +189,31 @@ Consecutive kills against the **same tribe** within 1 hour stack:
 | 3rd | 2.0x |
 | 4th+ | 2.5x |
 
-### Defense Bonus
-
-**1.5x multiplier** when your structures were damaged in the last 30 minutes.
-
-This rewards defending your base against raiders rather than logging off.
-
 ### Underdog Bonus
 
-Smaller tribes get bonus points (up to 50%) when killing players from stronger tribes.
+Smaller tribes get bonus points when killing players from stronger tribes, up to **+25%**.
 
-**Formula:** `bonus = min(50%, (victim_power - killer_power) / victim_power × 25%)`
+**Formula:** `bonus = (1 - killer_power / victim_power / 0.75) × 25%`
+
+You qualify only while your tribe holds **less than 75%** of the victim tribe's power. At 75% or above
+the bonus is zero. There is no partial credit near the line, it cuts off cleanly.
+
+| Your power vs theirs | Bonus |
+|----------------------|-------|
+| 10% | +21.7% |
+| 20% | +18.3% |
+| 25% | +16.7% |
+| 50% | +8.3% |
+| 75% or more | none |
 
 **Example:**
 - Your tribe: 1,000 power
 - Victim's tribe: 5,000 power
-- Bonus: (5000-1000)/5000 × 25% = **20% bonus**
+- You hold 20% of their power: `(1 - 0.20 / 0.75) × 25%` = **+18.3% bonus**
 
 ### Multi-Kill Medals
 
-Kill multiple **unique players** within 2.5 minutes for bonus points:
+Kill multiple **unique players** within 5 minutes of each other for bonus points:
 
 | Kills | Medal | Bonus |
 |-------|-------|-------|
@@ -225,7 +227,9 @@ Kill multiple **unique players** within 2.5 minutes for bonus points:
 | 9 | Killpocalypse | +200% |
 | 10+ | Killionaire | +250% |
 
-**Note:** Consecutive kills against the same player don't count toward the chain, but don't break it either. You can kill Player A, then B, then A again (counts as 3).
+**Note:** The 5 minute window is measured **between consecutive kills**, not from the first kill. Every new kill restarts the clock, so a long chain can run well past 5 minutes end to end. One kill every 4 minutes for 20 minutes is a 5-kill chain.
+
+Consecutive kills against the same player don't count toward the chain, but don't break it either. You can kill Player A, then B, then A again (counts as 3).
 
 ### Bounty Board
 
@@ -298,16 +302,34 @@ Points always go to your **"home tribe"**, the tribe you belong to with the high
 
 ### Requirements
 
-For raid points to transfer:
-- Victim tribe must be 48+ hours old
-- Victim tribe must have 200+ power
-- Attacker tribe must have 200+ power
+There is **no** minimum tribe age and **no** minimum power, on either side. Two rules can stop a raid from paying:
+
+**The 30% rule.** You earn nothing for raiding a tribe holding less than **30% of your alpha points** *and* less than **30% of your power**. Both have to be under the line. If the defender clears 30% on either one, the raid pays as normal. This stops the leaders from farming the bottom of the board.
+
+**The bottom-of-the-board exception.** If the 30% rule leaves you with fewer than **5** legal targets in the cluster, you can still raid the **5 tribes directly below you** on the points leaderboard. Nobody gets locked out of raiding just for being on top.
+
+Punching up is always allowed. There is no cap on raiding a tribe bigger than you.
+
+> Use `.conflicts <tribe>` before you spend the C4. It runs every one of these checks, plus alliance detection, and tells you whether the raid will actually pay.
+{.is-info}
 
 ### Why Can't I Steal More Than 75%?
 
-Once you've wiped a tribe (0 power), they have nothing left to lose power-wise. The remaining 25% of their points will naturally decay over time while they're at 0 power.
+Once you've wiped a tribe to 0 power, they have nothing left to lose power-wise. The remaining 25% of their points decays away while they sit at 0 power, though not straight away: see Wipe Grace below.
 
 This prevents "foundation wiping" from being too rewarding - you get the majority of points from the wipe, but there's diminishing returns for continued aggression against a tribe that's already been destroyed.
+
+### Wipe Grace
+
+A tribe that loses **90% or more of its power in a single hour** to a real raid gets **48 hours of grace**.
+
+While grace is active:
+- **No raid points can be taken from them.** Hitting what is left of their base earns you nothing
+- **Their points do not decay**, even sitting at 0 power
+
+Grace only fires if structures were actually destroyed. A tribe that powers down its own turrets, or relocates its base, does not get it.
+
+This is why a freshly wiped tribe can hold 0 power for two days without bleeding points, and why flattening the same tribe twice in one night only pays once.
 
 ### Raid Alerts
 
@@ -326,7 +348,7 @@ This prevents:
 - Creating shell tribes to stockpile points
 - FOB abuse where small tribes accumulate points
 
-**Minimum Power:** Your home tribe must have 200+ power to receive any points.
+**Minimum Power:** none. Your home tribe is simply whichever of your tribes holds the most power. If every tribe you belong to is at 0 power, you have no home tribe at all and your kills credit nobody until you rebuild. Use `.mystats` to see which tribe you are currently credited to.
 
 ### Alliance Detection
 
@@ -337,7 +359,7 @@ Two tribes are considered "allied" if any **active** members share the same home
 2. If a member from Tribe A and a member from Tribe B both call Tribe C "home", A and B are allied
 3. Allied tribes **cannot earn points** from interactions with each other
 
-**Activity Requirement:** Only members active within the last **24 hours** are considered. Inactive alts don't count.
+**Activity Requirement:** The check looks for tribe members seen in the last hour first, then widens the window until it finds somebody: 1 hour, 24 hours, 7 days, then 60 days. A tribe nobody has logged into for weeks still has "active" members for this purpose, so parking an alt tribe and leaving it dormant does **not** get you out of alliance detection.
 
 **Example:**
 - Player "Bob" is in both "Alpha Raiders" (5,000 power) and "Beach Bobs" (200 power)
@@ -416,6 +438,7 @@ Countdown announcements at: 7d, 3d, 1d, 12h, 6h, 3h, 1h before season end
 | `.power` | View power leaderboard |
 | `.alpha` | View alpha points leaderboard |
 | `.mystats` | View your personal statistics |
+| `.mypower` | Break down your own tribe's power, including what was not counted and why |
 | `.mostwanted` | View top 3 killers with bounties |
 | `.rivalries` | View active tribal rivalries |
 | `.conflicts <tribe>` | Check if raiding a tribe will earn points |

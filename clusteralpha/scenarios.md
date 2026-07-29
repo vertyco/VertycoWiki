@@ -2,7 +2,7 @@
 title: Cluster Alpha Example Scenarios
 description: Example scenarios for the Cluster Alpha point system. Learn how PvP kills, raids, and tribe conflicts are scored with practical examples and edge cases.
 published: true
-date: 2026-01-30T21:15:27.955Z
+date: 2026-07-28T00:00:00.000Z
 tags: clusteralpha, pvp, scenarios, examples
 editor: markdown
 dateCreated: 2026-01-30T21:15:27.955Z
@@ -16,7 +16,7 @@ This document explains how Alpha Points are awarded and blocked based on tribe m
 
 **If two players share the same HOME TRIBE (highest power tribe), they are considered allies and cannot earn points from each other.**
 
-Your "home tribe" is whichever tribe you belong to that has the highest power in the cluster. Only **active** members (seen in last 24 hours) are considered.
+Your "home tribe" is whichever tribe you belong to that has the highest power in the cluster. Only **active** members are considered, where the activity window starts at 1 hour and widens (24 hours, 7 days, 60 days) until it finds someone in the tribe.
 
 > **TIP:** Use `.conflicts <tribe name>` to check if raiding a tribe will earn points before you start!
 
@@ -37,9 +37,9 @@ Tribemember Lyinaro - Lvl 75 was killed by Chabelo - Lvl 74 (Chabelo's Army)!
 ```
 
 ### Tame Kills Player
-When a tame kills a player, we award **20% of normal PvP points**.
+When a tame kills a player, **no Alpha Points are transferred**. Only a direct player-versus-player kill moves points.
 
-**Points:** 20% of what a direct kill would be, transferred from victim's home tribe to attacker's tribe
+**Points:** None
 
 Example tribelog:
 ```
@@ -170,10 +170,10 @@ Even though steve is raiding from Solo Steve tribe on Center, his HOME tribe is 
 | Check Type | What's Checked |
 |------------|----------------|
 | PvP Kill | Do killer and victim share the same HOME tribe? |
-| Tame Kill | Does attacker tribe's home overlap with victim's home tribe? (20% points) |
+| Tame Kill | No points either way, so nothing is checked |
 | Raid | Do any ACTIVE members of both tribes share the same HOME tribe? |
 
 **Remember:**
 - Home tribe = your highest power tribe in the cluster
-- Only active members (last 24h) are considered for raid checks
+- "Active" widens until it finds someone: 1 hour, then 24 hours, then 7 days, then 60 days. A dormant alt tribe still counts
 - Use `.conflicts` and `.myalliances` to check before raiding!
