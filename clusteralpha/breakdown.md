@@ -439,6 +439,7 @@ Countdown announcements at: 7d, 3d, 1d, 12h, 6h, 3h, 1h before season end
 | `.mostwanted` | View top 3 killers with bounties |
 | `.rivalries` | View active tribal rivalries |
 | `.conflicts <tribe>` | Check if raiding a tribe will earn points |
+| `.targets` | List which tribes you can raid for points, and who is off limits |
 | `.myalliances` | View tribes you're connected to through shared memberships |
 
 ---
