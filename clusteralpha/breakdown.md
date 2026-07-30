@@ -185,9 +185,12 @@ Consecutive kills against the **same tribe** within 1 hour stack:
 | Kill # | Multiplier |
 |--------|------------|
 | 1st | 1.0x |
-| 2nd | 1.5x |
-| 3rd | 2.0x |
-| 4th+ | 2.5x |
+| 2nd | 1.1x |
+| 3rd | 1.2x |
+| 4th+ | 1.3x |
+
+> This is deliberately the smallest kill bonus. The window is a full hour, so a streak is much easier to hold than a Multi-Kill chain, and it pays less for it. If you want the big multipliers, chain kills fast rather than grinding one tribe.
+{.is-info}
 
 ### Underdog Bonus
 
