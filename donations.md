@@ -2,7 +2,7 @@
 title: Donations & VertCoin Economy
 description: Support Vertyco through donations via PayPal or Upgrade.Chat subscriptions. Earn VertCoin for in-game items. Not pay-to-win - free players always have the advantage.
 published: true
-date: 2026-07-28T14:06:11.168Z
+date: 2026-07-31T16:09:21.366Z
 tags: vc, economy, donations, supporter, vertcoin
 editor: markdown
 dateCreated: 2025-06-25T14:23:07.016Z
@@ -57,7 +57,7 @@ Our professional donation platform offers subscription tiers and direct VC contr
     <li>👑 VIP channel access</li>
     <li>🌈 Advanced + Basic role color selection</li>
     <li>💰 Payday increased to <strong>500 VC</strong></li>
-    <li>🔐 Personal tribelogs</li>
+    <li>🔐 Personal tribelogs <em>(now free for Seasoned, 360 hours playtime, or higher)</em></li>
   </ul>
 </div>
 
@@ -68,7 +68,7 @@ Our professional donation platform offers subscription tiers and direct VC contr
     <li>👑 VIP channel access</li>
     <li>🌈 Advanced + Basic role color selection</li>
     <li>💰 Payday increased to <strong>1000 VC</strong></li>
-    <li>🔐 Personal tribelogs</li>
+    <li>🔐 Personal tribelogs <em>(now free for Seasoned, 360 hours playtime, or higher)</em></li>
     <li>🖼️ AI Image Tools, 10 images/month</li>
   </ul>
 </div>
@@ -80,7 +80,7 @@ Our professional donation platform offers subscription tiers and direct VC contr
     <li>👑 VIP channel access</li>
     <li>🌈 Advanced + Basic role color selection</li>
     <li>💰 Payday increased to <strong>1500 VC</strong></li>
-    <li>🔐 Personal tribelogs</li>
+    <li>🔐 Personal tribelogs <em>(now free for Seasoned, 360 hours playtime, or higher)</em></li>
     <li>🖼️ AI Image Tools, 25 images/month</li>
     <li>📈 +25% Discord XP gain</li>
   </ul>
@@ -93,7 +93,7 @@ Our professional donation platform offers subscription tiers and direct VC contr
     <li>👑 VIP channel access</li>
     <li>🌈 Advanced + Basic role color selection</li>
     <li>💰 Payday increased to <strong>2000 VC</strong></li>
-    <li>🔐 Personal tribelogs</li>
+    <li>🔐 Personal tribelogs <em>(now free for Seasoned, 360 hours playtime, or higher)</em></li>
     <li>🖼️ AI Image Tools, 100 images/month</li>
     <li>📈 +50% Discord XP gain</li>
   </ul>
