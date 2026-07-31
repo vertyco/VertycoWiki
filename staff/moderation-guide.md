@@ -2,7 +2,7 @@
 title: Staff Moderation Guide
 description: Comprehensive moderation guide for Vertyco staff covering warnings, mutes, bans, and escalation procedures.
 published: true
-date: 2025-01-13T19:11:57.128Z
+date: 2026-07-31T22:15:01.910Z
 tags: staff, moderation, guide
 editor: markdown
 dateCreated: 2024-08-25T20:46:39.103Z
@@ -76,11 +76,19 @@ Discussing mod actions publicly is not allowed. If your warning results in a mem
 
 ## Mute
 
-`.timeout <user> <reason> <time>`
+`.warn <user> <reason>` **then** `.timeout <user> <reason> <time>`
 
 Mutes are based off timeouts, revoking text and voice channel usage.
 
 Do not use the built-in timeout feature by Discord, always use the command.
+
+> `.timeout` on its own files **no modlog case and sends no direct message**.
+> A mute issued that way leaves no record and never tells the user what they did.
+> Always pair it with a `.warn` using the same reason: the warn creates the case and
+> DMs the user, the timeout applies the mute.
+{.is-warning}
+
+Use identical reason text on both so the case and the DM match.
 
 <figure style="text-align: left;">
   <img src="/assets/mute-example.png" alt="Description" style="width: 65%; max-width: 600px;" />
