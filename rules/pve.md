@@ -2,7 +2,7 @@
 title: PvE Rules - Vertyco Ark Servers
 description: PvE rules for Vertyco Ark Survival Evolved servers. Covers base limits, community conduct, tribe policies, taming slots, and structure guidelines for our family-friendly cluster.
 published: true
-date: 2026-07-05T00:00:00.000Z
+date: 2026-08-01T15:01:51.754Z
 tags: ark, rules, pve
 editor: markdown
 dateCreated: 2025-02-15T23:19:09.413Z
@@ -74,7 +74,7 @@ dateCreated: 2025-02-15T23:19:09.413Z
 ## 4️⃣ Structure Rules
 
 - **4.1 - Base Limitations**
-  - *One main base and one outpost (< 300 structures) are allowed. Only one location can be in a cave.*
+  - *One main base and one outpost (< 300 structures) are allowed per map. Only one location can be in a cave.*
   - **First Offense**: 48 hours to comply or face base removal.
   - **Second Offense**: Immediate base wipe.
   - **Third Offense**: <span style="color: orange;">30-day temp ban</span>.
