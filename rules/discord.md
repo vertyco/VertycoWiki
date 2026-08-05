@@ -2,7 +2,7 @@
 title: Discord Rules
 description: Official Discord rules for the Vertyco community. Covers toxicity, harassment, scams, spam, chargebacks, and punishment tiers from warnings to temporary bans.
 published: true
-date: 2026-07-15T12:59:02.700Z
+date: 2026-08-05T01:03:29.193Z
 tags: rules, discord
 editor: markdown
 dateCreated: 2025-02-15T18:21:21.165Z
@@ -161,15 +161,23 @@ Examples include:
 ### 2.3 - Username/Avatar Policy
 *Overly offensive/super NSFW usernames or avatars are not allowed.*
 
+This rule covers the whole profile: username, display name, avatar, banner, pronouns, bio and custom status.
+
 #### NSFW Avatar Guidelines
 - Simple bikini/underwear/thirst trap photos are acceptable
 - Actual nudity is prohibited
-- **First Offense**: 24 hours to change or be <span style="color: orange;">**14-day temp banned**</span>
 
 #### Extremist Content
 - Anything promoting hate speech, violence, or generally offensive content
-- **First Offense**: 24 hours to change or be <span style="color: orange;">**14-day temp banned**</span>
-- Racial slurs result in <span style="color: orange;">14-day temp ban</span>
+- Slurs of any kind, including pronouns that spell or pronounce a slur
+
+#### Punishments *(both of the above)*
+- **First Offense**: 24 hours to change or remove it. If it is still there after 24 hours, a <span style="color: orange;">**14-day temp ban**</span> is issued
+- **Refusal to change it, or a repeat after a previous 2.3 case**: <span style="color: orange;">**14-day temp ban**</span> with no grace period
+- Avatars containing actual nudity may instead be handled with a kick asking for a change before rejoining. Re-check the user when they return, as `#join-log` shows a cached profile picture
+
+> Staff discretion: based on the age and activity of the account, you may request the change via ticket or `.warn` rather than moving straight to a punishment.
+{.is-info}
 
 ### 2.4 - Economic Activity Policy *(Zero Tolerance)*
 *Conducting any real-world economic activity on this server is strictly prohibited.*
