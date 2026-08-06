@@ -2,7 +2,7 @@
 title: Discord Rules
 description: Official Discord rules for the Vertyco community. Covers toxicity, harassment, scams, spam, chargebacks, and punishment tiers from warnings to temporary bans.
 published: true
-date: 2026-08-05T01:03:29.193Z
+date: 2026-08-06T18:09:30.727Z
 tags: rules, discord
 editor: markdown
 dateCreated: 2025-02-15T18:21:21.165Z
@@ -207,9 +207,20 @@ This rule covers the whole profile: username, display name, avatar, banner, pron
 
 ### 2.7 - Staff Impersonation
 *Impersonating admins or staff is forbidden.*
+
+This covers any name or profile presented so as to suggest you are Vertyco staff, an owner, or the network itself. It applies to the Discord username and display name, and to in-game character and tribe names.
+
+#### Procedure *(name cases)*
+- **In Discord and registered**: contact the user and give them **24 hours** to change the name. Still unchanged after 24 hours, they are removed.
+- **Not in Discord**: message the user directly and give them **24 hours** to join the Discord and register, or open a ticket. No response after 24 hours, they are removed.
+
+#### Punishments
 - **First Offense**: <span style="color: orange;">**30-day temp ban**</span> issued to the user
 - **Second Offense**: <span style="color: orange;">**60-day temp ban**</span> issued to the user
 - **Third Offense**: <span style="color: orange;">**Permanent ban**</span> issued to the user
+
+> A ban issued under 2.7 is appealable, provided the user has actually changed the offending name.
+{.is-info}
 
 ### 2.8 - Ticket Abuse Policy
 *Do not spam or abuse the support ticket system with frivolous or repeated tickets.*
