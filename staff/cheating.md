@@ -2,7 +2,7 @@
 title: Meshing/Cheating
 description: Staff guide for identifying and handling meshing, cheating, and exploit violations on Vertyco Ark servers.
 published: true
-date: 2026-07-28T14:45:30.297Z
+date: 2026-08-08T15:50:17.317Z
 tags: staff, moderation, cheating
 editor: markdown
 dateCreated: 2024-08-26T02:41:24.978Z
@@ -142,6 +142,9 @@ A structure is considered **meshed** when **any** of the following conditions ar
 ---
 
 ## 2️⃣ Combat Cheats (Rule 2.1)
+
+> Every combat-cheat accusation goes through the [Cheating Accusation Review (SOP)](/staff/cheating-accusation-review) before any action is taken. Do not act on a single staff member's read of a clip.
+{.is-warning}
 
 ### ESP/Aimbot (Confirmed)
 **Definition**: Using third-party software that provides aim assistance or reveals enemy positions through walls.
