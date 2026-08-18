@@ -2,7 +2,7 @@
 title: PvP Rules - Vertyco Ark Servers
 description: PvP rules for Vertyco Ark Survival Evolved servers. Covers meshing, aimbotting, raid rules, turret limits, and punishment tiers for our competitive PvP cluster.
 published: true
-date: 2026-07-05T00:00:00.000Z
+date: 2026-08-18T13:02:00.553Z
 tags: ark, rules, pvp
 editor: markdown
 dateCreated: 2025-02-15T22:53:44.565Z
@@ -28,62 +28,52 @@ All other offenses will result in temporary bans, timeouts, wipes, or warnings a
 
 ## 1️⃣ Base Building Rules
 
+> **Custom Collision (live 2026-08-18):** PvP servers now check every structure the moment it is placed. If it cannot be damaged from outside the mesh, the placement is refused and the structure goes straight back into your inventory. Because of that, any structure found in the mesh on PvP from 2026-08-18 onward is treated as **intentional**. Rules 1.1 through 1.5 are enforced against the **entire tribe**, not only the member who placed it.
+{.is-warning}
+
 - **1.1 - Meshing/Glitch Base Spots**
   - *Building bases in spots that cannot be entered by simply crouching and walking in.* The following types of spots are **all off-limits** for bases:
     - **Meshed Spots**: The base is fully behind the mesh and is not accessible through normal gameplay. The only way in is by meshing a sleeping bag or bed behind the terrain.
     - **Glitch Spots**: Accessing the spot requires exploiting game mechanics, such as throwing a cryopod through a small hole and whistling a small dino (e.g., Pelagornis) to follow, then using "ride" to force your character through the terrain.
     - **Grapple Spots**: The spot can only be reached by using the grapple glitch to clip through terrain.
   - > **Rule of thumb:** If you cannot walk or crouch into the entrance normally, it is off-limits. If you are unsure about a location, open a ticket **before** building there.
-  - **First Offense**:
-    - Non-Discord Members: 48 hours to join Discord and link account (an Xbox DM will be sent) or be removed from the server. The ban remains permanent until they join the Discord and submit an appeal.
-    - Discord Members: Warning and removal of the meshed/glitch structures.
-  - **Second Offense**: Ark Data wipe and formal warning.
-  - **Third Offense**: **Full tribe wipe** for repeat offenders.
+  - Non-Discord Members: 48 hours to join Discord and link account (an Xbox DM will be sent) or be removed from the server. The ban remains permanent until they join the Discord and submit an appeal.
+  - **First Offense**: Removal of the meshed/glitch structures and an Ark Data wipe for the entire tribe.
+  - **Second Offense**: **Full tribe wipe.**
+  - **Third Offense**: Full tribe wipe and a <span style="color: orange;">30-day temp ban</span> for all tribe members.
 
 - **1.2 - Meshed Spam**
   - *Placing structures in the mesh to prevent building or claiming territory.*
   - Non-Discord Members: 48 hours to join Discord (an Xbox DM will be sent) or be removed from the server. The ban remains permanent until they join the Discord and submit an appeal.
-  - **Minor Intentional Meshing** (*Placing a single foundation or structure in the mesh*):
-    - **First Offense**: Structure removal and warning.
-    - **Second Offense**: Structure removal and Ark Data wipe.
-    - **Third Offense**: <span style="color: orange;">7-day temp ban</span> for the offending member.
-  - **Major Intentional Meshing** (*Placing multiple structures or using the mesh to expand a base*):
-    - **First Offense**: Structure removal and Ark Data wipe.
-    - **Second Offense**: Full tribe wipe.
-  - **Unintentional Meshing**:
-    - Structure removal and a warning will be issued.
-    
+  - **First Offense**: Structure removal and an Ark Data wipe for the entire tribe.
+  - **Second Offense**: **Full tribe wipe.**
+  - **Third Offense**: Full tribe wipe and a <span style="color: orange;">30-day temp ban</span> for all tribe members.
+
 
 - **1.3 - Meshed Loot Stashes**
   - *Placing storage structures in the mesh to prevent destruction.*
   - Non-Discord Members: 48 hours to join Discord (an Xbox DM will be sent) or be removed from the server. The ban remains permanent until they join the Discord and submit an appeal.
   - **Empty Stashes**:
-    - **First Offense**: Structure deletion and warning for all members.
-    - **Second Offense**: Structure deletion and Ark Data wipe for all members.
-    - **Third Offense**: Full tribe wipe.
-  - **Stashes with Loot**:
-    - **First Offense**: Structure deletion, Ark Data wipe, and formal warning.
-    - **Second Offense**: Full tribe wipe.
-    - **Third Offense**: Full tribe wipe and <span style="color: orange;">15-day temp ban</span> for members involved.
+    - **First Offense**: Structure deletion and an Ark Data wipe for the entire tribe.
+    - **Second Offense**: **Full tribe wipe.**
+    - **Third Offense**: Full tribe wipe and a <span style="color: orange;">30-day temp ban</span> for all tribe members.
+  - **Stashes with Loot** (*starts one tier higher*):
+    - **First Offense**: **Full tribe wipe.**
+    - **Second Offense**: Full tribe wipe and a <span style="color: orange;">30-day temp ban</span> for all tribe members.
 
 - **1.4 - Meshed Sleeping Bags**
   - *Placing sleeping bags/beds behind terrain.*
-  - **First Offense**:
-    - Non-Discord Members: 48 hours to join Discord (an Xbox DM will be sent) or be removed from the server. The ban remains permanent until they join the Discord and submit an appeal.
-    - Discord Members: Ark Data wipe and formal warning.
+  - Non-Discord Members: 48 hours to join Discord (an Xbox DM will be sent) or be removed from the server. The ban remains permanent until they join the Discord and submit an appeal.
+  - **First Offense**: Removal of the bags/beds and an Ark Data wipe for the entire tribe.
+  - **Second Offense**: **Full tribe wipe.**
+  - **Third Offense**: Full tribe wipe and a <span style="color: orange;">30-day temp ban</span> for all tribe members.
 
 - **1.5 - Meshed Turrets**
   - *Placing turrets behind the mesh for an unfair advantage.*
-  - **Single Meshed Turret**:
-    - **First Offense**: Turret removal and warning for all tribe members if person who placed it is unknown. Otherwise just warn the person who placed it.
-    - **Second Offense**: Turret removal and warning for all tribe members if person who placed it is unknown. Otherwise the person who placed it gets an ark data wipe.
-    - **Third Offense**: Turret removal and Ark Data wipe for all tribe members if person who placed it is unknown. Otherwise just data wipe the person who placed it.
-    - **Fourth Offense**: Turret removal and 3 day ban of all tribe members if turret placer is unknown, otherwise 5 day ban of individual placer.
-  - **Multiple Meshed Turrets**:
-    - **First Offense**: Turret removal and data wipe for all tribe members if turret placer is unknown, otherwise data wipe only the placer.
-    - **Second Offense**: Turret removal and 3 day ban for all tribe members if placer is unknown, otherwise 5 day ban for individual who placed it.
-    - **Third Offense**: Full structure wipe of the tribe.
-    - **Fourth Offense**: Full structure wipe of the tribe and <span style="color: orange;">30-day temp ban</span> for repeat offenders.
+  - > Turrets, tek teleporters and loadout mannequins keep full collision on PvP and cannot be clipped into terrain at all, so a meshed one is never an accident.
+  - **First Offense**: Turret removal and an Ark Data wipe for the entire tribe.
+  - **Second Offense**: **Full tribe wipe.**
+  - **Third Offense**: Full tribe wipe and a <span style="color: orange;">30-day temp ban</span> for all tribe members.
 
 - **1.6 - Floating Turrets**
   - *Turrets not properly attached to ground structures.*
