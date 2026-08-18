@@ -2,7 +2,7 @@
 title: Discord Rules
 description: Official Discord rules for the Vertyco community. Covers toxicity, harassment, scams, spam, chargebacks, and punishment tiers from warnings to temporary bans.
 published: true
-date: 2026-08-06T18:09:30.727Z
+date: 2026-08-18T16:57:30.819Z
 tags: rules, discord
 editor: markdown
 dateCreated: 2025-02-15T18:21:21.165Z
@@ -56,9 +56,18 @@ Examples include:
 - **Fourth Offense**: Lengthier timeout may be issued
 - **Fifth Offense**: <span style="color: orange;">**7-day temp ban**</span> may be issued depending on circumstances
 
-### 1.3 - Privacy Protection *(Zero Tolerance)*
-*No revealing private information about any individual.*
+### 1.3 - Privacy Protection
+*No sharing personal information about any individual without their consent. That it is publicly available elsewhere is not a defense.*
+
+**Tier 1 - Doxxing** *(Zero Tolerance)*
+*Sharing information that enables real-world contact, location, or harm: a legal name paired with an address, phone number, workplace or school, IP address, or financial details.*
 - **First Offense**: <span style="color: orange;">**Permanent ban**</span> issued to the user
+
+**Tier 2 - Identity Exposure**
+*Tying a person's real-world identity to their game or Discord account without their consent: a real-life photo, their real name, or a personal social-media account.*
+- **First Offense**: Image removal and a warning issued to the user
+- **Second Offense**: Timeout or temp ban, escalating with severity
+- **Repeat or targeted**: <span style="color: orange;">**Permanent ban**</span>
 
 ### 1.4 - Accusation Policy
 *Do not publicly accuse other users/players of misconduct. Use a support ticket.*
