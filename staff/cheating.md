@@ -2,7 +2,7 @@
 title: Meshing/Cheating
 description: Staff guide for identifying and handling meshing, cheating, and exploit violations on Vertyco Ark servers.
 published: true
-date: 2026-08-08T15:50:17.317Z
+date: 2026-08-18T13:02:04.346Z
 tags: staff, moderation, cheating
 editor: markdown
 dateCreated: 2024-08-26T02:41:24.978Z
@@ -23,16 +23,38 @@ A structure is considered **meshed** when **any** of the following conditions ar
 
 ---
 
+## 🛡️ Custom Collision (PvP, live 2026-08-18)
+
+PvP servers check every structure the moment it is placed. If it cannot be damaged from outside the mesh, the placement is refused and the piece is returned to the player's inventory. Nothing is consumed and nothing spawns.
+
+> **This changes how you handle every PvP mesh ticket.** A meshed structure placed on PvP from 2026-08-18 onward got there by deliberately working around the check. Do not investigate intent, and do not offer the unintentional branch. Rules 1.1 through 1.5 are enforced against the **entire tribe**, regardless of who placed the piece.
+{.is-warning}
+
+**The ladder is the same for 1.1 through 1.5 on PvP:**
+1. Removal of the offending structures and an **Ark Data wipe for the entire tribe**.
+2. **Full tribe wipe.**
+3. Full tribe wipe and a <span style="color: orange;">30-day temp ban</span> for all tribe members.
+
+Meshed loot stashes containing loot (1.3) start at tier 2.
+
+### Staff notes
+- **Turrets, tek teleporters and loadout mannequins** keep full collision and cannot be clipped into terrain at all. A meshed one of these is never an accident.
+- **"The game let me place it" is checkable.** Placement refusals are logged on the box with the structure type and coordinates. Ask an Admin to pull the log before you accept the defense. Repeated refusals from one player at one spot is an active meshing attempt, not a bug.
+- **Structures that predate 2026-08-18**, or that sit on a map where the check was not yet enforcing, still fall under the old ladder. Confirm the placement date before you sentence at the new tier.
+- Do not discuss how the check works with players. "The server refuses placements inside the terrain" is the whole player-facing answer.
+- **PvE is unchanged.** The tiers below apply to PvE as written, including the unintentional branch under 1.2.
+
+---
+
 ## 🏠 Meshed Base Spots (Rule 1.1)
 
 **Definition**: Entire bases built behind the mesh, usually with no legitimate entry method. Players typically use teleporters or Fjordhawks to transport items in and out.
 
 ### 🚨 Actions Required (per PvP Rules):
-- **First Offense**:
-  - Non-Discord Members: 24 hours to join Discord and link account or receive a 3-day temp ban.
-  - Discord Members: Warning and removal of meshed structures.
-- **Second Offense**: Ark Data wipe and formal warning.
-- **Third Offense**: Full tribe wipe for repeat offenders.
+- Non-Discord Members: 24 hours to join Discord and link account or receive a 3-day temp ban.
+- **First Offense**: Removal of the meshed structures and an Ark Data wipe for the entire tribe.
+- **Second Offense**: Full tribe wipe.
+- **Third Offense**: Full tribe wipe and a <span style="color: orange;">30-day temp ban</span> for all tribe members.
 
 ---
 
@@ -42,15 +64,10 @@ A structure is considered **meshed** when **any** of the following conditions ar
 
 ### 🚨 Actions Required (per PvP Rules):
 - Non-Discord Members: 48 hours to join Discord or receive a 3-day temp ban.
-- **Minor Intentional Meshing** (*Placing a single foundation or structure in the mesh*):
-  - **First Offense**: Structure removal and warning.
-  - **Second Offense**: Structure removal and Ark Data wipe.
-  - **Third Offense**: <span style="color: orange;">7-day temp ban</span> for the offending member.
-- **Major Intentional Meshing** (*Placing multiple structures or using the mesh to expand a base*):
-  - **First Offense**: Structure removal and Ark Data wipe.
-  - **Second Offense**: Full tribe wipe.
-- **Unintentional Meshing**:
-  - Structure removal and a warning will be issued.
+- **First Offense**: Structure removal and an Ark Data wipe for the entire tribe.
+- **Second Offense**: Full tribe wipe.
+- **Third Offense**: Full tribe wipe and a <span style="color: orange;">30-day temp ban</span> for all tribe members.
+- **PvE only** - *Unintentional Meshing*: structure removal and a warning.
 
 ### 📸 Example:
 <figure style="text-align: center;">
@@ -67,13 +84,12 @@ A structure is considered **meshed** when **any** of the following conditions ar
 ### 🚨 Actions Required (per PvP Rules):
 - Non-Discord Members: 24 hours to join Discord or receive a <span style="color: orange;">3-day temp ban</span>.
 - **Empty Stashes**:
-  - **First Offense**: Structure deletion and warning for all members.
-  - **Second Offense**: Structure deletion and Ark Data wipe for all members.
-  - **Third Offense**: Full tribe wipe.
-- **Stashes with Loot**:
-  - **First Offense**: Structure deletion, Ark Data wipe, and formal warning.
+  - **First Offense**: Structure deletion and an Ark Data wipe for the entire tribe.
   - **Second Offense**: Full tribe wipe.
-  - **Third Offense**: <span style="color: orange;">15-day temp ban</span> for members involved.
+  - **Third Offense**: Full tribe wipe and a <span style="color: orange;">30-day temp ban</span> for all tribe members.
+- **Stashes with Loot** (*starts one tier higher*):
+  - **First Offense**: Full tribe wipe.
+  - **Second Offense**: Full tribe wipe and a <span style="color: orange;">30-day temp ban</span> for all tribe members.
 
 ---
 
@@ -83,7 +99,9 @@ A structure is considered **meshed** when **any** of the following conditions ar
 
 ### 🚨 Actions Required (per PvP Rules):
 - Non-Discord Members: 24 hours to join Discord or receive a <span style="color: orange;">3-day temp ban</span>.
-- Discord Members: Ark Data wipe and formal warning.
+- **First Offense**: Removal of the bags/beds and an Ark Data wipe for the entire tribe.
+- **Second Offense**: Full tribe wipe.
+- **Third Offense**: Full tribe wipe and a <span style="color: orange;">30-day temp ban</span> for all tribe members.
 
 ---
 
@@ -92,15 +110,12 @@ A structure is considered **meshed** when **any** of the following conditions ar
 **Definition**: Turrets placed behind mesh to shoot players while remaining unreachable.
 
 ### 🚨 Actions Required (per PvP Rules):
-- **Single Meshed Turret**:
-  - **First Offense**: Turret removal and warning for all tribe members if placer unknown; otherwise just warn the placer.
-  - **Second Offense**: Turret removal and Ark Data wipe for all tribe members if placer unknown; otherwise just data wipe the placer.
-  - **Third Offense**: Turret removal and 3-day ban of all tribe members if placer unknown; otherwise 5-day ban of individual placer.
-- **Multiple Meshed Turrets**:
-  - **First Offense**: Turret removal and data wipe for all tribe members if placer unknown; otherwise data wipe only the placer.
-  - **Second Offense**: Turret removal and 3-day ban for all tribe members if placer unknown; otherwise 5-day ban for individual placer.
-  - **Third Offense**: Full structure wipe of the tribe.
-  - **Fourth Offense**: Full structure wipe of the tribe and <span style="color: orange;">30-day temp ban</span> for repeat offenders.
+> Turrets keep full collision under the custom system and cannot be clipped into terrain at all, so a meshed turret on PvP is never an accident.
+{.is-warning}
+
+- **First Offense**: Turret removal and an Ark Data wipe for the entire tribe.
+- **Second Offense**: Full tribe wipe.
+- **Third Offense**: Full tribe wipe and a <span style="color: orange;">30-day temp ban</span> for all tribe members.
 
 ---
 
