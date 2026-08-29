@@ -2,7 +2,7 @@
 title: Staff Moderation Guide
 description: Comprehensive moderation guide for Vertyco staff covering warnings, mutes, bans, and escalation procedures.
 published: true
-date: 2026-07-31T22:15:01.910Z
+date: 2026-08-29T03:24:48.305Z
 tags: staff, moderation, guide
 editor: markdown
 dateCreated: 2024-08-25T20:46:39.103Z
@@ -172,13 +172,78 @@ In order to remove punishments, use the following:
 | Ban        | `.unban <user_id>`      | :x:                      |
 {.dense}
 
+# When a Moderator May Issue a Ban
 
+This section covers the rare situations where a moderator may need to ban a
+player without an admin present. Read it before ever using a ban command. In
+almost every case the answer is to escalate, not to ban.
 
+## The default rule
 
+Moderators do not ban on their own most of the time. Bans are an admin action.
 
+> Moderators are **not permitted to ban on PvP tickets**. Those are handled by
+> the admin team.
+{.is-warning}
 
+If a ticket cannot be resolved, do not close it in the player's face and do not
+reach for a ban. Post the ticket link in staff chat, mark it unresolved, and
+wait for an admin.
 
+## The two exceptions
 
+There are only two situations where a moderator may ban with no admin around.
 
+### 1. Direct hard-R racism
 
+If a player uses the hard-R racial slur and no admin is online, a moderator may
+issue the ban. Even then, check with another staff member first if it is at all
+possible to do so.
 
+### 2. A genuine in-game emergency
+
+A moderator may issue an in-game ban only to stop active, catastrophic damage
+that is happening right now and cannot wait. The clearest example is a player
+dumping cheated or godmode tames that the foreign-tame scanner did not catch,
+with a base actively being destroyed.
+
+If that is happening:
+
+1. Get in game and verify it yourself if you can.
+2. Document it. Take screenshots.
+3. Report it to the admins.
+4. Ban only if you are 100% certain.
+
+## What is NOT an emergency
+
+- An aimbot accusation at 3am. Aimbot can wait until morning.
+- "I think they are about to cheat." We do not ban before anything has happened;
+  a pre-emptive ban is an admin decision.
+- A player who is stubborn or argumentative but is not breaking a rule.
+
+Suspicion is not proof. If nothing is actively being destroyed, it waits for an
+admin.
+
+## The standard you are held to
+
+When you make a ban call like this, you are staking your mod position on it. An
+accurate call will be backed by the admin team. A false ban leads to talks.
+
+## Best practice: never decide alone
+
+The single best piece of advice for a moderator considering a ban: do not make
+the call solo. Pull in every moderator who is online and decide together. A team
+decision is one the admin team can stand up and defend. A ban issued by a lone
+moderator invites questioning and accusations that a group call does not.
+
+## Escalation ladder for difficult tickets
+
+For any hard ticket short of the emergencies above:
+
+1. Moderator handles it.
+2. If the player will not listen, bring in an admin. Post the ticket link in
+   staff chat and wait.
+3. NoA is a last resort, used only on repeat problem players with a history.
+
+Never close a ticket in a player's face. The goal of support is a positive
+resolution. Resolution time matters less than the quality of support.
