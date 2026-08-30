@@ -2,7 +2,7 @@
 title: Discord Rules
 description: Official Discord rules for the Vertyco community. Covers toxicity, harassment, scams, spam, chargebacks, and punishment tiers from warnings to temporary bans.
 published: true
-date: 2026-08-30T13:35:35.649Z
+date: 2026-08-30T14:01:05.151Z
 tags: rules, discord
 editor: markdown
 dateCreated: 2025-02-15T18:21:21.165Z
@@ -238,6 +238,12 @@ This covers any name or profile presented so as to suggest you are Vertyco staff
 - **Fourth Offense**: <span style="color: orange;">**30-day temp ban**</span> issued to the user
 
 ---
+
+### 2.9 - Display Name Hoisting
+*Do not hoist your display name to the top of the member list (a leading `!`, `@`, or any other character that sorts before letters).*
+- **Punishment**: none. You are renamed with the hoist removed. Staff may apply a server nickname without notice.
+- Repeated re-hoisting after a rename is handled at admin discretion.
+- A hoisted name that advertises another server falls under Rule 3.1.
 
 ## 🔄 Alt Account Appeals Process
 
