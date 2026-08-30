@@ -2,7 +2,7 @@
 title: Discord Rules
 description: Official Discord rules for the Vertyco community. Covers toxicity, harassment, scams, spam, chargebacks, and punishment tiers from warnings to temporary bans.
 published: true
-date: 2026-08-30T13:32:48.758Z
+date: 2026-08-30T13:35:35.649Z
 tags: rules, discord
 editor: markdown
 dateCreated: 2025-02-15T18:21:21.165Z
@@ -261,7 +261,7 @@ Alternative accounts may only appeal <span style="color: orange;">**bans**</span
 ### 3.1 - Server Advertisement Policy *(Zero Tolerance)*
 *Server advertisements are strictly prohibited. This includes indirect invites such as "DM me to join my server."*
 
-This rule covers the whole profile as well as chat: username, display name, avatar, banner and pronouns. A name hoisted with `!` or similar to advertise another server counts. The one exception is a custom status or bio; an ad kept there is tolerated.
+Profile ads: the rule applies to chat and to one part of the profile only, a display name hoisted to the top of the member list (a leading `!` or similar) so the ad shows prominently. Custom status, bio, avatar, banner and pronouns are NOT covered; any ad there is allowed. Exceptions (for example an account that is obviously not here to play) are handled case by case.
 
 Talking about other servers is fine, and so is saying they are fun. If someone asks about a different server, the conversation can move to DMs to share an invite; that is not poaching. The line is crossed when someone pushes players away: repeatedly bringing up other servers to compare them with ours while talking ours down, or being here with no goodwill toward Vertyco at all.
 - **Punishment**: at admin discretion
