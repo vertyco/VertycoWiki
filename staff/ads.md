@@ -2,7 +2,7 @@
 title: Advertising/Self Promotion
 description: Staff guide for handling advertising and self-promotion violations in the Vertyco Discord.
 published: true
-date: 2026-08-30T13:32:52.089Z
+date: 2026-08-30T13:35:38.101Z
 tags: staff, moderation, ads
 editor: markdown
 dateCreated: 2024-08-26T02:08:02.332Z
@@ -12,7 +12,7 @@ dateCreated: 2024-08-26T02:08:02.332Z
 
 Sharing external Discord invites or inviting others to a different server is grounds for removal; the length is at admin discretion (Discord Rule 3.1). Our community is not a conduit for other servers, and exploiting it in this manner goes against the purpose of the server and is considered highly disrespectful. This includes indirect invites such as, "DM me to join my server." or urging others to join an alternative server within public channels.
 
-The rule covers the whole profile as well as chat: username, display name, avatar, banner and pronouns. A name hoisted with `!` or similar to advertise another server counts (an account that joins and never speaks can still be here only to be read at the top of the member list). The one exception is a custom status or bio; an ad kept there is tolerated.
+Profile ads: the rule applies to chat and to one part of the profile only, a display name hoisted to the top of the member list (a leading `!` or similar) so the ad shows prominently. Custom status, bio, avatar, banner and pronouns are NOT covered; any ad there is allowed. Exceptions (for example an account that is obviously not here to play) are handled case by case.
 
 Where the line is: talking about other servers is fine, and so is saying they are fun. If a member asks about a different server, taking it to DMs to share the invite is not poaching, and we do not want to be strict about that. The line is crossed when someone pushes players away: repeatedly comparing other servers to ours while talking ours down, or someone who is obviously only here to pull people off Vertyco with no goodwill toward our servers. Those people we remove.
 
