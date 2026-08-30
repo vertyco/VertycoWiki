@@ -2,7 +2,7 @@
 title: Discord Rules
 description: Official Discord rules for the Vertyco community. Covers toxicity, harassment, scams, spam, chargebacks, and punishment tiers from warnings to temporary bans.
 published: true
-date: 2026-08-18T16:57:30.819Z
+date: 2026-08-30T13:32:48.758Z
 tags: rules, discord
 editor: markdown
 dateCreated: 2025-02-15T18:21:21.165Z
@@ -19,7 +19,6 @@ dateCreated: 2025-02-15T18:21:21.165Z
 - DDoS attacks or threats
 - Doxxing (releasing private/personal information)
 - Real-world threats of violence or harm (e.g., "I know where you live")
-- Server advertisements (poaching members)
 - Severe predatory conduct (see Rule 1.9)
 - Real-world economic activity (see Rule 2.4)
 
@@ -261,7 +260,11 @@ Alternative accounts may only appeal <span style="color: orange;">**bans**</span
 
 ### 3.1 - Server Advertisement Policy *(Zero Tolerance)*
 *Server advertisements are strictly prohibited. This includes indirect invites such as "DM me to join my server."*
-- **First Offense**: <span style="color: orange;">**Permanent ban**</span> issued to the user
+
+This rule covers the whole profile as well as chat: username, display name, avatar, banner and pronouns. A name hoisted with `!` or similar to advertise another server counts. The one exception is a custom status or bio; an ad kept there is tolerated.
+
+Talking about other servers is fine, and so is saying they are fun. If someone asks about a different server, the conversation can move to DMs to share an invite; that is not poaching. The line is crossed when someone pushes players away: repeatedly bringing up other servers to compare them with ours while talking ours down, or being here with no goodwill toward Vertyco at all.
+- **Punishment**: at admin discretion
 
 ### 3.2 - Content Creator Policy
 *YouTube, Twitch, and streaming accounts should only be shared to interested members.*
