@@ -1,8 +1,8 @@
 ---
-title: What Is the Best Crossplay ARK Server? - Vertyco
-description: Vertyco runs full-crossplay ARK Survival Ascended servers across Xbox, PlayStation, Steam, and Microsoft Store PC, part of a 28-server network running since 2019.
+title: Best Crossplay ARK Server: Xbox, PS5, Steam and PC Together
+description: Is ASE crossplay? Xbox and Microsoft Store only. ASA is full crossplay: Vertyco runs 8 ASA servers where Xbox, PlayStation, Steam, and PC play together, free.
 published: true
-date: 2026-07-23T00:00:00.000Z
+date: 2026-09-02T00:00:00.000Z
 tags: crossplay, ark, asa, xbox, playstation, steam
 editor: markdown
 dateCreated: 2026-06-11T00:00:00.000Z

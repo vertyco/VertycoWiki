@@ -1,6 +1,6 @@
 ---
-title: Best Unofficial ARK Servers (Crossplay, Xbox, PC, PlayStation) - Vertyco
-description: Looking for the best unofficial ARK servers? Vertyco runs 28 dedicated crossplay ARK servers across Xbox, PlayStation, Steam, and PC, ASE and ASA, PvE and PvP, running since 2019.
+title: Best Unofficial ARK Servers 2026: Xbox, PC, PS5 Crossplay
+description: The best unofficial ARK servers, ranked by what matters: crossplay, no-wipe PvE, real PvP seasons, automation. 28 servers, free, not pay-to-win, since 2019.
 published: true
 date: 2026-09-02T00:00:00.000Z
 tags: best-ark-server, unofficial-ark-servers, crossplay, xbox, playstation, steam, ase, asa, pve, pvp

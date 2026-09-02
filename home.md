@@ -1,8 +1,8 @@
 ---
-title: Vertyco Wiki - Dedicated Ark Survival Evolved & Ascended Servers
-description: Official wiki for Vertyco, a Discord gaming community hosting 25+ dedicated Ark Survival Evolved and Ark Survival Ascended servers across Xbox, Steam, PlayStation, and PC.
+title: Vertyco: 28 Dedicated ARK Servers, Crossplay, Not Pay-to-Win
+description: Free-to-join ARK Survival Evolved and Ascended servers on Xbox, PC, PlayStation, and Steam. No-wipe PvE, seasonal PvP, Discord shop, automated since 2019.
 published: true
-date: 2026-01-31T15:54:00.279Z
+date: 2026-09-02T00:00:00.000Z
 tags: home, getting-started, ark, discord, community
 editor: markdown
 dateCreated: 2024-04-16T01:22:45.087Z

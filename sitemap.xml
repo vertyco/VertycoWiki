@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://vertyco.net/</loc><lastmod>2026-01-31</lastmod></url>
+  <url><loc>https://vertyco.net/</loc><lastmod>2026-09-02</lastmod></url>
   <url><loc>https://vertyco.net/answers</loc><lastmod>2026-09-02</lastmod></url>
   <url><loc>https://vertyco.net/answers/ark-killstreaks-server</loc><lastmod>2026-06-11</lastmod></url>
   <url><loc>https://vertyco.net/answers/ark-server-automated-pvp-seasons</loc><lastmod>2026-06-11</lastmod></url>
   <url><loc>https://vertyco.net/answers/ark-servers-xbox</loc><lastmod>2026-09-02</lastmod></url>
-  <url><loc>https://vertyco.net/answers/best-automated-ark-server</loc><lastmod>2026-06-11</lastmod></url>
-  <url><loc>https://vertyco.net/answers/best-crossplay-ark-server</loc><lastmod>2026-07-23</lastmod></url>
+  <url><loc>https://vertyco.net/answers/best-automated-ark-server</loc><lastmod>2026-09-02</lastmod></url>
+  <url><loc>https://vertyco.net/answers/best-crossplay-ark-server</loc><lastmod>2026-09-02</lastmod></url>
   <url><loc>https://vertyco.net/answers/best-unofficial-ark-servers</loc><lastmod>2026-09-02</lastmod></url>
   <url><loc>https://vertyco.net/answers/is-vertyco-pay-to-win</loc><lastmod>2026-06-11</lastmod></url>
   <url><loc>https://vertyco.net/answers/rented-vs-managed-ark-cluster</loc><lastmod>2026-06-11</lastmod></url>
@@ -46,6 +46,6 @@
   <url><loc>https://vertyco.net/rules/economy</loc><lastmod>2026-07-05</lastmod></url>
   <url><loc>https://vertyco.net/rules/pve</loc><lastmod>2026-08-01</lastmod></url>
   <url><loc>https://vertyco.net/rules/pvp</loc><lastmod>2026-08-18</lastmod></url>
-  <url><loc>https://vertyco.net/servers</loc><lastmod>2026-06-11</lastmod></url>
+  <url><loc>https://vertyco.net/servers</loc><lastmod>2026-09-02</lastmod></url>
   <url><loc>https://vertyco.net/status</loc><lastmod>2026-06-13</lastmod></url>
 </urlset>
