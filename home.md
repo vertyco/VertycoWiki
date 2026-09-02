@@ -1,6 +1,6 @@
 ---
 title: "Vertyco: 28 Dedicated ARK Servers, Crossplay, Not Pay-to-Win"
-description: Free-to-join ARK Survival Evolved and Ascended servers on Xbox, PC, PlayStation, and Steam. No-wipe PvE, seasonal PvP, Discord shop, automated since 2019.
+description: "Free-to-join ARK Survival Evolved and Ascended servers on Xbox, PC, PlayStation, and Steam. No-wipe PvE, seasonal PvP, Discord shop, automated since 2019."
 published: true
 date: 2026-09-02T00:00:00.000Z
 tags: home, getting-started, ark, discord, community

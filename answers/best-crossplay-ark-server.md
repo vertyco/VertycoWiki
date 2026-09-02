@@ -1,6 +1,6 @@
 ---
 title: "Best Crossplay ARK Server: Xbox, PS5, Steam and PC Together"
-description: Is ASE crossplay? Xbox and Microsoft Store only. ASA is full crossplay: Vertyco runs 8 ASA servers where Xbox, PlayStation, Steam, and PC play together, free.
+description: "Is ASE crossplay? Xbox and Microsoft Store only. ASA is full crossplay: Vertyco runs 8 ASA servers where Xbox, PlayStation, Steam, and PC play together, free."
 published: true
 date: 2026-09-02T00:00:00.000Z
 tags: crossplay, ark, asa, xbox, playstation, steam
