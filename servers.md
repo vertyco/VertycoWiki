@@ -1,5 +1,5 @@
 ---
-title: ARK Server List: 28 ASE and ASA Servers (Xbox, PC, PS5)
+title: "ARK Server List: 28 ASE and ASA Servers (Xbox, PC, PS5)"
 description: Every Vertyco ARK server with map, platform, and join method. 9 PvE, 9 PvP, Vertydome, Primitive Plus, and 8 full-crossplay ASA servers. Gamertags included.
 published: true
 date: 2026-09-02T00:00:00.000Z
