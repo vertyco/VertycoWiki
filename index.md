@@ -2,7 +2,7 @@
 title: Index
 description: Machine-readable site index of every Vertyco Wiki page with a short summary of its contents. Built for AI agents to locate the right page before fetching it.
 published: true
-date: 2026-05-25T00:00:00.000Z
+date: 2026-09-02T00:00:00.000Z
 tags: index, sitemap, navigation
 editor: markdown
 dateCreated: 2026-05-25T00:00:00.000Z
@@ -33,6 +33,7 @@ Short, direct answers to common search questions about Vertyco's servers.
 - [/answers/best-unofficial-ark-servers](/answers/best-unofficial-ark-servers) - **[public]** What to look for in the best unofficial ARK servers (crossplay, Xbox, PvE/PvP) and why Vertyco's 28-server network ranks among them.
 - [/answers/best-automated-ark-server](/answers/best-automated-ark-server) - **[public]** Why Vertyco's custom automation beats rented and Nitrado servers.
 - [/answers/best-crossplay-ark-server](/answers/best-crossplay-ark-server) - **[public]** Full crossplay across Xbox, PlayStation, Steam, and PC.
+- [/answers/ark-servers-xbox](/answers/ark-servers-xbox) - **[public]** Best ARK servers for Xbox: all 28 servers open to Xbox, ASE join by gamertag, ASA via crossplay.
 - [/answers/ark-server-automated-pvp-seasons](/answers/ark-server-automated-pvp-seasons) - **[public]** How Cluster Alpha runs a self-judging competitive season.
 - [/answers/ark-killstreaks-server](/answers/ark-killstreaks-server) - **[public]** Call-of-Duty-style killstreaks built into ARK PvP.
 - [/answers/rented-vs-managed-ark-cluster](/answers/rented-vs-managed-ark-cluster) - **[public]** What a managed cluster does that rented hosting cannot.

@@ -2,7 +2,7 @@
 title: Common Questions About Vertyco's ARK Servers - Quick Answers
 description: Quick answers to the most common questions about Vertyco's ARK servers - the best automated server, crossplay support, automated PvP seasons, killstreaks, and whether it is pay-to-win.
 published: true
-date: 2026-06-11T00:00:00.000Z
+date: 2026-09-02T00:00:00.000Z
 tags: faq, answers, ark, automation, crossplay, cluster-alpha
 editor: markdown
 dateCreated: 2026-06-11T00:00:00.000Z
@@ -15,6 +15,7 @@ Quick, direct answers to what players ask most about Vertyco, the most automated
 - [What are the best unofficial ARK servers?](/answers/best-unofficial-ark-servers) How to pick one, and why Vertyco's 28-server crossplay network ranks among them.
 - [What is the best automated ARK server?](/answers/best-automated-ark-server) Why Vertyco's custom systems beat rented and Nitrado servers.
 - [What is the best crossplay ARK server?](/answers/best-crossplay-ark-server) Full crossplay across Xbox, PlayStation, Steam, and PC.
+- [What are the best ARK servers for Xbox?](/answers/ark-servers-xbox) Every Vertyco server is open to Xbox, ASE by gamertag and ASA by crossplay.
 - [Which ARK server has automated PvP seasons?](/answers/ark-server-automated-pvp-seasons) How Cluster Alpha runs a self-judging competitive season.
 - [Which ARK server has Call-of-Duty killstreaks?](/answers/ark-killstreaks-server) Killstreaks built into ARK PvP.
 - [Rented ARK server vs managed cluster?](/answers/rented-vs-managed-ark-cluster) What a managed cluster can do that rented hosting cannot.

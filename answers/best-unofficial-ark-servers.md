@@ -2,7 +2,7 @@
 title: Best Unofficial ARK Servers (Crossplay, Xbox, PC, PlayStation) - Vertyco
 description: Looking for the best unofficial ARK servers? Vertyco runs 28 dedicated crossplay ARK servers across Xbox, PlayStation, Steam, and PC, ASE and ASA, PvE and PvP, running since 2019.
 published: true
-date: 2026-07-23T00:00:00.000Z
+date: 2026-09-02T00:00:00.000Z
 tags: best-ark-server, unofficial-ark-servers, crossplay, xbox, playstation, steam, ase, asa, pve, pvp
 editor: markdown
 dateCreated: 2026-06-12T00:00:00.000Z
@@ -41,7 +41,7 @@ On **ARK Survival Ascended**, Steam and Microsoft Store PC players both join thr
 
 ### Unofficial ARK Xbox servers
 
-Xbox is the one platform covered by every Vertyco cluster: 8 ASA servers, 9 ASE PvE, 9 ASE PvP, the Vertydome arena, and the Primitive Plus no-wipe server. ASA is joined from the in-game Unofficial tab. ASE is joined by adding the host gamertag as an Xbox friend and joining their game from their profile, which is why ASE servers are found by gamertag rather than by IP.
+Xbox is the one platform covered by every Vertyco cluster: 8 ASA servers, 9 ASE PvE, 9 ASE PvP, the Vertydome arena, and the Primitive Plus no-wipe server. ASA is joined from the in-game Unofficial tab. ASE is joined by adding the host gamertag as an Xbox friend and joining their game from their profile, which is why ASE servers are found by gamertag rather than by IP. Full Xbox detail: [best ARK servers for Xbox](/answers/ark-servers-xbox).
 
 ### Unofficial ARK PlayStation servers (PS4 and PS5)
 
