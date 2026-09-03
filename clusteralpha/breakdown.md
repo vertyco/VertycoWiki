@@ -2,7 +2,7 @@
 title: Cluster Alpha Breakdown
 description: Full breakdown of the Cluster Alpha ranking system for ARK PvP seasons - power ratings, Alpha Points, passive income, kill and raid scoring, home tribes, alliances, and season rewards.
 published: true
-date: 2026-07-29T00:00:00.000Z
+date: 2026-09-03T00:00:00.000Z
 tags: pvp, clusteralpha, ranking, alpha-points
 editor: markdown
 dateCreated: 2026-01-30T21:15:27.955Z
@@ -216,7 +216,7 @@ the bonus is zero. There is no partial credit near the line, it cuts off cleanly
 
 ### Multi-Kill Medals
 
-Kill multiple **unique players** within 5 minutes of each other for bonus points:
+Kill multiple players within 3 minutes of each other for bonus points:
 
 | Kills | Medal | Bonus |
 |-------|-------|-------|
@@ -228,11 +228,13 @@ Kill multiple **unique players** within 5 minutes of each other for bonus points
 | 7 | Killimanjaro | +150% |
 | 8 | Killtastrophe | +175% |
 | 9 | Killpocalypse | +200% |
-| 10+ | Killionaire | +250% |
+| 10 | Killionaire | +250% |
 
-**Note:** The 5 minute window is measured **between consecutive kills**, not from the first kill. Every new kill restarts the clock, so a long chain can run well past 5 minutes end to end. One kill every 4 minutes for 20 minutes is a 5-kill chain.
+**Note:** The 3 minute window is measured **between consecutive kills**, not from the first kill. Every new kill restarts the clock, so a long chain can run well past 3 minutes end to end. One kill every 2 minutes for 10 minutes is a 5-kill chain.
 
-Consecutive kills against the same player don't count toward the chain, but don't break it either. You can kill Player A, then B, then A again (counts as 3).
+Each kill has to be against a **different player than the one right before it**. Killing the same player twice in a row ends the chain and starts a new one. Alternating is fine: Player A, then B, then A again counts as 3.
+
+Killionaire is the top of the ladder. Once you hit it the chain ends, and your next kill starts a fresh chain from the beginning, so the 12th kill in a row is a Double Kill again.
 
 ### Bounty Board
 
