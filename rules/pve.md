@@ -2,7 +2,7 @@
 title: PvE Rules - Vertyco Ark Servers
 description: PvE rules for Vertyco Ark Survival Evolved servers. Covers base limits, community conduct, tribe policies, taming slots, and structure guidelines for our family-friendly cluster.
 published: true
-date: 2026-08-01T15:01:51.754Z
+date: 2026-09-07T01:50:39.246Z
 tags: ark, rules, pve
 editor: markdown
 dateCreated: 2025-02-15T23:19:09.413Z
@@ -114,6 +114,33 @@ dateCreated: 2025-02-15T23:19:09.413Z
   - **First Offense**: Warning and structure removal.
   - **Second Offense**: Base wipe.
   - **Third Offense**: <span style="color: orange;">30-day temp ban</span>.
+
+## 🏗️ Automated Build Compliance
+
+Every PvE map is scanned automatically for builds that break the structure rules above. This is not staff walking the map; it is a check that runs on its own schedule.
+
+**What it checks**
+
+- More build locations than rule 4.1 allows
+- A main base past the 80 foundation render limit (rule 4.2)
+- An outpost over 300 structures (rule 4.1)
+- Spam: scattered pillars, foundations, and small clusters left around the map
+
+**How you find out**
+
+Autto posts a build compliance list in your map's chat channel several times a day. It names the tribe, the location, and the piece count. If your game account is linked to your Discord account you get tagged in it directly, so if you are never tagged, check anyway.
+
+You can check yourself at any time with `.mybase` in the bot commands channel. It shows where your tribe stands on every PvE map.
+
+**What happens next**
+
+Being flagged does not mean anything is removed. A tribe must be out of compliance for **at least 7 continuous days** before staff will remove a single structure. The list posts every 6 hours, so that is roughly 28 warnings before anyone touches your build. Come back into compliance at any point in that window and the clock starts over.
+
+When a removal does happen, it targets the specific structures breaking the rule rather than your whole base, unless the rule above states otherwise.
+
+**If a build of yours has gone**
+
+Open a support ticket. Staff can see the exact date your tribe was flagged and what was removed, and will tell you.
 
 ## 5️⃣ Tame Rules
 
