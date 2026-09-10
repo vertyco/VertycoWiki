@@ -2,7 +2,7 @@
 title: PvE Rules - Vertyco Ark Servers
 description: PvE rules for Vertyco Ark Survival Evolved servers. Covers base limits, community conduct, tribe policies, taming slots, and structure guidelines for our family-friendly cluster.
 published: true
-date: 2026-09-07T01:50:39.246Z
+date: 2026-09-10T14:12:55.184Z
 tags: ark, rules, pve
 editor: markdown
 dateCreated: 2025-02-15T23:19:09.413Z
@@ -134,7 +134,7 @@ You can check yourself at any time with `.mybase` in the bot commands channel. I
 
 **What happens next**
 
-Being flagged does not mean anything is removed. A tribe must be out of compliance for **at least 7 continuous days** before staff will remove a single structure. The list posts every 6 hours, so that is roughly 28 warnings before anyone touches your build. Come back into compliance at any point in that window and the clock starts over.
+Being flagged does not mean anything is removed. A tribe must be out of compliance for **at least 48 continuous hours** before staff will remove a single structure. The list posts every 6 hours, so that is roughly 8 warnings before anyone touches your build. Come back into compliance at any point in that window and the clock starts over.
 
 When a removal does happen, it targets the specific structures breaking the rule rather than your whole base, unless the rule above states otherwise.
 
