@@ -2,7 +2,7 @@
 title: PvE Rules - Vertyco Ark Servers
 description: PvE rules for Vertyco Ark Survival Evolved servers. Covers base limits, community conduct, tribe policies, taming slots, and structure guidelines for our family-friendly cluster.
 published: true
-date: 2026-09-10T14:12:55.184Z
+date: 2026-09-15T21:50:46.917Z
 tags: ark, rules, pve
 editor: markdown
 dateCreated: 2025-02-15T23:19:09.413Z
@@ -93,7 +93,7 @@ dateCreated: 2025-02-15T23:19:09.413Z
   - **Second Offense**: Immediate structure removal.
   - **Third Offense**: Complete base wipe.
 - **4.5 - Artifact Cave Building**
-  - *Artifacts and Explorer Notes must remain accessible to all players.*
+  - *Building on or blocking artifact spawns is allowed (artifacts are also obtainable from purple drops). Explorer Notes may not be blocked off; if a build walls one in, it needs a public door.*
   - **First Offense**: 48 hours to provide access.
   - **Second Offense**: Structure removal.
 - **4.6 - Teleporter Limit**
