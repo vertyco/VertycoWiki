@@ -2,7 +2,7 @@
 title: Discord Rules
 description: Official Discord rules for the Vertyco community. Covers toxicity, harassment, scams, spam, chargebacks, and punishment tiers from warnings to temporary bans.
 published: true
-date: 2026-08-30T14:01:05.151Z
+date: 2026-09-23T19:16:45.919Z
 tags: rules, discord
 editor: markdown
 dateCreated: 2025-02-15T18:21:21.165Z
@@ -88,7 +88,7 @@ Examples include:
 - **Third Offense**: Lengthier timeout issued (up to 2 weeks)
 
 ### 1.7 - Begging Policy
-*Do not beg other players/admins for items or virtual currency (VC).*
+*Do not ask other players or admins for virtual currency (VC), and do not beg for items.*
 - **First Offense**: Warning issued to the user
 - **Second Offense**: Timeout issued (1-3 days)
 - **Third Offense**: Lengthier timeout issued (up to 2 weeks)
