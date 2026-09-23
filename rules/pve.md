@@ -2,7 +2,7 @@
 title: PvE Rules - Vertyco Ark Servers
 description: PvE rules for Vertyco Ark Survival Evolved servers. Covers base limits, community conduct, tribe policies, taming slots, and structure guidelines for our family-friendly cluster.
 published: true
-date: 2026-09-15T21:50:46.917Z
+date: 2026-09-23T17:15:44.371Z
 tags: ark, rules, pve
 editor: markdown
 dateCreated: 2025-02-15T23:19:09.413Z
@@ -85,8 +85,7 @@ dateCreated: 2025-02-15T23:19:09.413Z
   - **Third Offense**: Complete base wipe.
 - **4.3 - Beach Building**
   - *No established bases on beaches.*
-  - **First Offense**: 24 hours to relocate.
-  - **Second Offense**: Immediate structure removal.
+  - Beach bases are removed without notice.
 - **4.4 - Blocking Restricted Areas**
   - *Do not block spawns, rare resources, obelisks, or Extinction terminals.*
   - **First Offense**: 24 hours to remove structures.
